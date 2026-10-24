@@ -187,5 +187,12 @@ document.addEventListener("mouseleave", function(){ tt.hidden = true; });
 
 var bs = toggle.querySelectorAll("button");
 for (var i=0;i<bs.length;i++) bs[i].classList.toggle("on", bs[i].getAttribute("data-m")===mode);
+var themeBtn = document.getElementById("themeToggle");
+if (themeBtn) themeBtn.addEventListener("click", function(){
+  var h = document.documentElement;
+  var light = h.getAttribute("data-theme") === "light";
+  if (light) h.removeAttribute("data-theme"); else h.setAttribute("data-theme", "light");
+  try { localStorage.setItem("wtheme", light ? "dark" : "light"); } catch(e) {}
+});
 preloadSimple();
 })();

@@ -4,23 +4,35 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>BaguetteLib - aruori6 整合包图鉴</title>
+<script>try{if(localStorage.getItem("wtheme")==="light")document.documentElement.setAttribute("data-theme","light")}catch(e){}</script>
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body data-root="../">
 <header class="topbar"><div class="topbar-in">
-<a class="brand" href="../index.html">aruori6 <span>整合包图鉴</span></a>
+<a class="brand" href="../index.html">
+<svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="8" fill="#1bd96a"/><rect x="2" y="10" width="20" height="4" fill="#8a5a2b"/><rect x="2" y="14" width="20" height="8" fill="#6b4420"/><rect x="6" y="6" width="4" height="4" fill="#0e8c4a" opacity=".6"/><rect x="14" y="12" width="4" height="4" fill="#57381a" opacity=".7"/></svg>
+aruori6 <span>图鉴</span></a>
+<nav class="topnav">
+<a href="../index.html">首页</a>
+<a href="../tags/index.html">标签目录</a>
+<a href="https://github.com/Wmsqaq/aruori6-wiki" target="_blank" rel="noopener noreferrer">GitHub</a>
+</nav>
 <div class="searchbox">
   <div class="search-row">
     <input id="q" type="text" placeholder="搜索物品：中文名 / 英文名 / ID…" autocomplete="off" spellcheck="false">
     <div class="mode-toggle" id="modeToggle">
       <button type="button" data-m="simple">简单</button><button type="button" data-m="full">精确</button>
     </div>
+    <button type="button" class="theme-btn" id="themeToggle" title="切换亮 / 暗" aria-label="切换主题">
+      <svg class="ico-moon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <svg class="ico-sun" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
   </div>
   <div id="results" class="search-results" hidden></div>
 </div>
 </div></header>
 <div id="tt" hidden></div>
-<main class="wrap"><div class="infobox"><div class="ic" style="width:48px;height:48px"><span class="ph-big">◆</span></div><div><h1 class="ib-title">BaguetteLib</h1><p class="stats">共 2 个条目 · <code>baguettelib</code></p><p class="stats">版本: 2.0.3 · 来源: baguettelib-1.21.1-NeoForge-2.0.3.jar</p><p class="stats">A library mod about adding more events into the modding API (and more stuff)</p><p class="stats">MC百科页面: <a href="https://www.mcmod.cn/class/19739.html" rel="noopener noreferrer">https://www.mcmod.cn/class/19739.html</a>（BaguetteLib）</p></div></div><section><h2>官方介绍 <span class="cnt-chip">（Modrinth · 中文版由 GLM AI 翻译，仅供参考）</span></h2><div class="mod-desc"><h1>BaguetteLib</h1>
+<main class="wrap"><nav class="crumbs"><a href="../index.html">首页</a><span class="sep">›</span><b>BaguetteLib</b></nav><div class="infobox"><div class="ic" style="width:48px;height:48px"><span class="ph-big">◆</span></div><div><h1 class="ib-title">BaguetteLib</h1><p class="stats">共 2 个条目 · <code>baguettelib</code></p><p class="stats">版本: 2.0.3 · 来源: baguettelib-1.21.1-NeoForge-2.0.3.jar</p><p class="stats">A library mod about adding more events into the modding API (and more stuff)</p><p class="stats">MC百科页面: <a href="https://www.mcmod.cn/class/19739.html" rel="noopener noreferrer">https://www.mcmod.cn/class/19739.html</a>（BaguetteLib）</p></div></div><section><h2>官方介绍 <span class="cnt-chip">（Modrinth · 中文版由 GLM AI 翻译，仅供参考）</span></h2><div class="mod-desc"><h1>BaguetteLib</h1>
 <hr />
 <p>有没有试过做一个需要妥善处理死亡事件或追踪物品栏的模组？是啊，NeoForge 的事件系统干这活儿很糟糕。在我的 <a href="https://discord.gg/3BnbkNWT99">Discord</a> 获取支持</p>
 <h2>里面有什么</h2>
@@ -81,7 +93,7 @@ public static void onPlayerPreDeath(PlayerDeathEvent.Pre event) {
 <p><em>Made by a developer who got tired of working around NeoForge event limitations.</em></p>
 <p>If you'd like to support me and the development of my mods, I recommend trying out BisectHosting. Use code "project8gbderam" to get 25% off your first month of a gaming server for new customers. They offer 24/7 support and lightning-fast response times, ensuring you're in great hands and providing exceptional assistance for all your gaming needs. <a href="https://www.curseforge.com/linkout?remoteUrl=https://www.bisecthosting.com/project8gbderam">https://www.bisecthosting.com/project8gbderam</a></p>
 <p></p></div></details><p class="stats">资料来源：<a href="https://modrinth.com/mod/baguettelib" rel="noopener noreferrer">BaguetteLib</a></p></section><section><h2>物品与方块</h2><div class="grid-cards"><a class="card" href="../item/baguettelib/example_block.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">Example Block</span><br><span class="id">baguettelib:example_block · 方块</span></span></a><a class="card" href="../item/baguettelib/example_item.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">Example Item</span><br><span class="id">baguettelib:example_item · 物品</span></span></a></div></section></main>
-<footer>aruori6 整合包图鉴 · 纯静态离线生成 · 数据来自整合包资源与 CraftTweaker 脚本</footer>
+<footer><span>aruori6 整合包图鉴 · 静态生成 · 数据来自整合包资源与 CraftTweaker 脚本</span><span>Modrinth / mcmod 资料联网补充，介绍中文版由 GLM AI 翻译</span><a href="https://github.com/Wmsqaq/aruori6-wiki" target="_blank" rel="noopener noreferrer">GitHub</a></footer>
 <script src="../assets/search.js"></script>
 </body>
 </html>
