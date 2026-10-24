@@ -20,7 +20,64 @@
 </div>
 </div></header>
 <div id="tt" hidden></div>
-<main class="wrap"><div class="infobox"><div class="ic" style="width:48px;height:48px"><span class="ph-big">◆</span></div><div><h1 class="ib-title">连锁破坏 FTB Ultimine</h1><p class="stats">共 1 个条目 · <code>ftbultimine</code></p><p class="stats">版本: 2101.1.15 · 来源: [连锁破坏] ftb-ultimine-neoforge-2101.1.15.jar</p><p class="stats">Allows you to break multiple blocks at once</p><p class="stats">MC百科中文名: <b>连锁破坏</b></p><p class="stats">MC百科页面: <a href="https://www.mcmod.cn/class/3004.html" rel="noopener noreferrer">https://www.mcmod.cn/class/3004.html</a>（连锁破坏 (FTBUltimine)）</p></div></div><section><h2>官方介绍 <span class="cnt-chip">（Modrinth · 联网获取）</span></h2><div class="mod-desc"><h1>FTB Ultimine Cobblemon Compat</h1>
+<main class="wrap"><div class="infobox"><div class="ic" style="width:48px;height:48px"><span class="ph-big">◆</span></div><div><h1 class="ib-title">连锁破坏 FTB Ultimine</h1><p class="stats">共 1 个条目 · <code>ftbultimine</code></p><p class="stats">版本: 2101.1.15 · 来源: [连锁破坏] ftb-ultimine-neoforge-2101.1.15.jar</p><p class="stats">Allows you to break multiple blocks at once</p><p class="stats">MC百科中文名: <b>连锁破坏</b></p><p class="stats">MC百科页面: <a href="https://www.mcmod.cn/class/3004.html" rel="noopener noreferrer">https://www.mcmod.cn/class/3004.html</a>（连锁破坏 (FTBUltimine)）</p></div></div><section><h2>官方介绍 <span class="cnt-chip">（Modrinth · 中文版由 GLM AI 翻译，仅供参考）</span></h2><div class="mod-desc"><h1>FTB Ultimine Cobblemon 兼容模组</h1>
+<p>一个兼容性附加模组，为 <strong>FTB Ultimine</strong> 添加对 <strong>Cobblemon 作物</strong>（球果与树果）的右键收割支持。</p>
+<h2>功能特性</h2>
+<ul>
+<li><strong>球果收割</strong>：右键点击任意成熟的球果，即可收割相连的球果</li>
+<li><strong>树果收割</strong>：右键点击任意成熟的树果，即可收割相连的树果</li>
+<li><strong>统一收集掉落物</strong>：所有掉落物都会汇集到玩家身边（原版 Ultimine 行为）</li>
+<li><strong>匹配模式</strong>：在严格（同颜色/类型）与宽松（所有颜色/类型）模式间切换</li>
+<li><strong>实时切换</strong>：通过按键绑定或游戏内命令切换模式</li>
+</ul>
+<h2>前置要求</h2>
+<p><strong>必需模组：</strong></p>
+<ul>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-fabric">FTB Ultimine</a> 2101.1.9+</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/cobblemon">Cobblemon</a> 1.7.0+</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/architectury-api">Architectury API</a> 13.0.0+</li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api">Fabric API</a></li>
+</ul>
+<p><strong>面向玩家：</strong></p>
+<ul>
+<li>Fabric Loader 0.15.0+</li>
+<li>Minecraft 1.21.1</li>
+<li>Java 21+</li>
+</ul>
+<h2>用法</h2>
+<ol>
+<li>按住你的 Ultimine 按键</li>
+<li>右键点击一个成熟的球果或树果</li>
+<li>所有相连的同类成熟作物都会被收割</li>
+</ol>
+<h3>匹配模式</h3>
+<p><strong>宽松模式（默认）：</strong> 一并收割所有颜色的球果或所有类型的树果
+<strong>严格模式：</strong> 只收割你点击的同色球果或同类型树果</p>
+<h3>切换模式</h3>
+<p><strong>按键绑定：</strong>（选项 → 控制 → 按键设置）</p>
+<ul>
+<li>切换球果严格模式</li>
+<li>切换树果严格模式</li>
+</ul>
+<p><strong>命令：</strong></p>
+<pre><code>/ftbultiminecobblemon apricorn toggle
+/ftbultiminecobblemon berry toggle
+/ftbultiminecobblemon status
+</code></pre>
+<h2>配置</h2>
+<p>配置文件：<code>config/ftbultimine-cobblemon-compat.toml</code></p>
+<pre><code class="language-toml"># true = harvest same color only, false = harvest all colors
+general.strictApricornMode = false
+
+# true = harvest same type only, false = harvest all types  
+general.strictBerryMode = false
+</code></pre>
+<h2>免责声明</h2>
+<p>这是一个<strong>非官方附加模组</strong>，与 FTB Team 及 Cobblemon 贡献者无任何关联。</p>
+<h2>许可证</h2>
+<p>MIT 许可证 - 详情见 <a href="LICENSE">LICENSE</a>。</p>
+<hr />
+<p><em>由 GLM AI 翻译，仅供参考</em></p></div><details class="raw-json"><summary>查看英文原文（Modrinth）</summary><div class="mod-desc"><h1>FTB Ultimine Cobblemon Compat</h1>
 <p>A compatibility addon that adds right-click harvesting support for <strong>Cobblemon crops</strong> (Apricorns and Berries) to <strong>FTB Ultimine</strong>.</p>
 <h2>Features</h2>
 <ul>
@@ -75,7 +132,7 @@ general.strictBerryMode = false
 <h2>Disclaimer</h2>
 <p>This is an <strong>unofficial addon</strong>. Not affiliated with FTB Team or Cobblemon Contributors.</p>
 <h2>License</h2>
-<p>MIT License - See <a href="LICENSE">LICENSE</a> for details.</p></div><p class="stats">资料来源：<a href="https://modrinth.com/mod/ftb-ultimine-cobblemon-compat" rel="noopener noreferrer">FTB Ultimine Cobblemon Compat</a>（自动匹配，仅供参考）</p></section><section><h2>物品与方块</h2><div class="grid-cards"><a class="card" href="../item/ftbultimine/ultiminer.html"><span class="ic"><img src="../textures/ftbultimine/textures/item/ultiminer.png" alt="" loading="lazy"></span><span><span class="nm">连锁矿工</span><br><span class="id">ftbultimine:ultiminer · 物品</span></span></a></div></section></main>
+<p>MIT License - See <a href="LICENSE">LICENSE</a> for details.</p></div></details><p class="stats">资料来源：<a href="https://modrinth.com/mod/ftb-ultimine-cobblemon-compat" rel="noopener noreferrer">FTB Ultimine Cobblemon Compat</a></p></section><section><h2>物品与方块</h2><div class="grid-cards"><a class="card" href="../item/ftbultimine/ultiminer.html"><span class="ic"><img src="../textures/ftbultimine/textures/item/ultiminer.png" alt="" loading="lazy"></span><span><span class="nm">连锁矿工</span><br><span class="id">ftbultimine:ultiminer · 物品</span></span></a></div></section></main>
 <footer>aruori6 整合包图鉴 · 纯静态离线生成 · 数据来自整合包资源与 CraftTweaker 脚本</footer>
 <script src="../assets/search.js"></script>
 </body>

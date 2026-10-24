@@ -20,7 +20,47 @@
 </div>
 </div></header>
 <div id="tt" hidden></div>
-<main class="wrap"><div class="infobox"><img class="mod-logo" src="../assets/logos/moonlight.png" alt=""><div><h1 class="ib-title">Moonlight Lib</h1><p class="stats">共 1 个条目 · <code>moonlight</code></p><p class="stats">版本: 1.21.1-3.3.0 · 来源: moonlight-neoforge-1.21.1-3.3.0.jar</p><p class="stats">A small library with many cool unique features, from dynamic asset generation to dynamic villager schedules, data driven trades and Map Markers, simple multi loader utilities and more</p><p class="stats">MC百科页面: <a href="https://www.mcmod.cn/class/4159.html" rel="noopener noreferrer">https://www.mcmod.cn/class/4159.html</a>（MoonlightLib / Selene）</p></div></div><section><h2>官方介绍 <span class="cnt-chip">（Modrinth · 联网获取）</span></h2><div class="mod-desc"><p>Features of this library are:</p>
+<main class="wrap"><div class="infobox"><img class="mod-logo" src="../assets/logos/moonlight.png" alt=""><div><h1 class="ib-title">Moonlight Lib</h1><p class="stats">共 1 个条目 · <code>moonlight</code></p><p class="stats">版本: 1.21.1-3.3.0 · 来源: moonlight-neoforge-1.21.1-3.3.0.jar</p><p class="stats">A small library with many cool unique features, from dynamic asset generation to dynamic villager schedules, data driven trades and Map Markers, simple multi loader utilities and more</p><p class="stats">MC百科页面: <a href="https://www.mcmod.cn/class/4159.html" rel="noopener noreferrer">https://www.mcmod.cn/class/4159.html</a>（MoonlightLib / Selene）</p></div></div><section><h2>官方介绍 <span class="cnt-chip">（Modrinth · 中文版由 GLM AI 翻译，仅供参考）</span></h2><div class="mod-desc"><p>本库的功能包括：</p>
+<ul>
+<li>
+<p>动态资源包工具
+一组可用于创建动态运行时资源包和数据包的工具。还能轻松对现有纹理进行重绘与换色，对添加新的木质方块尤其有用。</p>
+</li>
+<li>
+<p>动态方块集合注册
+允许模组声明一个方块集合（例如某种木头类型）。随后模组会扫描所有已注册的方块并填充该集合，之后其他模组便能注册依赖它的方块。</p>
+</li>
+</ul>
+<p>用传统方法很难做到这一点，因为木头集合本身依赖已注册的方块，注册必须在一个非常特定的时间点进行。这个工具让该任务变得可行且简单。注意它仍属于动态注册，可能存在一些缺陷。</p>
+<p>简而言之，你的方块将获得动态木种支持。木种集合类型已内置。</p>
+<ul>
+<li>
+<p>自定义地图标记：
+一套完整的系统，可轻松实现并添加地图装饰与地图标记，还能控制它们的方方面面，例如渲染。也允许在地图数据中存储简单数据，并提供若干钩子供你利用，例如用在物品提示框上。
+该系统还提供简单的数据驱动（Data Driven）实现，也就是说你可以用数据包轻松注册新标记！</p>
+</li>
+<li>
+<p>动态村民 AI
+一套辅助系统，能以兼容的方式轻松动态地添加任务、修改村民日程，而无需覆盖整个现有 AI。还能正确地添加记忆类型。</p>
+</li>
+<li>
+<p>自定义第一/第三人称动画：
+让模组开发者在自己的物品中实现一个简单接口，即可让物品拥有自定义的第一与第三人称动画（类似弩）。
+包含简单易用的接口，可以直接在你的物品类中控制第一人称与第三人称动画，以及渲染物品本身的回调（类似望远镜）。</p>
+</li>
+<li>
+<p>砂轮成就触发器：
+本模组添加了一个自定义触发器，当物品经过砂轮处理时便会触发，你可以在自己模组的进度 JSON 中使用它</p>
+</li>
+<li>
+<p>软流体系统：
+一套完全数据驱动的自定义虚拟流体系统，构建在 Forge 流体系统之上，旨在更好地融入原版 Minecraft。它的主要特色是支持瓶子、碗、桶等多种流体容器物品，并为可直接从流体储罐中饮用的炖汤与饮品提供支持。与 Forge 流体系统不同，它以 1 个 Minecraft 瓶子为基础单位（250 forge mb）。该系统还会为已注册的 Forge 流体自动生成所需的全部流体，并允许用户轻松覆盖或补充。这些流体是虚拟的，因此只能存在于专门为它们准备的模组容器中</p>
+</li>
+</ul>
+<p>-发射器工具：
+一些代码，让你可以轻松注册发射器行为而不覆盖已有行为。还内置了刷怪蛋与方块放置行为</p>
+<hr />
+<p><em>由 GLM AI 翻译，仅供参考</em></p></div><details class="raw-json"><summary>查看英文原文（Modrinth）</summary><div class="mod-desc"><p>Features of this library are:</p>
 <ul>
 <li>
 <p>Dynamic resource pack utilities
@@ -56,7 +96,7 @@ An entirely Data Driven custom virtual fluid system that goes on top of forge on
  </li>
 </ul>
 <p>-Dispenser utilities:
-Some code that allows to easily register dispenser behaviors without overriding already existing ones. Also comes with builtin spawn egg and block placement behaviors</p></div><p class="stats">资料来源：<a href="https://modrinth.com/mod/moonlight" rel="noopener noreferrer">Moonlight Lib</a>（自动匹配，仅供参考）</p></section><section><h2>物品与方块</h2><div class="grid-cards"><a class="card" href="../item/moonlight/spawn_box.html"><span class="ic"><img src="../textures/_rendered/2f01b12b00173a71.png" alt="" loading="lazy"></span><span><span class="nm">Spawn Box Block</span><br><span class="id">moonlight:spawn_box · 方块</span></span></a></div></section></main>
+Some code that allows to easily register dispenser behaviors without overriding already existing ones. Also comes with builtin spawn egg and block placement behaviors</p></div></details><p class="stats">资料来源：<a href="https://modrinth.com/mod/moonlight" rel="noopener noreferrer">Moonlight Lib</a></p></section><section><h2>物品与方块</h2><div class="grid-cards"><a class="card" href="../item/moonlight/spawn_box.html"><span class="ic"><img src="../textures/_rendered/2f01b12b00173a71.png" alt="" loading="lazy"></span><span><span class="nm">Spawn Box Block</span><br><span class="id">moonlight:spawn_box · 方块</span></span></a></div></section></main>
 <footer>aruori6 整合包图鉴 · 纯静态离线生成 · 数据来自整合包资源与 CraftTweaker 脚本</footer>
 <script src="../assets/search.js"></script>
 </body>
