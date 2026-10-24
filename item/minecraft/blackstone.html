@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>黑石 - aruori6 整合包图鉴</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body data-root="../../">
+<header class="topbar"><div class="topbar-in">
+<a class="brand" href="../../index.html">aruori6 <span>整合包图鉴</span></a>
+<div class="searchbox">
+  <div class="search-row">
+    <input id="q" type="text" placeholder="搜索物品：中文名 / 英文名 / ID…" autocomplete="off" spellcheck="false">
+    <div class="mode-toggle" id="modeToggle">
+      <button type="button" data-m="simple">简单</button><button type="button" data-m="full">精确</button>
+    </div>
+  </div>
+  <div id="results" class="search-results" hidden></div>
+</div>
+</div></header>
+<div id="tt" hidden></div>
+<main class="wrap"><div class="vanilla-banner">⚠ 此原版内容已被修改 —— <a href="#vanilla-changes">查看修改详情</a></div><div class="infobox"><div class="bigicon"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="黑石"></div><div><h1 class="ib-title">黑石</h1><p class="ib-sub">Blackstone</p><div class="ib-rows"><span>英文名: Blackstone</span><span>命名空间 ID: <code>minecraft:blackstone</code></span><span>类型: <span class="kind-tag">方块</span></span><span>所属模组: <a class="mod-badge" href="../../mod/minecraft.html">Minecraft</a></span><span>资料检索: <a href="https://cn.bing.com/search?q=site%3Amcmod.cn%20%E9%BB%91%E7%9F%B3" target="_blank" rel="noopener noreferrer">🔎 在 MC百科 搜索「黑石」</a></span></div></div></div><section><h2>所属标签</h2><div class="tag-cloud"><a class="tag-chip" href="../../tags/minecraft/stone_crafting_materials.html">#minecraft:stone_crafting_materials</a><a class="tag-chip" href="../../tags/minecraft/stone_tool_materials.html">#minecraft:stone_tool_materials</a><a class="tag-chip" href="../../tags/minecraft/sulfur_cube_archetype_slow_bouncy.html">#minecraft:sulfur_cube_archetype/slow_bouncy</a><a class="tag-chip" href="../../tags/minecraft/sulfur_cube_swallowable.html">#minecraft:sulfur_cube_swallowable</a></div></section><section><h2>获取方式</h2><h3>以物易物 <span class="cnt-chip">(1)</span></h3><ul class="ob-list"><li><code>minecraft:gameplay/piglin_bartering</code></li></ul><h3>世界生成 <span class="cnt-chip">(2)</span></h3><ul class="ob-list"><li><code>minecraft:blackstone_blobs</code></li><li><code>minecraft:ore_blackstone</code></li></ul></section><div class="notice">纯原版配方（合成、烧炼等）不在本图鉴收录范围，以下仅列出模组与 CraftTweaker 相关配方。</div><section><h2>模组配方 · 产自 <span class="cnt-chip">(1)</span></h2><div class="recipe"><div class="recipe-head"><span class="rtype">熔炼（熔炉）</span><a class="mod-badge" href="../../mod/eternalnether.html">Eternal Nether</a></div><div class="recipe-body"><div class="gui-furnace"><div class="gui-col"><a class="slot" href="../../item/eternalnether/cobbled_blackstone.html" data-tt="黑石圆石" data-tt-sub="eternalnether:cobbled_blackstone" data-tt-mod="Eternal Nether" tabindex="0"><img src="../../textures/_rendered/63529ff321966584.png" alt="" loading="lazy"></a><span class="flame" aria-hidden="true">🔥</span></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div></div><div class="recipe-meta">耗时 200 tick · 经验 0.1 · 类别 blocks</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:smelting&quot;,
+  &quot;category&quot;: &quot;blocks&quot;,
+  &quot;cookingtime&quot;: 200,
+  &quot;experience&quot;: 0.1,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;eternalnether:cobbled_blackstone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;minecraft:blackstone&quot;
+  }
+}</pre></details></div></section><section><h2>模组配方 · 用于 <span class="cnt-chip">(40)</span></h2><div class="recipe"><div class="recipe-head"><span class="rtype">无序合成</span><a class="mod-badge" href="../../mod/architects_palette.html">Architects Palette</a></div><div class="recipe-body"><div class="gui-col"><div class="slot-row"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/weeping_vines.html" data-tt="垂泪藤" data-tt-sub="minecraft:weeping_vines" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/block/weeping_vines_plant.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/architects_palette/weeping_blackstone.html" data-tt="垂泪黑石" data-tt-sub="architects_palette:weeping_blackstone" data-tt-mod="Architects Palette" tabindex="0"><img src="../../textures/_rendered/54ef112bf2cca274.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shapeless&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    },
+    {
+      &quot;item&quot;: &quot;minecraft:weeping_vines&quot;
+    }
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;architects_palette:weeping_blackstone&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">无序合成</span><a class="mod-badge" href="../../mod/architects_palette.html">Architects Palette</a></div><div class="recipe-body"><div class="gui-col"><div class="slot-row"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/twisting_vines.html" data-tt="缠怨藤" data-tt-sub="minecraft:twisting_vines" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/block/twisting_vines_plant.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/architects_palette/twisting_blackstone.html" data-tt="缠怨黑石" data-tt-sub="architects_palette:twisting_blackstone" data-tt-mod="Architects Palette" tabindex="0"><img src="../../textures/_rendered/144627dd996e53e5.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 building</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shapeless&quot;,
+  &quot;category&quot;: &quot;building&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    },
+    {
+      &quot;item&quot;: &quot;minecraft:twisting_vines&quot;
+    }
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;architects_palette:twisting_blackstone&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/constructionwand.html">Construction Wand KOTS</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><span class="slot empty"></span><a class="slot tag" href="../../tags/minecraft/stone_tool_materials.html" data-tt="#minecraft:stone_tool_materials（18 个成员）：黑石圆石、象牙白石灰华、桃红石灰华、柿子橙石灰华、藏红石灰华、暗板岩 等" data-tt-tag="1" tabindex="0"><img src="../../textures/_rendered/6c6e1b5c9eb519a0.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><span class="slot empty"></span><a class="slot tag" href="../../tags/c/rods_wooden.html" data-tt="#c:rods/wooden（数据包中无定义，成员可能由模组运行时提供；通用标签惯例：即木棍等木质棒类原料）" data-tt-tag="1" tabindex="0"><span class="tg">#</span></a><span class="slot empty"></span><a class="slot tag" href="../../tags/c/rods_wooden.html" data-tt="#c:rods/wooden（数据包中无定义，成员可能由模组运行时提供；通用标签惯例：即木棍等木质棒类原料）" data-tt-tag="1" tabindex="0"><span class="tg">#</span></a><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/constructionwand/stone_wand.html" data-tt="石制手杖" data-tt-sub="constructionwand:stone_wand" data-tt-mod="Construction Wand KOTS" tabindex="0"><img src="../../textures/constructionwand/textures/item/stone_wand.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 equipment</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;equipment&quot;,
+  &quot;key&quot;: {
+    &quot;#&quot;: {
+      &quot;tag&quot;: &quot;c:rods/wooden&quot;
+    },
+    &quot;X&quot;: {
+      &quot;tag&quot;: &quot;minecraft:stone_tool_materials&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;  X&quot;,
+    &quot; # &quot;,
+    &quot;#  &quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;constructionwand:stone_wand&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/darkerdepths.html">Darker Depths</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/cobbled_deepslate.html" data-tt="深板岩圆石" data-tt-sub="minecraft:cobbled_deepslate" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/b6bd8f4047fc1150.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/cobbled_deepslate.html" data-tt="深板岩圆石" data-tt-sub="minecraft:cobbled_deepslate" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/b6bd8f4047fc1150.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/darkerdepths/darkslate.html" data-tt="暗板岩" data-tt-sub="darkerdepths:darkslate" data-tt-mod="Darker Depths" tabindex="0"><img src="../../textures/_rendered/229c4425dc7c67b3.png" alt="" loading="lazy"><span class="cnt">4</span></a></div><div class="recipe-meta">类别 building</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;building&quot;,
+  &quot;key&quot;: {
+    &quot;#&quot;: {
+      &quot;item&quot;: &quot;minecraft:cobbled_deepslate&quot;
+    },
+    &quot;C&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;#C&quot;,
+    &quot;C#&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 4,
+    &quot;id&quot;: &quot;darkerdepths:darkslate&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/darkerdepths.html">Darker Depths</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/cobbled_deepslate.html" data-tt="深板岩圆石" data-tt-sub="minecraft:cobbled_deepslate" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/b6bd8f4047fc1150.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/cobbled_deepslate.html" data-tt="深板岩圆石" data-tt-sub="minecraft:cobbled_deepslate" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/b6bd8f4047fc1150.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/darkerdepths/darkslate.html" data-tt="暗板岩" data-tt-sub="darkerdepths:darkslate" data-tt-mod="Darker Depths" tabindex="0"><img src="../../textures/_rendered/229c4425dc7c67b3.png" alt="" loading="lazy"><span class="cnt">4</span></a></div><div class="recipe-meta">类别 building</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;building&quot;,
+  &quot;key&quot;: {
+    &quot;#&quot;: {
+      &quot;item&quot;: &quot;minecraft:cobbled_deepslate&quot;
+    },
+    &quot;C&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;#C&quot;,
+    &quot;C#&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 4,
+    &quot;id&quot;: &quot;darkerdepths:darkslate&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">kaleidoscope_cookery:millstone</span><a class="mod-badge" href="../../mod/kaleidoscope_cookery.html">Kaleidoscope Cookery</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/polished_blackstone.html" data-tt="磨制黑石" data-tt-sub="minecraft:polished_blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/6f11b52d2d87659b.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;kaleidoscope_cookery:millstone&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:blackstone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:polished_blackstone&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/mcwbridges.html">Macaw&#x27;s Bridges</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone_wall.html" data-tt="黑石墙" data-tt-sub="minecraft:blackstone_wall" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/elem_70001eb6da000d36.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/mcwbridges/blackstone_bridge_pier.html" data-tt="黑石桥墩" data-tt-sub="mcwbridges:blackstone_bridge_pier" data-tt-mod="Macaw&#x27;s Bridges" tabindex="0"><img src="../../textures/_rendered/elem_e4cb76a4de66efaa.png" alt="" loading="lazy"><span class="cnt">3</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;group&quot;: &quot;stone_piers&quot;,
+  &quot;pattern&quot;: [
+    &quot;WFW&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;F&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone_wall&quot;
+    },
+    &quot;W&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 3,
+    &quot;id&quot;: &quot;mcwbridges:blackstone_bridge_pier&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/mcwbridges.html">Macaw&#x27;s Bridges</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone_wall.html" data-tt="黑石墙" data-tt-sub="minecraft:blackstone_wall" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/elem_70001eb6da000d36.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/mcwbridges/blackstone_bridge_pier.html" data-tt="黑石桥墩" data-tt-sub="mcwbridges:blackstone_bridge_pier" data-tt-mod="Macaw&#x27;s Bridges" tabindex="0"><img src="../../textures/_rendered/elem_e4cb76a4de66efaa.png" alt="" loading="lazy"><span class="cnt">3</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;group&quot;: &quot;stone_piers&quot;,
+  &quot;pattern&quot;: [
+    &quot;WFW&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;F&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone_wall&quot;
+    },
+    &quot;W&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 3,
+    &quot;id&quot;: &quot;mcwbridges:blackstone_bridge_pier&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/mcwbridges.html">Macaw&#x27;s Bridges</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/mcwbridges/balustrade_blackstone_bridge.html" data-tt="护栏黑石桥" data-tt-sub="mcwbridges:balustrade_blackstone_bridge" data-tt-mod="Macaw&#x27;s Bridges" tabindex="0"><img src="../../textures/_rendered/elem_d47f1c008d08ae23.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:blackstone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;mcwbridges:balustrade_blackstone_bridge&quot;
+  },
+  &quot;group&quot;: &quot;stonecutting&quot;
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/mcwbridges.html">Macaw&#x27;s Bridges</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/mcwbridges/blackstone_bridge.html" data-tt="黑石桥" data-tt-sub="mcwbridges:blackstone_bridge" data-tt-mod="Macaw&#x27;s Bridges" tabindex="0"><img src="../../textures/_rendered/elem_af0bb10f9b1483e8.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:blackstone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;mcwbridges:blackstone_bridge&quot;
+  },
+  &quot;group&quot;: &quot;stonecutting&quot;
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/mcwbridges.html">Macaw&#x27;s Bridges</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/mcwbridges/blackstone_bridge_pier.html" data-tt="黑石桥墩" data-tt-sub="mcwbridges:blackstone_bridge_pier" data-tt-mod="Macaw&#x27;s Bridges" tabindex="0"><img src="../../textures/_rendered/elem_e4cb76a4de66efaa.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:blackstone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;mcwbridges:blackstone_bridge_pier&quot;
+  },
+  &quot;group&quot;: &quot;stonecutting&quot;
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/mcwbridges.html">Macaw&#x27;s Bridges</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/mcwbridges/blackstone_bridge_stair.html" data-tt="黑石桥阶梯" data-tt-sub="mcwbridges:blackstone_bridge_stair" data-tt-mod="Macaw&#x27;s Bridges" tabindex="0"><img src="../../textures/_rendered/elem_15d3ff5f7d0e96fd.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:blackstone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;mcwbridges:blackstone_bridge_stair&quot;
+  },
+  &quot;group&quot;: &quot;stonecutting&quot;
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/mcwfences.html">Macaw&#x27;s Fences and Walls</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/dirt.html" data-tt="泥土" data-tt-sub="minecraft:dirt" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/2407bae143ee808a.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/polished_blackstone_bricks.html" data-tt="磨制黑石砖" data-tt-sub="minecraft:polished_blackstone_bricks" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/507c80eeeb10a23a.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/polished_blackstone_bricks.html" data-tt="磨制黑石砖" data-tt-sub="minecraft:polished_blackstone_bricks" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/507c80eeeb10a23a.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/polished_blackstone_bricks.html" data-tt="磨制黑石砖" data-tt-sub="minecraft:polished_blackstone_bricks" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/507c80eeeb10a23a.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/mcwfences/blackstone_grass_topped_wall.html" data-tt="黑石顶草墙" data-tt-sub="mcwfences:blackstone_grass_topped_wall" data-tt-mod="Macaw&#x27;s Fences and Walls" tabindex="0"><img src="../../textures/mcwfences/textures/block/grass.png" alt="" loading="lazy"><span class="cnt">6</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;group&quot;: &quot;grass_topped&quot;,
+  &quot;pattern&quot;: [
+    &quot;BGB&quot;,
+    &quot;AAA&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;A&quot;: {
+      &quot;item&quot;: &quot;minecraft:polished_blackstone_bricks&quot;
+    },
+    &quot;G&quot;: {
+      &quot;item&quot;: &quot;minecraft:dirt&quot;
+    },
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 6,
+    &quot;id&quot;: &quot;mcwfences:blackstone_grass_topped_wall&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/mcwfences.html">Macaw&#x27;s Fences and Walls</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/dirt.html" data-tt="泥土" data-tt-sub="minecraft:dirt" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/2407bae143ee808a.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/polished_blackstone_bricks.html" data-tt="磨制黑石砖" data-tt-sub="minecraft:polished_blackstone_bricks" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/507c80eeeb10a23a.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/polished_blackstone_bricks.html" data-tt="磨制黑石砖" data-tt-sub="minecraft:polished_blackstone_bricks" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/507c80eeeb10a23a.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/polished_blackstone_bricks.html" data-tt="磨制黑石砖" data-tt-sub="minecraft:polished_blackstone_bricks" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/507c80eeeb10a23a.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/mcwfences/blackstone_grass_topped_wall.html" data-tt="黑石顶草墙" data-tt-sub="mcwfences:blackstone_grass_topped_wall" data-tt-mod="Macaw&#x27;s Fences and Walls" tabindex="0"><img src="../../textures/mcwfences/textures/block/grass.png" alt="" loading="lazy"><span class="cnt">6</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;group&quot;: &quot;grass_topped&quot;,
+  &quot;pattern&quot;: [
+    &quot;BGB&quot;,
+    &quot;AAA&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;A&quot;: {
+      &quot;item&quot;: &quot;minecraft:polished_blackstone_bricks&quot;
+    },
+    &quot;G&quot;: {
+      &quot;item&quot;: &quot;minecraft:dirt&quot;
+    },
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 6,
+    &quot;id&quot;: &quot;mcwfences:blackstone_grass_topped_wall&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/mcwfences.html">Macaw&#x27;s Fences and Walls</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/polished_blackstone_bricks.html" data-tt="磨制黑石砖" data-tt-sub="minecraft:polished_blackstone_bricks" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/507c80eeeb10a23a.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/polished_blackstone_bricks.html" data-tt="磨制黑石砖" data-tt-sub="minecraft:polished_blackstone_bricks" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/507c80eeeb10a23a.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/polished_blackstone_bricks.html" data-tt="磨制黑石砖" data-tt-sub="minecraft:polished_blackstone_bricks" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/507c80eeeb10a23a.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/mcwfences/blackstone_pillar_wall.html" data-tt="黑石柱墙" data-tt-sub="mcwfences:blackstone_pillar_wall" data-tt-mod="Macaw&#x27;s Fences and Walls" tabindex="0"><img src="../../textures/_rendered/elem_77a5741959dd4e25.png" alt="" loading="lazy"><span class="cnt">5</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;group&quot;: &quot;pillarwall&quot;,
+  &quot;pattern&quot;: [
+    &quot;AAA&quot;,
+    &quot;B B&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;A&quot;: {
+      &quot;item&quot;: &quot;minecraft:polished_blackstone_bricks&quot;
+    },
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 5,
+    &quot;id&quot;: &quot;mcwfences:blackstone_pillar_wall&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/mcwfences.html">Macaw&#x27;s Fences and Walls</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/polished_blackstone_bricks.html" data-tt="磨制黑石砖" data-tt-sub="minecraft:polished_blackstone_bricks" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/507c80eeeb10a23a.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/polished_blackstone_bricks.html" data-tt="磨制黑石砖" data-tt-sub="minecraft:polished_blackstone_bricks" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/507c80eeeb10a23a.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/polished_blackstone_bricks.html" data-tt="磨制黑石砖" data-tt-sub="minecraft:polished_blackstone_bricks" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/507c80eeeb10a23a.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/mcwfences/blackstone_pillar_wall.html" data-tt="黑石柱墙" data-tt-sub="mcwfences:blackstone_pillar_wall" data-tt-mod="Macaw&#x27;s Fences and Walls" tabindex="0"><img src="../../textures/_rendered/elem_77a5741959dd4e25.png" alt="" loading="lazy"><span class="cnt">5</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;group&quot;: &quot;pillarwall&quot;,
+  &quot;pattern&quot;: [
+    &quot;AAA&quot;,
+    &quot;B B&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;A&quot;: {
+      &quot;item&quot;: &quot;minecraft:polished_blackstone_bricks&quot;
+    },
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 5,
+    &quot;id&quot;: &quot;mcwfences:blackstone_pillar_wall&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/mcwfences.html">Macaw&#x27;s Fences and Walls</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/mcwfences/blackstone_railing_gate.html" data-tt="黑石栏杆门" data-tt-sub="mcwfences:blackstone_railing_gate" data-tt-mod="Macaw&#x27;s Fences and Walls" tabindex="0"><img src="../../textures/_rendered/elem_3a2fc54558681fd1.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:blackstone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;mcwfences:blackstone_railing_gate&quot;
+  },
+  &quot;group&quot;: &quot;fences&quot;
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/mcwfences.html">Macaw&#x27;s Fences and Walls</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/polished_blackstone_bricks.html" data-tt="磨制黑石砖" data-tt-sub="minecraft:polished_blackstone_bricks" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/507c80eeeb10a23a.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/polished_blackstone_bricks.html" data-tt="磨制黑石砖" data-tt-sub="minecraft:polished_blackstone_bricks" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/507c80eeeb10a23a.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/polished_blackstone_bricks.html" data-tt="磨制黑石砖" data-tt-sub="minecraft:polished_blackstone_bricks" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/507c80eeeb10a23a.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/polished_blackstone_bricks.html" data-tt="磨制黑石砖" data-tt-sub="minecraft:polished_blackstone_bricks" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/507c80eeeb10a23a.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/polished_blackstone_bricks.html" data-tt="磨制黑石砖" data-tt-sub="minecraft:polished_blackstone_bricks" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/507c80eeeb10a23a.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/mcwfences/modern_blackstone_wall.html" data-tt="现代黑石墙" data-tt-sub="mcwfences:modern_blackstone_wall" data-tt-mod="Macaw&#x27;s Fences and Walls" tabindex="0"><img src="../../textures/_rendered/elem_edd509880251d65a.png" alt="" loading="lazy"><span class="cnt">6</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;group&quot;: &quot;modern&quot;,
+  &quot;pattern&quot;: [
+    &quot;ABA&quot;,
+    &quot;AAA&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;A&quot;: {
+      &quot;item&quot;: &quot;minecraft:polished_blackstone_bricks&quot;
+    },
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 6,
+    &quot;id&quot;: &quot;mcwfences:modern_blackstone_wall&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/mcwfences.html">Macaw&#x27;s Fences and Walls</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/mcwfences/modern_blackstone_wall.html" data-tt="现代黑石墙" data-tt-sub="mcwfences:modern_blackstone_wall" data-tt-mod="Macaw&#x27;s Fences and Walls" tabindex="0"><img src="../../textures/_rendered/elem_edd509880251d65a.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:blackstone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;mcwfences:modern_blackstone_wall&quot;
+  },
+  &quot;group&quot;: &quot;fences&quot;
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/mcwfences.html">Macaw&#x27;s Fences and Walls</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/mcwfences/railing_blackstone_wall.html" data-tt="栏杆式黑石墙" data-tt-sub="mcwfences:railing_blackstone_wall" data-tt-mod="Macaw&#x27;s Fences and Walls" tabindex="0"><img src="../../textures/_rendered/elem_a51e2a4aa33c2475.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:blackstone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;mcwfences:railing_blackstone_wall&quot;
+  },
+  &quot;group&quot;: &quot;fences&quot;
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/mcwroofs.html">Macaw&#x27;s Roofs</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/mcwroofs/blackstone_attic_roof.html" data-tt="Blackstone Attic Roof" data-tt-sub="mcwroofs:blackstone_attic_roof" data-tt-mod="Macaw&#x27;s Roofs" tabindex="0"><img src="../../textures/_rendered/elem_f8df730704a2a433.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:blackstone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;mcwroofs:blackstone_attic_roof&quot;
+  },
+  &quot;group&quot;: &quot;roofs&quot;
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/mcwroofs.html">Macaw&#x27;s Roofs</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/mcwroofs/blackstone_lower_roof.html" data-tt="Blackstone Lower Base Roof" data-tt-sub="mcwroofs:blackstone_lower_roof" data-tt-mod="Macaw&#x27;s Roofs" tabindex="0"><img src="../../textures/_rendered/elem_c158f6437c729015.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:blackstone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;mcwroofs:blackstone_lower_roof&quot;
+  },
+  &quot;group&quot;: &quot;roofs&quot;
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/mcwroofs.html">Macaw&#x27;s Roofs</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/mcwroofs/blackstone_roof.html" data-tt="Blackstone Roof" data-tt-sub="mcwroofs:blackstone_roof" data-tt-mod="Macaw&#x27;s Roofs" tabindex="0"><img src="../../textures/_rendered/elem_33de7e508ab7c4a3.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:blackstone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;mcwroofs:blackstone_roof&quot;
+  },
+  &quot;group&quot;: &quot;roofs&quot;
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/mcwroofs.html">Macaw&#x27;s Roofs</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/mcwroofs/blackstone_steep_roof.html" data-tt="Blackstone Steep Base Roof" data-tt-sub="mcwroofs:blackstone_steep_roof" data-tt-mod="Macaw&#x27;s Roofs" tabindex="0"><img src="../../textures/_rendered/elem_6c618efec65ee8f0.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:blackstone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;mcwroofs:blackstone_steep_roof&quot;
+  },
+  &quot;group&quot;: &quot;roofs&quot;
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/mcwroofs.html">Macaw&#x27;s Roofs</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/mcwroofs/blackstone_top_roof.html" data-tt="Blackstone Top Roof" data-tt-sub="mcwroofs:blackstone_top_roof" data-tt-mod="Macaw&#x27;s Roofs" tabindex="0"><img src="../../textures/_rendered/elem_bdc430b00d302643.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:blackstone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;mcwroofs:blackstone_top_roof&quot;
+  },
+  &quot;group&quot;: &quot;roofs&quot;
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/mcwroofs.html">Macaw&#x27;s Roofs</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/mcwroofs/blackstone_upper_lower_roof.html" data-tt="Blackstone Lower Top Roof" data-tt-sub="mcwroofs:blackstone_upper_lower_roof" data-tt-mod="Macaw&#x27;s Roofs" tabindex="0"><img src="../../textures/_rendered/elem_b8aa83387abd1daa.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:blackstone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;mcwroofs:blackstone_upper_lower_roof&quot;
+  },
+  &quot;group&quot;: &quot;roofs&quot;
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/mcwroofs.html">Macaw&#x27;s Roofs</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/mcwroofs/blackstone_upper_steep_roof.html" data-tt="Blackstone Steep Top Roof" data-tt-sub="mcwroofs:blackstone_upper_steep_roof" data-tt-mod="Macaw&#x27;s Roofs" tabindex="0"><img src="../../textures/_rendered/elem_0b25363a4abfc8e5.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:blackstone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;mcwroofs:blackstone_upper_steep_roof&quot;
+  },
+  &quot;group&quot;: &quot;roofs&quot;
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot tag" href="../../tags/minecraft/wooden_slabs.html" data-tt="#minecraft:wooden_slabs（72 个成员）：核桃木台阶、苍白橡木台阶、Oak Board Slab、Birch Board Slab、Spruce Board Slab、Jungle Board Slab 等" data-tt-tag="1" tabindex="0"><img src="../../textures/_rendered/elem_9b953c71d37dc3dc.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot tag" href="../../tags/minecraft/wooden_slabs.html" data-tt="#minecraft:wooden_slabs（72 个成员）：核桃木台阶、苍白橡木台阶、Oak Board Slab、Birch Board Slab、Spruce Board Slab、Jungle Board Slab 等" data-tt-tag="1" tabindex="0"><img src="../../textures/_rendered/elem_9b953c71d37dc3dc.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot tag" href="../../tags/supplementaries/blackboard_white.html" data-tt="#supplementaries:blackboard_white（3 个成员）：石英硫簇、白色染料、下界石英" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/white_dye.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/minecraft/wooden_slabs.html" data-tt="#minecraft:wooden_slabs（72 个成员）：核桃木台阶、苍白橡木台阶、Oak Board Slab、Birch Board Slab、Spruce Board Slab、Jungle Board Slab 等" data-tt-tag="1" tabindex="0"><img src="../../textures/_rendered/elem_9b953c71d37dc3dc.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/supplementaries/blackboard.html" data-tt="黑板" data-tt-sub="supplementaries:blackboard" data-tt-mod="Supplementaries" tabindex="0"><span class="ph">?</span><span class="cnt">2</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackboard&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackboard&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;12 &quot;,
+    &quot;120&quot;,
+    &quot;12 &quot;
+  ],
+  &quot;key&quot;: {
+    &quot;1&quot;: {
+      &quot;tag&quot;: &quot;minecraft:wooden_slabs&quot;
+    },
+    &quot;2&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    },
+    &quot;0&quot;: {
+      &quot;tag&quot;: &quot;supplementaries:blackboard_white&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:blackboard&quot;,
+    &quot;count&quot;: 2
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot tag" href="../../tags/minecraft/wooden_slabs.html" data-tt="#minecraft:wooden_slabs（72 个成员）：核桃木台阶、苍白橡木台阶、Oak Board Slab、Birch Board Slab、Spruce Board Slab、Jungle Board Slab 等" data-tt-tag="1" tabindex="0"><img src="../../textures/_rendered/elem_9b953c71d37dc3dc.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot tag" href="../../tags/minecraft/wooden_slabs.html" data-tt="#minecraft:wooden_slabs（72 个成员）：核桃木台阶、苍白橡木台阶、Oak Board Slab、Birch Board Slab、Spruce Board Slab、Jungle Board Slab 等" data-tt-tag="1" tabindex="0"><img src="../../textures/_rendered/elem_9b953c71d37dc3dc.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot tag" href="../../tags/supplementaries/blackboard_white.html" data-tt="#supplementaries:blackboard_white（3 个成员）：石英硫簇、白色染料、下界石英" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/white_dye.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/minecraft/wooden_slabs.html" data-tt="#minecraft:wooden_slabs（72 个成员）：核桃木台阶、苍白橡木台阶、Oak Board Slab、Birch Board Slab、Spruce Board Slab、Jungle Board Slab 等" data-tt-tag="1" tabindex="0"><img src="../../textures/_rendered/elem_9b953c71d37dc3dc.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/supplementaries/blackboard.html" data-tt="黑板" data-tt-sub="supplementaries:blackboard" data-tt-mod="Supplementaries" tabindex="0"><span class="ph">?</span><span class="cnt">2</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackboard&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackboard&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;12 &quot;,
+    &quot;120&quot;,
+    &quot;12 &quot;
+  ],
+  &quot;key&quot;: {
+    &quot;1&quot;: {
+      &quot;tag&quot;: &quot;minecraft:wooden_slabs&quot;
+    },
+    &quot;2&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    },
+    &quot;0&quot;: {
+      &quot;tag&quot;: &quot;supplementaries:blackboard_white&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:blackboard&quot;,
+    &quot;count&quot;: 2
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot tag" href="../../tags/minecraft/wooden_slabs.html" data-tt="#minecraft:wooden_slabs（72 个成员）：核桃木台阶、苍白橡木台阶、Oak Board Slab、Birch Board Slab、Spruce Board Slab、Jungle Board Slab 等" data-tt-tag="1" tabindex="0"><img src="../../textures/_rendered/elem_9b953c71d37dc3dc.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot tag" href="../../tags/minecraft/wooden_slabs.html" data-tt="#minecraft:wooden_slabs（72 个成员）：核桃木台阶、苍白橡木台阶、Oak Board Slab、Birch Board Slab、Spruce Board Slab、Jungle Board Slab 等" data-tt-tag="1" tabindex="0"><img src="../../textures/_rendered/elem_9b953c71d37dc3dc.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot tag" href="../../tags/supplementaries/blackboard_white.html" data-tt="#supplementaries:blackboard_white（3 个成员）：石英硫簇、白色染料、下界石英" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/white_dye.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/minecraft/wooden_slabs.html" data-tt="#minecraft:wooden_slabs（72 个成员）：核桃木台阶、苍白橡木台阶、Oak Board Slab、Birch Board Slab、Spruce Board Slab、Jungle Board Slab 等" data-tt-tag="1" tabindex="0"><img src="../../textures/_rendered/elem_9b953c71d37dc3dc.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/supplementaries/blackboard.html" data-tt="黑板" data-tt-sub="supplementaries:blackboard" data-tt-mod="Supplementaries" tabindex="0"><span class="ph">?</span><span class="cnt">2</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackboard&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackboard&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;12 &quot;,
+    &quot;120&quot;,
+    &quot;12 &quot;
+  ],
+  &quot;key&quot;: {
+    &quot;1&quot;: {
+      &quot;tag&quot;: &quot;minecraft:wooden_slabs&quot;
+    },
+    &quot;2&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    },
+    &quot;0&quot;: {
+      &quot;tag&quot;: &quot;supplementaries:blackboard_white&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:blackboard&quot;,
+    &quot;count&quot;: 2
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/soul_torch.html" data-tt="灵魂火把" data-tt-sub="minecraft:soul_torch" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/elem_6964df79fd2e182f.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/supplementaries/blackstone_lamp.html" data-tt="黑石灯" data-tt-sub="supplementaries:blackstone_lamp" data-tt-mod="Supplementaries" tabindex="0"><img src="../../textures/_rendered/8f73bb08a2aebd30.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackstone_lamp&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackstone_lamp&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;000&quot;,
+    &quot;010&quot;,
+    &quot;000&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;0&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    },
+    &quot;1&quot;: {
+      &quot;item&quot;: &quot;minecraft:soul_torch&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:blackstone_lamp&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/soul_torch.html" data-tt="灵魂火把" data-tt-sub="minecraft:soul_torch" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/elem_6964df79fd2e182f.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/supplementaries/blackstone_lamp.html" data-tt="黑石灯" data-tt-sub="supplementaries:blackstone_lamp" data-tt-mod="Supplementaries" tabindex="0"><img src="../../textures/_rendered/8f73bb08a2aebd30.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackstone_lamp&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackstone_lamp&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;000&quot;,
+    &quot;010&quot;,
+    &quot;000&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;0&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    },
+    &quot;1&quot;: {
+      &quot;item&quot;: &quot;minecraft:soul_torch&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:blackstone_lamp&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/soul_torch.html" data-tt="灵魂火把" data-tt-sub="minecraft:soul_torch" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/elem_6964df79fd2e182f.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/supplementaries/blackstone_lamp.html" data-tt="黑石灯" data-tt-sub="supplementaries:blackstone_lamp" data-tt-mod="Supplementaries" tabindex="0"><img src="../../textures/_rendered/8f73bb08a2aebd30.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackstone_lamp&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackstone_lamp&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;000&quot;,
+    &quot;010&quot;,
+    &quot;000&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;0&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    },
+    &quot;1&quot;: {
+      &quot;item&quot;: &quot;minecraft:soul_torch&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:blackstone_lamp&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/soul_torch.html" data-tt="灵魂火把" data-tt-sub="minecraft:soul_torch" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/elem_6964df79fd2e182f.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/supplementaries/blackstone_lamp.html" data-tt="黑石灯" data-tt-sub="supplementaries:blackstone_lamp" data-tt-mod="Supplementaries" tabindex="0"><img src="../../textures/_rendered/8f73bb08a2aebd30.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackstone_lamp&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackstone_lamp&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;000&quot;,
+    &quot;010&quot;,
+    &quot;000&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;0&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    },
+    &quot;1&quot;: {
+      &quot;item&quot;: &quot;minecraft:soul_torch&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:blackstone_lamp&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/soul_torch.html" data-tt="灵魂火把" data-tt-sub="minecraft:soul_torch" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/elem_6964df79fd2e182f.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/supplementaries/blackstone_lamp.html" data-tt="黑石灯" data-tt-sub="supplementaries:blackstone_lamp" data-tt-mod="Supplementaries" tabindex="0"><img src="../../textures/_rendered/8f73bb08a2aebd30.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackstone_lamp&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackstone_lamp&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;000&quot;,
+    &quot;010&quot;,
+    &quot;000&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;0&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    },
+    &quot;1&quot;: {
+      &quot;item&quot;: &quot;minecraft:soul_torch&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:blackstone_lamp&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/soul_torch.html" data-tt="灵魂火把" data-tt-sub="minecraft:soul_torch" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/elem_6964df79fd2e182f.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/supplementaries/blackstone_lamp.html" data-tt="黑石灯" data-tt-sub="supplementaries:blackstone_lamp" data-tt-mod="Supplementaries" tabindex="0"><img src="../../textures/_rendered/8f73bb08a2aebd30.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackstone_lamp&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackstone_lamp&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;000&quot;,
+    &quot;010&quot;,
+    &quot;000&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;0&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    },
+    &quot;1&quot;: {
+      &quot;item&quot;: &quot;minecraft:soul_torch&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:blackstone_lamp&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/soul_torch.html" data-tt="灵魂火把" data-tt-sub="minecraft:soul_torch" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/elem_6964df79fd2e182f.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/supplementaries/blackstone_lamp.html" data-tt="黑石灯" data-tt-sub="supplementaries:blackstone_lamp" data-tt-mod="Supplementaries" tabindex="0"><img src="../../textures/_rendered/8f73bb08a2aebd30.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackstone_lamp&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackstone_lamp&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;000&quot;,
+    &quot;010&quot;,
+    &quot;000&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;0&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    },
+    &quot;1&quot;: {
+      &quot;item&quot;: &quot;minecraft:soul_torch&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:blackstone_lamp&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/soul_torch.html" data-tt="灵魂火把" data-tt-sub="minecraft:soul_torch" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/elem_6964df79fd2e182f.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/supplementaries/blackstone_lamp.html" data-tt="黑石灯" data-tt-sub="supplementaries:blackstone_lamp" data-tt-mod="Supplementaries" tabindex="0"><img src="../../textures/_rendered/8f73bb08a2aebd30.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackstone_lamp&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;blackstone_lamp&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;000&quot;,
+    &quot;010&quot;,
+    &quot;000&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;0&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    },
+    &quot;1&quot;: {
+      &quot;item&quot;: &quot;minecraft:soul_torch&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:blackstone_lamp&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/cobblestone.html" data-tt="圆石" data-tt-sub="minecraft:cobblestone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/6c6e1b5c9eb519a0.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/cobblestone.html" data-tt="圆石" data-tt-sub="minecraft:cobblestone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/6c6e1b5c9eb519a0.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/supplementaries/checker_block.html" data-tt="棋盘格方块" data-tt-sub="supplementaries:checker_block" data-tt-mod="Supplementaries" tabindex="0"><img src="../../textures/_rendered/b48b5dff6f9afcfc.png" alt="" loading="lazy"><span class="cnt">4</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;checker_block&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;checker_block&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;10 &quot;,
+    &quot;01 &quot;,
+    &quot;   &quot;
+  ],
+  &quot;key&quot;: {
+    &quot;0&quot;: {
+      &quot;item&quot;: &quot;minecraft:cobblestone&quot;
+    },
+    &quot;1&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:checker_block&quot;,
+    &quot;count&quot;: 4
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/cobblestone.html" data-tt="圆石" data-tt-sub="minecraft:cobblestone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/6c6e1b5c9eb519a0.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/cobblestone.html" data-tt="圆石" data-tt-sub="minecraft:cobblestone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/6c6e1b5c9eb519a0.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blackstone.html" data-tt="黑石" data-tt-sub="minecraft:blackstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a5f30993ff5e09f5.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/supplementaries/checker_block.html" data-tt="棋盘格方块" data-tt-sub="supplementaries:checker_block" data-tt-mod="Supplementaries" tabindex="0"><img src="../../textures/_rendered/b48b5dff6f9afcfc.png" alt="" loading="lazy"><span class="cnt">4</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;checker_block&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;checker_block&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;10 &quot;,
+    &quot;01 &quot;,
+    &quot;   &quot;
+  ],
+  &quot;key&quot;: {
+    &quot;0&quot;: {
+      &quot;item&quot;: &quot;minecraft:cobblestone&quot;
+    },
+    &quot;1&quot;: {
+      &quot;item&quot;: &quot;minecraft:blackstone&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:checker_block&quot;,
+    &quot;count&quot;: 4
+  }
+}</pre></details></div></section><section id="vanilla-changes"><h2>原版修改详情 <span class="cnt-chip">(1)</span></h2><div class="vc-group"><h3>标签指向 <span class="cnt-chip">(1)</span></h3><div class="vc-line"><a class="mod-badge" href="../../mod/irons_spellbooks.html">Iron&#x27;s Spells &#x27;n Spellbooks</a> 被标签 irons_spellbooks:citadel_can_decay 收录</div></div></section></main>
+<footer>aruori6 整合包图鉴 · 纯静态离线生成 · 数据来自整合包资源与 CraftTweaker 脚本</footer>
+<script src="../../assets/search.js"></script>
+</body>
+</html>

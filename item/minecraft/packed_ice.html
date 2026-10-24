@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>浮冰 - aruori6 整合包图鉴</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body data-root="../../">
+<header class="topbar"><div class="topbar-in">
+<a class="brand" href="../../index.html">aruori6 <span>整合包图鉴</span></a>
+<div class="searchbox">
+  <div class="search-row">
+    <input id="q" type="text" placeholder="搜索物品：中文名 / 英文名 / ID…" autocomplete="off" spellcheck="false">
+    <div class="mode-toggle" id="modeToggle">
+      <button type="button" data-m="simple">简单</button><button type="button" data-m="full">精确</button>
+    </div>
+  </div>
+  <div id="results" class="search-results" hidden></div>
+</div>
+</div></header>
+<div id="tt" hidden></div>
+<main class="wrap"><div class="vanilla-banner">⚠ 此原版内容已被修改 —— <a href="#vanilla-changes">查看修改详情</a></div><div class="infobox"><div class="bigicon"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="浮冰"></div><div><h1 class="ib-title">浮冰</h1><p class="ib-sub">Packed Ice</p><div class="ib-rows"><span>英文名: Packed Ice</span><span>命名空间 ID: <code>minecraft:packed_ice</code></span><span>类型: <span class="kind-tag">方块</span></span><span>所属模组: <a class="mod-badge" href="../../mod/minecraft.html">Minecraft</a></span><span>资料检索: <a href="https://cn.bing.com/search?q=site%3Amcmod.cn%20%E6%B5%AE%E5%86%B0" target="_blank" rel="noopener noreferrer">🔎 在 MC百科 搜索「浮冰」</a></span></div></div></div><section><h2>所属标签</h2><div class="tag-cloud"><a class="tag-chip" href="../../tags/caupona/ice.html">#caupona:ice</a><a class="tag-chip" href="../../tags/eternal_starlight/water_crystal_ingredients.html">#eternal_starlight:water_crystal_ingredients</a><a class="tag-chip" href="../../tags/minecraft/sulfur_cube_archetype_fast_sliding.html">#minecraft:sulfur_cube_archetype/fast_sliding</a><a class="tag-chip" href="../../tags/minecraft/sulfur_cube_swallowable.html">#minecraft:sulfur_cube_swallowable</a><a class="tag-chip" href="../../tags/oritech/reactor_coolant_items.html">#oritech:reactor_coolant_items</a></div></section><section><h2>获取方式</h2><h3>战利品箱 <span class="cnt-chip">(3)</span></h3><ul class="ob-list"><li><code>minecraft:chests/ancient_city_ice_box</code></li><li><code>wan_ancient_beasts:chests/ancient_nest</code></li><li><code>wan_ancient_beasts:chests/ice_castle</code></li></ul><h3>世界生成 <span class="cnt-chip">(1)</span></h3><ul class="ob-list"><li><code>minecraft:iceberg_packed</code></li></ul></section><div class="notice">纯原版配方（合成、烧炼等）不在本图鉴收录范围，以下仅列出模组与 CraftTweaker 相关配方。</div><section><h2>模组配方 · 产自 <span class="cnt-chip">(3)</span></h2><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/blockbox.html">The Block Box</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/blockbox/packed_ice_bricks.html" data-tt="浮冰砖" data-tt-sub="blockbox:packed_ice_bricks" data-tt-mod="The Block Box" tabindex="0"><img src="../../textures/_rendered/56c5cb82b87725dc.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;blockbox:packed_ice_bricks&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;minecraft:packed_ice&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/blockbox.html">The Block Box</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/blockbox/polished_packed_ice.html" data-tt="磨制浮冰" data-tt-sub="blockbox:polished_packed_ice" data-tt-mod="The Block Box" tabindex="0"><img src="../../textures/_rendered/e22e39dfeb8fbec6.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;blockbox:polished_packed_ice&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;minecraft:packed_ice&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">rubinated_nether:freezing</span><a class="mod-badge" href="../../mod/rubinated_nether.html">Rubinated Nether</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/minecraft/ice.html" data-tt="冰" data-tt-sub="minecraft:ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/a96f38e78b0761e5.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;rubinated_nether:freezing&quot;,
+  &quot;category&quot;: &quot;freezable_misc&quot;,
+  &quot;cookingtime&quot;: 4800,
+  &quot;experience&quot;: 1.0,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:ice&quot;
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:packed_ice&quot;
+  }
+}</pre></details><div class="recipe-meta">耗时 4800 tick · 经验 1.0 · 类别 freezable_misc</div></div></section><section><h2>模组配方 · 用于 <span class="cnt-chip">(21)</span></h2><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/architects_palette.html">Architects Palette</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/architects_palette/polished_packed_ice.html" data-tt="磨制浮冰" data-tt-sub="architects_palette:polished_packed_ice" data-tt-mod="Architects Palette" tabindex="0"><img src="../../textures/_rendered/9321477d2a759831.png" alt="" loading="lazy"><span class="cnt">4</span></a></div><div class="recipe-meta">类别 building</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;building&quot;,
+  &quot;key&quot;: {
+    &quot;x&quot;: {
+      &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;xx&quot;,
+    &quot;xx&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 4,
+    &quot;id&quot;: &quot;architects_palette:polished_packed_ice&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/architects_palette.html">Architects Palette</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/architects_palette/polished_packed_ice.html" data-tt="磨制浮冰" data-tt-sub="architects_palette:polished_packed_ice" data-tt-mod="Architects Palette" tabindex="0"><img src="../../textures/_rendered/9321477d2a759831.png" alt="" loading="lazy"><span class="cnt">4</span></a></div><div class="recipe-meta">类别 building</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;building&quot;,
+  &quot;key&quot;: {
+    &quot;x&quot;: {
+      &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;xx&quot;,
+    &quot;xx&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 4,
+    &quot;id&quot;: &quot;architects_palette:polished_packed_ice&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/architects_palette.html">Architects Palette</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/architects_palette/polished_packed_ice.html" data-tt="磨制浮冰" data-tt-sub="architects_palette:polished_packed_ice" data-tt-mod="Architects Palette" tabindex="0"><img src="../../textures/_rendered/9321477d2a759831.png" alt="" loading="lazy"><span class="cnt">4</span></a></div><div class="recipe-meta">类别 building</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;building&quot;,
+  &quot;key&quot;: {
+    &quot;x&quot;: {
+      &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;xx&quot;,
+    &quot;xx&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 4,
+    &quot;id&quot;: &quot;architects_palette:polished_packed_ice&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/architects_palette.html">Architects Palette</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/architects_palette/polished_packed_ice.html" data-tt="磨制浮冰" data-tt-sub="architects_palette:polished_packed_ice" data-tt-mod="Architects Palette" tabindex="0"><img src="../../textures/_rendered/9321477d2a759831.png" alt="" loading="lazy"><span class="cnt">4</span></a></div><div class="recipe-meta">类别 building</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;building&quot;,
+  &quot;key&quot;: {
+    &quot;x&quot;: {
+      &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;xx&quot;,
+    &quot;xx&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 4,
+    &quot;id&quot;: &quot;architects_palette:polished_packed_ice&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/architects_palette.html">Architects Palette</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/architects_palette/chiseled_packed_ice.html" data-tt="錾制浮冰" data-tt-sub="architects_palette:chiseled_packed_ice" data-tt-mod="Architects Palette" tabindex="0"><img src="../../textures/_rendered/046308919386c6cd.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;architects_palette:chiseled_packed_ice&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/architects_palette.html">Architects Palette</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/architects_palette/polished_packed_ice.html" data-tt="磨制浮冰" data-tt-sub="architects_palette:polished_packed_ice" data-tt-mod="Architects Palette" tabindex="0"><img src="../../textures/_rendered/9321477d2a759831.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;architects_palette:polished_packed_ice&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/architects_palette.html">Architects Palette</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/architects_palette/packed_ice_pillar.html" data-tt="浮冰柱" data-tt-sub="architects_palette:packed_ice_pillar" data-tt-mod="Architects Palette" tabindex="0"><img src="../../textures/_rendered/8c758bf512ef13d0.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;architects_palette:packed_ice_pillar&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/architects_palette.html">Architects Palette</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/architects_palette/polished_packed_ice_wall.html" data-tt="磨制浮冰墙" data-tt-sub="architects_palette:polished_packed_ice_wall" data-tt-mod="Architects Palette" tabindex="0"><img src="../../textures/_rendered/elem_6365cc2e52e98440.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;architects_palette:polished_packed_ice_wall&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/architects_palette.html">Architects Palette</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/architects_palette/polished_packed_ice_stairs.html" data-tt="磨制浮冰楼梯" data-tt-sub="architects_palette:polished_packed_ice_stairs" data-tt-mod="Architects Palette" tabindex="0"><img src="../../textures/_rendered/elem_bf55c728d1f60cb4.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;architects_palette:polished_packed_ice_stairs&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/architects_palette.html">Architects Palette</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/architects_palette/polished_packed_ice_slab.html" data-tt="磨制浮冰台阶" data-tt-sub="architects_palette:polished_packed_ice_slab" data-tt-mod="Architects Palette" tabindex="0"><img src="../../textures/_rendered/elem_1d51b870147d1811.png" alt="" loading="lazy"><span class="cnt">2</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 2,
+    &quot;id&quot;: &quot;architects_palette:polished_packed_ice_slab&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/blockbox.html">The Block Box</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/blockbox/packed_ice_bricks.html" data-tt="浮冰砖" data-tt-sub="blockbox:packed_ice_bricks" data-tt-mod="The Block Box" tabindex="0"><img src="../../textures/_rendered/56c5cb82b87725dc.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;blockbox:packed_ice_bricks&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/blockbox.html">The Block Box</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/blockbox/packed_ice_brick_slab.html" data-tt="浮冰砖台阶" data-tt-sub="blockbox:packed_ice_brick_slab" data-tt-mod="The Block Box" tabindex="0"><img src="../../textures/_rendered/elem_80d01c32c36797fe.png" alt="" loading="lazy"><span class="cnt">2</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 2,
+    &quot;id&quot;: &quot;blockbox:packed_ice_brick_slab&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/blockbox.html">The Block Box</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/blockbox/packed_ice_brick_stairs.html" data-tt="浮冰砖楼梯" data-tt-sub="blockbox:packed_ice_brick_stairs" data-tt-mod="The Block Box" tabindex="0"><img src="../../textures/_rendered/elem_8788605cb1c4b114.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;blockbox:packed_ice_brick_stairs&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/blockbox.html">The Block Box</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/blockbox/packed_ice_brick_wall.html" data-tt="浮冰砖墙" data-tt-sub="blockbox:packed_ice_brick_wall" data-tt-mod="The Block Box" tabindex="0"><img src="../../textures/_rendered/elem_ba41dda218cb48bc.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;blockbox:packed_ice_brick_wall&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/blockbox.html">The Block Box</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/blockbox/polished_packed_ice.html" data-tt="磨制浮冰" data-tt-sub="blockbox:polished_packed_ice" data-tt-mod="The Block Box" tabindex="0"><img src="../../textures/_rendered/e22e39dfeb8fbec6.png" alt="" loading="lazy"><span class="cnt">4</span></a></div><div class="recipe-meta">类别 building</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;building&quot;,
+  &quot;key&quot;: {
+    &quot;#&quot;: {
+      &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;##&quot;,
+    &quot;##&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 4,
+    &quot;id&quot;: &quot;blockbox:polished_packed_ice&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/blockbox.html">The Block Box</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/blockbox/polished_packed_ice.html" data-tt="磨制浮冰" data-tt-sub="blockbox:polished_packed_ice" data-tt-mod="The Block Box" tabindex="0"><img src="../../textures/_rendered/e22e39dfeb8fbec6.png" alt="" loading="lazy"><span class="cnt">4</span></a></div><div class="recipe-meta">类别 building</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;building&quot;,
+  &quot;key&quot;: {
+    &quot;#&quot;: {
+      &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;##&quot;,
+    &quot;##&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 4,
+    &quot;id&quot;: &quot;blockbox:polished_packed_ice&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/blockbox.html">The Block Box</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/blockbox/polished_packed_ice.html" data-tt="磨制浮冰" data-tt-sub="blockbox:polished_packed_ice" data-tt-mod="The Block Box" tabindex="0"><img src="../../textures/_rendered/e22e39dfeb8fbec6.png" alt="" loading="lazy"><span class="cnt">4</span></a></div><div class="recipe-meta">类别 building</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;building&quot;,
+  &quot;key&quot;: {
+    &quot;#&quot;: {
+      &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;##&quot;,
+    &quot;##&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 4,
+    &quot;id&quot;: &quot;blockbox:polished_packed_ice&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/blockbox.html">The Block Box</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/blockbox/polished_packed_ice.html" data-tt="磨制浮冰" data-tt-sub="blockbox:polished_packed_ice" data-tt-mod="The Block Box" tabindex="0"><img src="../../textures/_rendered/e22e39dfeb8fbec6.png" alt="" loading="lazy"><span class="cnt">4</span></a></div><div class="recipe-meta">类别 building</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;building&quot;,
+  &quot;key&quot;: {
+    &quot;#&quot;: {
+      &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;##&quot;,
+    &quot;##&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 4,
+    &quot;id&quot;: &quot;blockbox:polished_packed_ice&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/blockbox.html">The Block Box</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/blockbox/polished_packed_ice.html" data-tt="磨制浮冰" data-tt-sub="blockbox:polished_packed_ice" data-tt-mod="The Block Box" tabindex="0"><img src="../../textures/_rendered/e22e39dfeb8fbec6.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;blockbox:polished_packed_ice&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/eternal_starlight.html">Eternal Starlight</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/eternal_starlight/red_starlight_crystal_shard.html" data-tt="红色星辉水晶碎片" data-tt-sub="eternal_starlight:red_starlight_crystal_shard" data-tt-mod="Eternal Starlight" tabindex="0"><img src="../../textures/eternal_starlight/textures/item/red_starlight_crystal_shard.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/eternal_starlight/red_starlight_crystal_shard.html" data-tt="红色星辉水晶碎片" data-tt-sub="eternal_starlight:red_starlight_crystal_shard" data-tt-mod="Eternal Starlight" tabindex="0"><img src="../../textures/eternal_starlight/textures/item/red_starlight_crystal_shard.png" alt="" loading="lazy"></a><a class="slot tag" href="../../tags/eternal_starlight/water_crystal_ingredients.html" data-tt="#eternal_starlight:water_crystal_ingredients（23 个成员）：冰、浮冰、蓝冰、海带、海草、海泡菜 等" data-tt-tag="1" tabindex="0"><img src="../../textures/_rendered/a96f38e78b0761e5.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/eternal_starlight/red_starlight_crystal_shard.html" data-tt="红色星辉水晶碎片" data-tt-sub="eternal_starlight:red_starlight_crystal_shard" data-tt-mod="Eternal Starlight" tabindex="0"><img src="../../textures/eternal_starlight/textures/item/red_starlight_crystal_shard.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/eternal_starlight/red_starlight_crystal_shard.html" data-tt="红色星辉水晶碎片" data-tt-sub="eternal_starlight:red_starlight_crystal_shard" data-tt-mod="Eternal Starlight" tabindex="0"><img src="../../textures/eternal_starlight/textures/item/red_starlight_crystal_shard.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/eternal_starlight/water_crystal.html" data-tt="浪涛水晶" data-tt-sub="eternal_starlight:water_crystal" data-tt-mod="Eternal Starlight" tabindex="0"><img src="../../textures/eternal_starlight/textures/item/water_crystal.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;key&quot;: {
+    &quot;C&quot;: {
+      &quot;tag&quot;: &quot;eternal_starlight:water_crystal_ingredients&quot;
+    },
+    &quot;S&quot;: {
+      &quot;item&quot;: &quot;eternal_starlight:red_starlight_crystal_shard&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot; S &quot;,
+    &quot;SCS&quot;,
+    &quot; S &quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;eternal_starlight:water_crystal&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">rubinated_nether:freezing</span><a class="mod-badge" href="../../mod/rubinated_nether.html">Rubinated Nether</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/minecraft/packed_ice.html" data-tt="浮冰" data-tt-sub="minecraft:packed_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/4436d5b0e879acd3.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/blue_ice.html" data-tt="蓝冰" data-tt-sub="minecraft:blue_ice" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/8dd6eec60c9fe3ff.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;rubinated_nether:freezing&quot;,
+  &quot;category&quot;: &quot;freezable_misc&quot;,
+  &quot;cookingtime&quot;: 9600,
+  &quot;experience&quot;: 1.0,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:packed_ice&quot;
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:blue_ice&quot;
+  }
+}</pre></details><div class="recipe-meta">耗时 9600 tick · 经验 1.0 · 类别 freezable_misc</div></div></section><section id="vanilla-changes"><h2>原版修改详情 <span class="cnt-chip">(4)</span></h2><div class="vc-group"><h3>标签指向 <span class="cnt-chip">(4)</span></h3><div class="vc-line"><a class="mod-badge" href="../../mod/caupona.html">Caupona</a> 被标签 caupona:ice 收录</div><div class="vc-line"><a class="mod-badge" href="../../mod/eternal_starlight.html">Eternal Starlight</a> 被标签 eternal_starlight:water_crystal_ingredients 收录</div><div class="vc-line"><a class="mod-badge" href="../../mod/kaleidoscope_cookery.html">Kaleidoscope Cookery</a> 被标签 kaleidoscope_cookery:tundra_strider_speed_blocks 收录</div><div class="vc-line"><a class="mod-badge" href="../../mod/oritech.html">Oritech</a> 被标签 oritech:reactor_coolant_items 收录</div></div></section></main>
+<footer>aruori6 整合包图鉴 · 纯静态离线生成 · 数据来自整合包资源与 CraftTweaker 脚本</footer>
+<script src="../../assets/search.js"></script>
+</body>
+</html>

@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>烈焰棒 - aruori6 整合包图鉴</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body data-root="../../">
+<header class="topbar"><div class="topbar-in">
+<a class="brand" href="../../index.html">aruori6 <span>整合包图鉴</span></a>
+<div class="searchbox">
+  <div class="search-row">
+    <input id="q" type="text" placeholder="搜索物品：中文名 / 英文名 / ID…" autocomplete="off" spellcheck="false">
+    <div class="mode-toggle" id="modeToggle">
+      <button type="button" data-m="simple">简单</button><button type="button" data-m="full">精确</button>
+    </div>
+  </div>
+  <div id="results" class="search-results" hidden></div>
+</div>
+</div></header>
+<div id="tt" hidden></div>
+<main class="wrap"><div class="vanilla-banner">⚠ 此原版内容已被修改 —— <a href="#vanilla-changes">查看修改详情</a></div><div class="infobox"><div class="bigicon"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="烈焰棒"></div><div><h1 class="ib-title">烈焰棒</h1><p class="ib-sub">Blaze Rod</p><div class="ib-rows"><span>英文名: Blaze Rod</span><span>命名空间 ID: <code>minecraft:blaze_rod</code></span><span>类型: <span class="kind-tag">物品</span></span><span>所属模组: <a class="mod-badge" href="../../mod/minecraft.html">Minecraft</a></span><span>资料检索: <a href="https://cn.bing.com/search?q=site%3Amcmod.cn%20%E7%83%88%E7%84%B0%E6%A3%92" target="_blank" rel="noopener noreferrer">🔎 在 MC百科 搜索「烈焰棒」</a></span></div></div></div><section><h2>所属标签</h2><div class="tag-cloud"><a class="tag-chip" href="../../tags/eternal_starlight/blaze_crystal_ingredients.html">#eternal_starlight:blaze_crystal_ingredients</a><a class="tag-chip" href="../../tags/eternal_starlight/lunar_monstrosity_igniters.html">#eternal_starlight:lunar_monstrosity_igniters</a><a class="tag-chip" href="../../tags/eternal_starlight/stellagmite_igniters.html">#eternal_starlight:stellagmite_igniters</a><a class="tag-chip" href="../../tags/irons_spellbooks/fire_focus.html">#irons_spellbooks:fire_focus</a><a class="tag-chip" href="../../tags/irons_spellbooks/lootable_focus.html">#irons_spellbooks:lootable_focus</a><a class="tag-chip" href="../../tags/irons_spellbooks/school_focus.html">#irons_spellbooks:school_focus</a></div></section><section><h2>获取方式</h2><h3>生物掉落 <span class="cnt-chip">(1)</span></h3><ul class="ob-list"><li><code>minecraft:blaze</code></li></ul><h3>战利品箱 <span class="cnt-chip">(1)</span></h3><ul class="ob-list"><li><code>irons_spellbooks:chests/pyromancer_tower/pyromancer_supplies</code></li></ul><h3>方块掉落 <span class="cnt-chip">(1)</span></h3><ul class="ob-list"><li><a href="../../item/kaleidoscope_cookery/blaze_lamb_chop.html" title="kaleidoscope_cookery:blaze_lamb_chop">烈焰羊排</a></li></ul></section><div class="notice">纯原版配方（合成、烧炼等）不在本图鉴收录范围，以下仅列出模组与 CraftTweaker 相关配方。</div><section><h2>模组配方 · 产自 <span class="cnt-chip">(5)</span></h2><div class="recipe"><div class="recipe-head"><span class="rtype">oritech:assembler</span><a class="mod-badge" href="../../mod/oritech.html">Oritech</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/minecraft/blaze_powder.html" data-tt="烈焰粉" data-tt-sub="minecraft:blaze_powder" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_powder.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_powder.html" data-tt="烈焰粉" data-tt-sub="minecraft:blaze_powder" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_powder.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_powder.html" data-tt="烈焰粉" data-tt-sub="minecraft:blaze_powder" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_powder.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_powder.html" data-tt="烈焰粉" data-tt-sub="minecraft:blaze_powder" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_powder.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;oritech:assembler&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;item&quot;: &quot;minecraft:blaze_powder&quot;
+    },
+    {
+      &quot;item&quot;: &quot;minecraft:blaze_powder&quot;
+    },
+    {
+      &quot;item&quot;: &quot;minecraft:blaze_powder&quot;
+    },
+    {
+      &quot;item&quot;: &quot;minecraft:blaze_powder&quot;
+    }
+  ],
+  &quot;results&quot;: [
+    {
+      &quot;count&quot;: 1,
+      &quot;id&quot;: &quot;minecraft:blaze_rod&quot;
+    }
+  ],
+  &quot;time&quot;: 96
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">energizedpower:assembling_machine</span><a class="mod-badge" href="../../mod/oritech.html">Oritech</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/minecraft/blaze_powder.html" data-tt="烈焰粉" data-tt-sub="minecraft:blaze_powder" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_powder.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;neoforge:mod_loaded&quot;,
+      &quot;modid&quot;: &quot;energizedpower&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;energizedpower:assembling_machine&quot;,
+  &quot;inputs&quot;: [
+    {
+      &quot;input&quot;: {
+        &quot;item&quot;: &quot;minecraft:blaze_powder&quot;
+      }
+    },
+    {
+      &quot;input&quot;: {
+        &quot;item&quot;: &quot;minecraft:blaze_powder&quot;
+      }
+    },
+    {
+      &quot;input&quot;: {
+        &quot;item&quot;: &quot;minecraft:blaze_powder&quot;
+      }
+    },
+    {
+      &quot;input&quot;: {
+        &quot;item&quot;: &quot;minecraft:blaze_powder&quot;
+      }
+    }
+  ],
+  &quot;output&quot;: {
+    &quot;item&quot;: &quot;minecraft:blaze_rod&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">高炉熔炼</span><a class="mod-badge" href="../../mod/rubinated_nether.html">Rubinated Nether</a></div><div class="recipe-body"><div class="gui-furnace"><div class="gui-col"><a class="slot" href="../../item/rubinated_nether/bronze_rod.html" data-tt="青铜棒" data-tt-sub="rubinated_nether:bronze_rod" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/item/bronze_rod.png" alt="" loading="lazy"></a><span class="flame" aria-hidden="true">🔥</span></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a></div></div><div class="recipe-meta">耗时 100 tick · 经验 0.7 · 类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:blasting&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;cookingtime&quot;: 100,
+  &quot;experience&quot;: 0.7,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;rubinated_nether:bronze_rod&quot;
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:blaze_rod&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">熔炼（熔炉）</span><a class="mod-badge" href="../../mod/rubinated_nether.html">Rubinated Nether</a></div><div class="recipe-body"><div class="gui-furnace"><div class="gui-col"><a class="slot" href="../../item/rubinated_nether/bronze_rod.html" data-tt="青铜棒" data-tt-sub="rubinated_nether:bronze_rod" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/item/bronze_rod.png" alt="" loading="lazy"></a><span class="flame" aria-hidden="true">🔥</span></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a></div></div><div class="recipe-meta">耗时 200 tick · 经验 0.7 · 类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:smelting&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;cookingtime&quot;: 200,
+  &quot;experience&quot;: 0.7,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;rubinated_nether:bronze_rod&quot;
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:blaze_rod&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">rubinated_nether:freezing</span><a class="mod-badge" href="../../mod/rubinated_nether.html">Rubinated Nether</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/rubinated_nether/bronze_rod.html" data-tt="青铜棒" data-tt-sub="rubinated_nether:bronze_rod" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/item/bronze_rod.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;rubinated_nether:freezing&quot;,
+  &quot;category&quot;: &quot;freezable_misc&quot;,
+  &quot;cookingtime&quot;: 400,
+  &quot;experience&quot;: 1.0,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;rubinated_nether:bronze_rod&quot;
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:blaze_rod&quot;
+  }
+}</pre></details><div class="recipe-meta">耗时 400 tick · 经验 1.0 · 类别 freezable_misc</div></div></section><section><h2>模组配方 · 用于 <span class="cnt-chip">(25)</span></h2><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/eternal_starlight.html">Eternal Starlight</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/eternal_starlight/red_starlight_crystal_shard.html" data-tt="红色星辉水晶碎片" data-tt-sub="eternal_starlight:red_starlight_crystal_shard" data-tt-mod="Eternal Starlight" tabindex="0"><img src="../../textures/eternal_starlight/textures/item/red_starlight_crystal_shard.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/eternal_starlight/red_starlight_crystal_shard.html" data-tt="红色星辉水晶碎片" data-tt-sub="eternal_starlight:red_starlight_crystal_shard" data-tt-mod="Eternal Starlight" tabindex="0"><img src="../../textures/eternal_starlight/textures/item/red_starlight_crystal_shard.png" alt="" loading="lazy"></a><a class="slot tag" href="../../tags/eternal_starlight/blaze_crystal_ingredients.html" data-tt="#eternal_starlight:blaze_crystal_ingredients（6 个成员）：烈焰棒、烈焰粉、火焰弹、落日刺球、热泉石、热泉石锭" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/eternal_starlight/red_starlight_crystal_shard.html" data-tt="红色星辉水晶碎片" data-tt-sub="eternal_starlight:red_starlight_crystal_shard" data-tt-mod="Eternal Starlight" tabindex="0"><img src="../../textures/eternal_starlight/textures/item/red_starlight_crystal_shard.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/eternal_starlight/red_starlight_crystal_shard.html" data-tt="红色星辉水晶碎片" data-tt-sub="eternal_starlight:red_starlight_crystal_shard" data-tt-mod="Eternal Starlight" tabindex="0"><img src="../../textures/eternal_starlight/textures/item/red_starlight_crystal_shard.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/eternal_starlight/blaze_crystal.html" data-tt="炽焰水晶" data-tt-sub="eternal_starlight:blaze_crystal" data-tt-mod="Eternal Starlight" tabindex="0"><img src="../../textures/eternal_starlight/textures/item/blaze_crystal.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;key&quot;: {
+    &quot;C&quot;: {
+      &quot;tag&quot;: &quot;eternal_starlight:blaze_crystal_ingredients&quot;
+    },
+    &quot;S&quot;: {
+      &quot;item&quot;: &quot;eternal_starlight:red_starlight_crystal_shard&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot; S &quot;,
+    &quot;SCS&quot;,
+    &quot; S &quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;eternal_starlight:blaze_crystal&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/immersive_aircraft.html">Immersive Aircraft</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/magma_cream.html" data-tt="岩浆膏" data-tt-sub="minecraft:magma_cream" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/magma_cream.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/netherite_ingot.html" data-tt="下界合金锭" data-tt-sub="minecraft:netherite_ingot" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/netherite_ingot.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/magma_cream.html" data-tt="岩浆膏" data-tt-sub="minecraft:magma_cream" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/magma_cream.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a><a class="slot" href="../../item/immersive_aircraft/engine.html" data-tt="发动机" data-tt-sub="immersive_aircraft:engine" data-tt-mod="Immersive Aircraft" tabindex="0"><img src="../../textures/immersive_aircraft/textures/item/engine.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/nether_brick.html" data-tt="下界砖" data-tt-sub="minecraft:nether_brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/nether_brick.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/nether_brick.html" data-tt="下界砖" data-tt-sub="minecraft:nether_brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/nether_brick.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/nether_brick.html" data-tt="下界砖" data-tt-sub="minecraft:nether_brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/nether_brick.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/immersive_aircraft/nether_engine.html" data-tt="下界发动机" data-tt-sub="immersive_aircraft:nether_engine" data-tt-mod="Immersive Aircraft" tabindex="0"><img src="../../textures/immersive_aircraft/textures/item/nether_engine.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;CNC&quot;,
+    &quot;BEB&quot;,
+    &quot;RRR&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;C&quot;: [
+      {
+        &quot;item&quot;: &quot;minecraft:magma_cream&quot;
+      }
+    ],
+    &quot;B&quot;: [
+      {
+        &quot;item&quot;: &quot;minecraft:blaze_rod&quot;
+      }
+    ],
+    &quot;R&quot;: [
+      {
+        &quot;item&quot;: &quot;minecraft:nether_brick&quot;
+      }
+    ],
+    &quot;N&quot;: [
+      {
+        &quot;item&quot;: &quot;minecraft:netherite_ingot&quot;
+      }
+    ],
+    &quot;E&quot;: [
+      {
+        &quot;item&quot;: &quot;immersive_aircraft:engine&quot;
+      }
+    ]
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;immersive_aircraft:nether_engine&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/immersive_aircraft.html">Immersive Aircraft</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/magma_cream.html" data-tt="岩浆膏" data-tt-sub="minecraft:magma_cream" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/magma_cream.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/netherite_ingot.html" data-tt="下界合金锭" data-tt-sub="minecraft:netherite_ingot" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/netherite_ingot.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/magma_cream.html" data-tt="岩浆膏" data-tt-sub="minecraft:magma_cream" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/magma_cream.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a><a class="slot" href="../../item/immersive_aircraft/engine.html" data-tt="发动机" data-tt-sub="immersive_aircraft:engine" data-tt-mod="Immersive Aircraft" tabindex="0"><img src="../../textures/immersive_aircraft/textures/item/engine.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/nether_brick.html" data-tt="下界砖" data-tt-sub="minecraft:nether_brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/nether_brick.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/nether_brick.html" data-tt="下界砖" data-tt-sub="minecraft:nether_brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/nether_brick.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/nether_brick.html" data-tt="下界砖" data-tt-sub="minecraft:nether_brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/nether_brick.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/immersive_aircraft/nether_engine.html" data-tt="下界发动机" data-tt-sub="immersive_aircraft:nether_engine" data-tt-mod="Immersive Aircraft" tabindex="0"><img src="../../textures/immersive_aircraft/textures/item/nether_engine.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;CNC&quot;,
+    &quot;BEB&quot;,
+    &quot;RRR&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;C&quot;: [
+      {
+        &quot;item&quot;: &quot;minecraft:magma_cream&quot;
+      }
+    ],
+    &quot;B&quot;: [
+      {
+        &quot;item&quot;: &quot;minecraft:blaze_rod&quot;
+      }
+    ],
+    &quot;R&quot;: [
+      {
+        &quot;item&quot;: &quot;minecraft:nether_brick&quot;
+      }
+    ],
+    &quot;N&quot;: [
+      {
+        &quot;item&quot;: &quot;minecraft:netherite_ingot&quot;
+      }
+    ],
+    &quot;E&quot;: [
+      {
+        &quot;item&quot;: &quot;immersive_aircraft:engine&quot;
+      }
+    ]
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;immersive_aircraft:nether_engine&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/irons_spellbooks.html">Iron&#x27;s Spells &#x27;n Spellbooks</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/irons_spellbooks/blank_rune.html" data-tt="空白符文" data-tt-sub="irons_spellbooks:blank_rune" data-tt-mod="Iron&#x27;s Spells &#x27;n Spellbooks" tabindex="0"><img src="../../textures/irons_spellbooks/textures/item/blank_rune.png" alt="" loading="lazy"></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/irons_spellbooks/fire_rune.html" data-tt="炽焰符文" data-tt-sub="irons_spellbooks:fire_rune" data-tt-mod="Iron&#x27;s Spells &#x27;n Spellbooks" tabindex="0"><img src="../../textures/irons_spellbooks/textures/item/fire_rune.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;FFF&quot;,
+    &quot;FRF&quot;,
+    &quot;FFF&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;F&quot;: {
+      &quot;tag&quot;: &quot;irons_spellbooks:fire_focus&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;irons_spellbooks:blank_rune&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;irons_spellbooks:fire_rune&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/irons_spellbooks.html">Iron&#x27;s Spells &#x27;n Spellbooks</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/irons_spellbooks/blank_rune.html" data-tt="空白符文" data-tt-sub="irons_spellbooks:blank_rune" data-tt-mod="Iron&#x27;s Spells &#x27;n Spellbooks" tabindex="0"><img src="../../textures/irons_spellbooks/textures/item/blank_rune.png" alt="" loading="lazy"></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/irons_spellbooks/fire_rune.html" data-tt="炽焰符文" data-tt-sub="irons_spellbooks:fire_rune" data-tt-mod="Iron&#x27;s Spells &#x27;n Spellbooks" tabindex="0"><img src="../../textures/irons_spellbooks/textures/item/fire_rune.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;FFF&quot;,
+    &quot;FRF&quot;,
+    &quot;FFF&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;F&quot;: {
+      &quot;tag&quot;: &quot;irons_spellbooks:fire_focus&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;irons_spellbooks:blank_rune&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;irons_spellbooks:fire_rune&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/irons_spellbooks.html">Iron&#x27;s Spells &#x27;n Spellbooks</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/irons_spellbooks/blank_rune.html" data-tt="空白符文" data-tt-sub="irons_spellbooks:blank_rune" data-tt-mod="Iron&#x27;s Spells &#x27;n Spellbooks" tabindex="0"><img src="../../textures/irons_spellbooks/textures/item/blank_rune.png" alt="" loading="lazy"></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/irons_spellbooks/fire_rune.html" data-tt="炽焰符文" data-tt-sub="irons_spellbooks:fire_rune" data-tt-mod="Iron&#x27;s Spells &#x27;n Spellbooks" tabindex="0"><img src="../../textures/irons_spellbooks/textures/item/fire_rune.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;FFF&quot;,
+    &quot;FRF&quot;,
+    &quot;FFF&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;F&quot;: {
+      &quot;tag&quot;: &quot;irons_spellbooks:fire_focus&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;irons_spellbooks:blank_rune&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;irons_spellbooks:fire_rune&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/irons_spellbooks.html">Iron&#x27;s Spells &#x27;n Spellbooks</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/irons_spellbooks/blank_rune.html" data-tt="空白符文" data-tt-sub="irons_spellbooks:blank_rune" data-tt-mod="Iron&#x27;s Spells &#x27;n Spellbooks" tabindex="0"><img src="../../textures/irons_spellbooks/textures/item/blank_rune.png" alt="" loading="lazy"></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/irons_spellbooks/fire_rune.html" data-tt="炽焰符文" data-tt-sub="irons_spellbooks:fire_rune" data-tt-mod="Iron&#x27;s Spells &#x27;n Spellbooks" tabindex="0"><img src="../../textures/irons_spellbooks/textures/item/fire_rune.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;FFF&quot;,
+    &quot;FRF&quot;,
+    &quot;FFF&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;F&quot;: {
+      &quot;tag&quot;: &quot;irons_spellbooks:fire_focus&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;irons_spellbooks:blank_rune&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;irons_spellbooks:fire_rune&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/irons_spellbooks.html">Iron&#x27;s Spells &#x27;n Spellbooks</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/irons_spellbooks/blank_rune.html" data-tt="空白符文" data-tt-sub="irons_spellbooks:blank_rune" data-tt-mod="Iron&#x27;s Spells &#x27;n Spellbooks" tabindex="0"><img src="../../textures/irons_spellbooks/textures/item/blank_rune.png" alt="" loading="lazy"></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/irons_spellbooks/fire_rune.html" data-tt="炽焰符文" data-tt-sub="irons_spellbooks:fire_rune" data-tt-mod="Iron&#x27;s Spells &#x27;n Spellbooks" tabindex="0"><img src="../../textures/irons_spellbooks/textures/item/fire_rune.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;FFF&quot;,
+    &quot;FRF&quot;,
+    &quot;FFF&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;F&quot;: {
+      &quot;tag&quot;: &quot;irons_spellbooks:fire_focus&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;irons_spellbooks:blank_rune&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;irons_spellbooks:fire_rune&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/irons_spellbooks.html">Iron&#x27;s Spells &#x27;n Spellbooks</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/irons_spellbooks/blank_rune.html" data-tt="空白符文" data-tt-sub="irons_spellbooks:blank_rune" data-tt-mod="Iron&#x27;s Spells &#x27;n Spellbooks" tabindex="0"><img src="../../textures/irons_spellbooks/textures/item/blank_rune.png" alt="" loading="lazy"></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/irons_spellbooks/fire_rune.html" data-tt="炽焰符文" data-tt-sub="irons_spellbooks:fire_rune" data-tt-mod="Iron&#x27;s Spells &#x27;n Spellbooks" tabindex="0"><img src="../../textures/irons_spellbooks/textures/item/fire_rune.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;FFF&quot;,
+    &quot;FRF&quot;,
+    &quot;FFF&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;F&quot;: {
+      &quot;tag&quot;: &quot;irons_spellbooks:fire_focus&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;irons_spellbooks:blank_rune&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;irons_spellbooks:fire_rune&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/irons_spellbooks.html">Iron&#x27;s Spells &#x27;n Spellbooks</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/irons_spellbooks/blank_rune.html" data-tt="空白符文" data-tt-sub="irons_spellbooks:blank_rune" data-tt-mod="Iron&#x27;s Spells &#x27;n Spellbooks" tabindex="0"><img src="../../textures/irons_spellbooks/textures/item/blank_rune.png" alt="" loading="lazy"></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/irons_spellbooks/fire_rune.html" data-tt="炽焰符文" data-tt-sub="irons_spellbooks:fire_rune" data-tt-mod="Iron&#x27;s Spells &#x27;n Spellbooks" tabindex="0"><img src="../../textures/irons_spellbooks/textures/item/fire_rune.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;FFF&quot;,
+    &quot;FRF&quot;,
+    &quot;FFF&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;F&quot;: {
+      &quot;tag&quot;: &quot;irons_spellbooks:fire_focus&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;irons_spellbooks:blank_rune&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;irons_spellbooks:fire_rune&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/irons_spellbooks.html">Iron&#x27;s Spells &#x27;n Spellbooks</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/irons_spellbooks/blank_rune.html" data-tt="空白符文" data-tt-sub="irons_spellbooks:blank_rune" data-tt-mod="Iron&#x27;s Spells &#x27;n Spellbooks" tabindex="0"><img src="../../textures/irons_spellbooks/textures/item/blank_rune.png" alt="" loading="lazy"></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/irons_spellbooks/fire_focus.html" data-tt="#irons_spellbooks:fire_focus（1 个成员）：烈焰棒" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/irons_spellbooks/fire_rune.html" data-tt="炽焰符文" data-tt-sub="irons_spellbooks:fire_rune" data-tt-mod="Iron&#x27;s Spells &#x27;n Spellbooks" tabindex="0"><img src="../../textures/irons_spellbooks/textures/item/fire_rune.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;FFF&quot;,
+    &quot;FRF&quot;,
+    &quot;FFF&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;F&quot;: {
+      &quot;tag&quot;: &quot;irons_spellbooks:fire_focus&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;irons_spellbooks:blank_rune&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;irons_spellbooks:fire_rune&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">vinery:wine_fermentation</span><a class="mod-badge" href="../../mod/vinery.html">[Let&#x27;s Do] Vinery</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/minecraft/sugar.html" data-tt="糖" data-tt-sub="minecraft:sugar" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/sugar.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/feather.html" data-tt="羽毛" data-tt-sub="minecraft:feather" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/feather.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/vinery/cristel_wine.html" data-tt="信徒葡萄酒" data-tt-sub="vinery:cristel_wine" data-tt-mod="[Let&#x27;s Do] Vinery" tabindex="0"><img src="../../textures/_rendered/elem_fb13e320faf6e4f8.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;vinery:wine_fermentation&quot;,
+  &quot;juice&quot;: {
+    &quot;type&quot;: &quot;red_general&quot;,
+    &quot;amount&quot;: 25
+  },
+  &quot;ingredients&quot;: [
+    {
+      &quot;item&quot;: &quot;minecraft:sugar&quot;
+    },
+    {
+      &quot;item&quot;: &quot;minecraft:feather&quot;
+    },
+    {
+      &quot;item&quot;: &quot;minecraft:blaze_rod&quot;
+    }
+  ],
+  &quot;wine_bottle&quot;: {
+    &quot;required&quot;: true
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;vinery:cristel_wine&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">oritech:grinder</span><a class="mod-badge" href="../../mod/oritech.html">Oritech</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot has-cnt" href="../../item/minecraft/blaze_powder.html" data-tt="烈焰粉" data-tt-sub="minecraft:blaze_powder" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_powder.png" alt="" loading="lazy"><span class="cnt">4</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;oritech:grinder&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;item&quot;: &quot;minecraft:blaze_rod&quot;
+    }
+  ],
+  &quot;results&quot;: [
+    {
+      &quot;count&quot;: 4,
+      &quot;id&quot;: &quot;minecraft:blaze_powder&quot;
+    }
+  ],
+  &quot;time&quot;: 40
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">oritech:pulverizer</span><a class="mod-badge" href="../../mod/oritech.html">Oritech</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot has-cnt" href="../../item/minecraft/blaze_powder.html" data-tt="烈焰粉" data-tt-sub="minecraft:blaze_powder" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_powder.png" alt="" loading="lazy"><span class="cnt">3</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;oritech:pulverizer&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;item&quot;: &quot;minecraft:blaze_rod&quot;
+    }
+  ],
+  &quot;results&quot;: [
+    {
+      &quot;count&quot;: 3,
+      &quot;id&quot;: &quot;minecraft:blaze_powder&quot;
+    }
+  ],
+  &quot;time&quot;: 100
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/rubinated_nether.html">Rubinated Nether</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/bronze_block.html" data-tt="青铜块" data-tt-sub="rubinated_nether:bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/5e1428fe0e3bd4f5.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/bronze_block.html" data-tt="青铜块" data-tt-sub="rubinated_nether:bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/5e1428fe0e3bd4f5.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a><a class="slot" href="../../item/rubinated_nether/bronze_block.html" data-tt="青铜块" data-tt-sub="rubinated_nether:bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/5e1428fe0e3bd4f5.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/redstone.html" data-tt="红石粉" data-tt-sub="minecraft:redstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/redstone.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/rubinated_nether/bronze_bulb.html" data-tt="青铜灯" data-tt-sub="rubinated_nether:bronze_bulb" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/e5c5d53b2d0da31e.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 redstone</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;redstone&quot;,
+  &quot;key&quot;: {
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;rubinated_nether:bronze_block&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;minecraft:redstone&quot;
+    },
+    &quot;X&quot;: {
+      &quot;item&quot;: &quot;minecraft:blaze_rod&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot; B &quot;,
+    &quot;BXB&quot;,
+    &quot; R &quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;rubinated_nether:bronze_bulb&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/rubinated_nether.html">Rubinated Nether</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/corroded_bronze_block.html" data-tt="腐蚀的青铜块" data-tt-sub="rubinated_nether:corroded_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/5f62a4fec8227534.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/corroded_bronze_block.html" data-tt="腐蚀的青铜块" data-tt-sub="rubinated_nether:corroded_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/5f62a4fec8227534.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a><a class="slot" href="../../item/rubinated_nether/corroded_bronze_block.html" data-tt="腐蚀的青铜块" data-tt-sub="rubinated_nether:corroded_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/5f62a4fec8227534.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/redstone.html" data-tt="红石粉" data-tt-sub="minecraft:redstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/redstone.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/rubinated_nether/corroded_bronze_bulb.html" data-tt="腐蚀的青铜灯" data-tt-sub="rubinated_nether:corroded_bronze_bulb" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/c7f39cc408897184.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 redstone</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;redstone&quot;,
+  &quot;key&quot;: {
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;rubinated_nether:corroded_bronze_block&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;minecraft:redstone&quot;
+    },
+    &quot;X&quot;: {
+      &quot;item&quot;: &quot;minecraft:blaze_rod&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot; B &quot;,
+    &quot;BXB&quot;,
+    &quot; R &quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;rubinated_nether:corroded_bronze_bulb&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/rubinated_nether.html">Rubinated Nether</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/crystallized_bronze_block.html" data-tt="晶化青铜块" data-tt-sub="rubinated_nether:crystallized_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/c42644d8436c9663.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/crystallized_bronze_block.html" data-tt="晶化青铜块" data-tt-sub="rubinated_nether:crystallized_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/c42644d8436c9663.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a><a class="slot" href="../../item/rubinated_nether/crystallized_bronze_block.html" data-tt="晶化青铜块" data-tt-sub="rubinated_nether:crystallized_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/c42644d8436c9663.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/redstone.html" data-tt="红石粉" data-tt-sub="minecraft:redstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/redstone.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/rubinated_nether/crystallized_bronze_bulb.html" data-tt="晶化青铜灯" data-tt-sub="rubinated_nether:crystallized_bronze_bulb" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/1b3837a253720c19.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 redstone</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;redstone&quot;,
+  &quot;key&quot;: {
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;rubinated_nether:crystallized_bronze_block&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;minecraft:redstone&quot;
+    },
+    &quot;X&quot;: {
+      &quot;item&quot;: &quot;minecraft:blaze_rod&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot; B &quot;,
+    &quot;BXB&quot;,
+    &quot; R &quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;rubinated_nether:crystallized_bronze_bulb&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/rubinated_nether.html">Rubinated Nether</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/discolored_bronze_block.html" data-tt="脱色的青铜块" data-tt-sub="rubinated_nether:discolored_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/01b2d315bd69fb7c.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/discolored_bronze_block.html" data-tt="脱色的青铜块" data-tt-sub="rubinated_nether:discolored_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/01b2d315bd69fb7c.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a><a class="slot" href="../../item/rubinated_nether/discolored_bronze_block.html" data-tt="脱色的青铜块" data-tt-sub="rubinated_nether:discolored_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/01b2d315bd69fb7c.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/redstone.html" data-tt="红石粉" data-tt-sub="minecraft:redstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/redstone.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/rubinated_nether/discolored_bronze_bulb.html" data-tt="脱色的青铜灯" data-tt-sub="rubinated_nether:discolored_bronze_bulb" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/2d42788f0ccc39fc.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 redstone</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;redstone&quot;,
+  &quot;key&quot;: {
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;rubinated_nether:discolored_bronze_block&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;minecraft:redstone&quot;
+    },
+    &quot;X&quot;: {
+      &quot;item&quot;: &quot;minecraft:blaze_rod&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot; B &quot;,
+    &quot;BXB&quot;,
+    &quot; R &quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;rubinated_nether:discolored_bronze_bulb&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/rubinated_nether.html">Rubinated Nether</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/tarnished_bronze_block.html" data-tt="褪色的青铜块" data-tt-sub="rubinated_nether:tarnished_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/bc9b1db14be517cc.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/tarnished_bronze_block.html" data-tt="褪色的青铜块" data-tt-sub="rubinated_nether:tarnished_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/bc9b1db14be517cc.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a><a class="slot" href="../../item/rubinated_nether/tarnished_bronze_block.html" data-tt="褪色的青铜块" data-tt-sub="rubinated_nether:tarnished_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/bc9b1db14be517cc.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/redstone.html" data-tt="红石粉" data-tt-sub="minecraft:redstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/redstone.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/rubinated_nether/tarnished_bronze_bulb.html" data-tt="褪色的青铜灯" data-tt-sub="rubinated_nether:tarnished_bronze_bulb" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/_rendered/df22f52f152b45ca.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 redstone</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;redstone&quot;,
+  &quot;key&quot;: {
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;rubinated_nether:tarnished_bronze_block&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;minecraft:redstone&quot;
+    },
+    &quot;X&quot;: {
+      &quot;item&quot;: &quot;minecraft:blaze_rod&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot; B &quot;,
+    &quot;BXB&quot;,
+    &quot; R &quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;rubinated_nether:tarnished_bronze_bulb&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/rubinated_nether.html">Rubinated Nether</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/waxed_bronze_block.html" data-tt="涂蜡的青铜块" data-tt-sub="rubinated_nether:waxed_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_block/bronze_block.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/waxed_bronze_block.html" data-tt="涂蜡的青铜块" data-tt-sub="rubinated_nether:waxed_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_block/bronze_block.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a><a class="slot" href="../../item/rubinated_nether/waxed_bronze_block.html" data-tt="涂蜡的青铜块" data-tt-sub="rubinated_nether:waxed_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_block/bronze_block.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/redstone.html" data-tt="红石粉" data-tt-sub="minecraft:redstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/redstone.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/rubinated_nether/waxed_bronze_bulb.html" data-tt="涂蜡的青铜灯" data-tt-sub="rubinated_nether:waxed_bronze_bulb" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_bulb/bronze_bulb.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 redstone</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;redstone&quot;,
+  &quot;key&quot;: {
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;rubinated_nether:waxed_bronze_block&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;minecraft:redstone&quot;
+    },
+    &quot;X&quot;: {
+      &quot;item&quot;: &quot;minecraft:blaze_rod&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot; B &quot;,
+    &quot;BXB&quot;,
+    &quot; R &quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;rubinated_nether:waxed_bronze_bulb&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/rubinated_nether.html">Rubinated Nether</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/waxed_corroded_bronze_block.html" data-tt="涂蜡的腐蚀青铜块" data-tt-sub="rubinated_nether:waxed_corroded_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_block/corroded_bronze_block.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/waxed_corroded_bronze_block.html" data-tt="涂蜡的腐蚀青铜块" data-tt-sub="rubinated_nether:waxed_corroded_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_block/corroded_bronze_block.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a><a class="slot" href="../../item/rubinated_nether/waxed_corroded_bronze_block.html" data-tt="涂蜡的腐蚀青铜块" data-tt-sub="rubinated_nether:waxed_corroded_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_block/corroded_bronze_block.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/redstone.html" data-tt="红石粉" data-tt-sub="minecraft:redstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/redstone.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/rubinated_nether/waxed_corroded_bronze_bulb.html" data-tt="涂蜡的腐蚀青铜灯" data-tt-sub="rubinated_nether:waxed_corroded_bronze_bulb" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_bulb/corroded_bronze_bulb.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 redstone</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;redstone&quot;,
+  &quot;key&quot;: {
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;rubinated_nether:waxed_corroded_bronze_block&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;minecraft:redstone&quot;
+    },
+    &quot;X&quot;: {
+      &quot;item&quot;: &quot;minecraft:blaze_rod&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot; B &quot;,
+    &quot;BXB&quot;,
+    &quot; R &quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;rubinated_nether:waxed_corroded_bronze_bulb&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/rubinated_nether.html">Rubinated Nether</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/waxed_crystallized_bronze_block.html" data-tt="涂蜡的晶化青铜块" data-tt-sub="rubinated_nether:waxed_crystallized_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_block/crystallized_bronze_block.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/waxed_crystallized_bronze_block.html" data-tt="涂蜡的晶化青铜块" data-tt-sub="rubinated_nether:waxed_crystallized_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_block/crystallized_bronze_block.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a><a class="slot" href="../../item/rubinated_nether/waxed_crystallized_bronze_block.html" data-tt="涂蜡的晶化青铜块" data-tt-sub="rubinated_nether:waxed_crystallized_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_block/crystallized_bronze_block.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/redstone.html" data-tt="红石粉" data-tt-sub="minecraft:redstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/redstone.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/rubinated_nether/waxed_crystallized_bronze_bulb.html" data-tt="涂蜡的晶化青铜灯" data-tt-sub="rubinated_nether:waxed_crystallized_bronze_bulb" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_bulb/crystallized_bronze_bulb.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 redstone</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;redstone&quot;,
+  &quot;key&quot;: {
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;rubinated_nether:waxed_crystallized_bronze_block&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;minecraft:redstone&quot;
+    },
+    &quot;X&quot;: {
+      &quot;item&quot;: &quot;minecraft:blaze_rod&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot; B &quot;,
+    &quot;BXB&quot;,
+    &quot; R &quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;rubinated_nether:waxed_crystallized_bronze_bulb&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/rubinated_nether.html">Rubinated Nether</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/waxed_discolored_bronze_block.html" data-tt="涂蜡的脱色青铜块" data-tt-sub="rubinated_nether:waxed_discolored_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_block/discolored_bronze_block.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/waxed_discolored_bronze_block.html" data-tt="涂蜡的脱色青铜块" data-tt-sub="rubinated_nether:waxed_discolored_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_block/discolored_bronze_block.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a><a class="slot" href="../../item/rubinated_nether/waxed_discolored_bronze_block.html" data-tt="涂蜡的脱色青铜块" data-tt-sub="rubinated_nether:waxed_discolored_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_block/discolored_bronze_block.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/redstone.html" data-tt="红石粉" data-tt-sub="minecraft:redstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/redstone.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/rubinated_nether/waxed_discolored_bronze_bulb.html" data-tt="涂蜡的脱色青铜灯" data-tt-sub="rubinated_nether:waxed_discolored_bronze_bulb" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_bulb/discolored_bronze_bulb.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 redstone</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;redstone&quot;,
+  &quot;key&quot;: {
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;rubinated_nether:waxed_discolored_bronze_block&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;minecraft:redstone&quot;
+    },
+    &quot;X&quot;: {
+      &quot;item&quot;: &quot;minecraft:blaze_rod&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot; B &quot;,
+    &quot;BXB&quot;,
+    &quot; R &quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;rubinated_nether:waxed_discolored_bronze_bulb&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/rubinated_nether.html">Rubinated Nether</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/waxed_tarnished_bronze_block.html" data-tt="涂蜡的褪色青铜块" data-tt-sub="rubinated_nether:waxed_tarnished_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_block/tarnished_bronze_block.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/rubinated_nether/waxed_tarnished_bronze_block.html" data-tt="涂蜡的褪色青铜块" data-tt-sub="rubinated_nether:waxed_tarnished_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_block/tarnished_bronze_block.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a><a class="slot" href="../../item/rubinated_nether/waxed_tarnished_bronze_block.html" data-tt="涂蜡的褪色青铜块" data-tt-sub="rubinated_nether:waxed_tarnished_bronze_block" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_block/tarnished_bronze_block.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/redstone.html" data-tt="红石粉" data-tt-sub="minecraft:redstone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/redstone.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/rubinated_nether/waxed_tarnished_bronze_bulb.html" data-tt="涂蜡的褪色青铜灯" data-tt-sub="rubinated_nether:waxed_tarnished_bronze_bulb" data-tt-mod="Rubinated Nether" tabindex="0"><img src="../../textures/rubinated_nether/textures/block/bronze/bronze_bulb/tarnished_bronze_bulb.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 redstone</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;redstone&quot;,
+  &quot;key&quot;: {
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;rubinated_nether:waxed_tarnished_bronze_block&quot;
+    },
+    &quot;R&quot;: {
+      &quot;item&quot;: &quot;minecraft:redstone&quot;
+    },
+    &quot;X&quot;: {
+      &quot;item&quot;: &quot;minecraft:blaze_rod&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot; B &quot;,
+    &quot;BXB&quot;,
+    &quot; R &quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;rubinated_nether:waxed_tarnished_bronze_bulb&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/tide.html">Tide</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><span class="slot empty"></span><a class="slot" href="../../item/minecraft/blaze_rod.html" data-tt="烈焰棒" data-tt-sub="minecraft:blaze_rod" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/blaze_rod.png" alt="" loading="lazy"></a><a class="slot tag" href="../../tags/c/ingots_iron.html" data-tt="#c:ingots/iron（1 个成员）：铁锭" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/iron_ingot.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><span class="slot empty"></span><a class="slot tag" href="../../tags/c/ingots_iron.html" data-tt="#c:ingots/iron（1 个成员）：铁锭" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/iron_ingot.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><span class="slot empty"></span><a class="slot tag" href="../../tags/c/ingots_iron.html" data-tt="#c:ingots/iron（1 个成员）：铁锭" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/iron_ingot.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/tide/fiery_hook.html" data-tt="炽热钓钩" data-tt-sub="tide:fiery_hook" data-tt-mod="Tide" tabindex="0"><img src="../../textures/tide/textures/item/fiery_hook.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 equipment</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;equipment&quot;,
+  &quot;key&quot;: {
+    &quot;#&quot;: {
+      &quot;item&quot;: &quot;minecraft:blaze_rod&quot;
+    },
+    &quot;I&quot;: {
+      &quot;tag&quot;: &quot;c:ingots/iron&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;  #&quot;,
+    &quot;I I&quot;,
+    &quot; I &quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;tide:fiery_hook&quot;
+  }
+}</pre></details></div></section><section id="vanilla-changes"><h2>原版修改详情 <span class="cnt-chip">(4)</span></h2><div class="vc-group"><h3>标签指向 <span class="cnt-chip">(4)</span></h3><div class="vc-line"><a class="mod-badge" href="../../mod/eternal_starlight.html">Eternal Starlight</a> 被标签 eternal_starlight:blaze_crystal_ingredients 收录</div><div class="vc-line"><a class="mod-badge" href="../../mod/eternal_starlight.html">Eternal Starlight</a> 被标签 eternal_starlight:lunar_monstrosity_igniters 收录</div><div class="vc-line"><a class="mod-badge" href="../../mod/eternal_starlight.html">Eternal Starlight</a> 被标签 eternal_starlight:stellagmite_igniters 收录</div><div class="vc-line"><a class="mod-badge" href="../../mod/irons_spellbooks.html">Iron&#x27;s Spells &#x27;n Spellbooks</a> 被标签 irons_spellbooks:fire_focus 收录</div></div></section></main>
+<footer>aruori6 整合包图鉴 · 纯静态离线生成 · 数据来自整合包资源与 CraftTweaker 脚本</footer>
+<script src="../../assets/search.js"></script>
+</body>
+</html>

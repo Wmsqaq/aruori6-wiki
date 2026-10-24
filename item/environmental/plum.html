@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>李子 - aruori6 整合包图鉴</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body data-root="../../">
+<header class="topbar"><div class="topbar-in">
+<a class="brand" href="../../index.html">aruori6 <span>整合包图鉴</span></a>
+<div class="searchbox">
+  <div class="search-row">
+    <input id="q" type="text" placeholder="搜索物品：中文名 / 英文名 / ID…" autocomplete="off" spellcheck="false">
+    <div class="mode-toggle" id="modeToggle">
+      <button type="button" data-m="simple">简单</button><button type="button" data-m="full">精确</button>
+    </div>
+  </div>
+  <div id="results" class="search-results" hidden></div>
+</div>
+</div></header>
+<div id="tt" hidden></div>
+<main class="wrap"><div class="infobox"><div class="bigicon"><img src="../../textures/environmental/textures/item/plum.png" alt="李子"></div><div><h1 class="ib-title">李子</h1><p class="ib-sub">Plum</p><div class="ib-rows"><span>英文名: Plum</span><span>命名空间 ID: <code>environmental:plum</code></span><span>类型: <span class="kind-tag">物品</span></span><span>所属模组: <a class="mod-badge" href="../../mod/environmental.html">Environmental</a></span><span>资料检索: <a href="https://cn.bing.com/search?q=site%3Amcmod.cn%20%E6%9D%8E%E5%AD%90" target="_blank" rel="noopener noreferrer">🔎 在 MC百科 搜索「李子」</a></span></div></div></div><section><h2>所属标签</h2><div class="tag-cloud"><a class="tag-chip" href="../../tags/c/crops_plum.html">#c:crops/plum</a><a class="tag-chip" href="../../tags/c/foods_fruit.html">#c:foods/fruit</a><a class="tag-chip" href="../../tags/c/foods_plum.html">#c:foods/plum</a><a class="tag-chip" href="../../tags/c/foods_plums.html">#c:foods/plums</a><a class="tag-chip" href="../../tags/c/fruits_plum.html">#c:fruits/plum</a><a class="tag-chip" href="../../tags/ecologics/coconut_crab_tempt_items.html">#ecologics:coconut_crab_tempt_items</a></div></section><section><h2>获取方式</h2><h3>方块掉落 <span class="cnt-chip">(3)</span></h3><ul class="ob-list"><li><a href="../../item/environmental/cheerful_plum_leaves.html" title="environmental:cheerful_plum_leaves">明朗李树树叶</a></li><li><a href="../../item/environmental/moody_plum_leaves.html" title="environmental:moody_plum_leaves">阴沉李树树叶</a></li><li><a href="../../item/environmental/plum_leaves.html" title="environmental:plum_leaves">李树树叶</a></li></ul></section><section><h2>合成获得 <span class="cnt-chip">(2)</span></h2><div class="recipe"><div class="recipe-head"><span class="rtype">无序合成</span><a class="mod-badge" href="../../mod/environmental.html">Environmental</a></div><div class="recipe-body"><div class="gui-col"><div class="slot-row"><a class="slot" href="../../item/environmental/plum_crate.html" data-tt="箱装李子" data-tt-sub="environmental:plum_crate" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/_rendered/97e448050dc159b6.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"><span class="cnt">9</span></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;neoforge:mod_loaded&quot;,
+      &quot;modid&quot;: &quot;berry_good&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shapeless&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;item&quot;: &quot;environmental:plum_crate&quot;
+    }
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 9,
+    &quot;id&quot;: &quot;environmental:plum&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">无序合成</span><span class="mod-badge no-link">CraftTweaker</span><span class="rsrc" title="配方来源">aruori6_recipes.zs:15</span></div><div class="recipe-body"><div class="gui-col"><div class="slot-row"><a class="slot" href="../../item/bountifulfares/plum.html" data-tt="李子" data-tt-sub="bountifulfares:plum" data-tt-mod="Bountiful Fares" tabindex="0"><img src="../../textures/bountifulfares/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/bountifulfares/plum.html" data-tt="李子" data-tt-sub="bountifulfares:plum" data-tt-mod="Bountiful Fares" tabindex="0"><img src="../../textures/bountifulfares/textures/item/plum.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"><span class="cnt">2</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;file&quot;: &quot;aruori6_recipes.zs&quot;,
+  &quot;line&quot;: 15,
+  &quot;call&quot;: &quot;craftingTable.addShapeless(\&quot;plum_change2\&quot;, &lt;item:environmental:plum&gt; * 2, [&lt;item:bountifulfares:plum&gt;, &lt;item:bountifulfares:plum&gt;]);&quot;
+}</pre></details></div></section><section><h2>用于合成 <span class="cnt-chip">(16)</span></h2><div class="recipe"><div class="recipe-head"><span class="rtype">无序合成</span><a class="mod-badge" href="../../mod/bountifulfares.html">Bountiful Fares</a></div><div class="recipe-body"><div class="gui-col"><div class="slot-row"><a class="slot tag" href="../../tags/c/foods_plums.html" data-tt="#c:foods/plums（2 个成员）：李子、李子" data-tt-tag="1" tabindex="0"><img src="../../textures/bountifulfares/textures/item/plum.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/bountifulfares/sugar_ingredients.html" data-tt="#bountifulfares:sugar_ingredients（2 个成员）：糖、蜂蜜瓶" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/sugar.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/bountifulfares/candied_plum.html" data-tt="蜜饯李子" data-tt-sub="bountifulfares:candied_plum" data-tt-mod="Bountiful Fares" tabindex="0"><img src="../../textures/bountifulfares/textures/item/candied_plum.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shapeless&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;tag&quot;: &quot;c:foods/plums&quot;
+    },
+    {
+      &quot;tag&quot;: &quot;bountifulfares:sugar_ingredients&quot;
+    }
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;bountifulfares:candied_plum&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">bountifulfares:fermenting</span><a class="mod-badge" href="../../mod/bountifulfares.html">Bountiful Fares</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot tag" href="../../tags/c/foods_plums.html" data-tt="#c:foods/plums（2 个成员）：李子、李子" data-tt-tag="1" tabindex="0"><img src="../../textures/bountifulfares/textures/item/plum.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/bountifulfares/plum_cider_jar.html" data-tt="李子酒杯" data-tt-sub="bountifulfares:plum_cider_jar" data-tt-mod="Bountiful Fares" tabindex="0"><img src="../../textures/bountifulfares/textures/item/plum_cider_jar.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;bountifulfares:fermenting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;tag&quot;: &quot;c:foods/plums&quot;
+  },
+  &quot;particle_color&quot;: 14532546,
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;bountifulfares:plum_cider_jar&quot;
+  },
+  &quot;result_count&quot;: 1
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">无序合成</span><a class="mod-badge" href="../../mod/bountifulfares.html">Bountiful Fares</a></div><div class="recipe-body"><div class="gui-col"><div class="slot-row"><a class="slot tag" href="../../tags/c/foods_plums.html" data-tt="#c:foods/plums（2 个成员）：李子、李子" data-tt-tag="1" tabindex="0"><img src="../../textures/bountifulfares/textures/item/plum.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/c/foods_plums.html" data-tt="#c:foods/plums（2 个成员）：李子、李子" data-tt-tag="1" tabindex="0"><img src="../../textures/bountifulfares/textures/item/plum.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/bountifulfares/citrus_essence.html" data-tt="柑橘精华" data-tt-sub="bountifulfares:citrus_essence" data-tt-mod="Bountiful Fares" tabindex="0"><img src="../../textures/bountifulfares/textures/item/citrus_essence.png" alt="" loading="lazy"></a><a class="slot" href="../../item/bountifulfares/jar.html" data-tt="罐子" data-tt-sub="bountifulfares:jar" data-tt-mod="Bountiful Fares" tabindex="0"><img src="../../textures/bountifulfares/textures/item/jar.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/bountifulfares/plum_compote_jar.html" data-tt="糖渍李子罐" data-tt-sub="bountifulfares:plum_compote_jar" data-tt-mod="Bountiful Fares" tabindex="0"><img src="../../textures/bountifulfares/textures/item/plum_compote_jar.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shapeless&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;tag&quot;: &quot;c:foods/plums&quot;
+    },
+    {
+      &quot;tag&quot;: &quot;c:foods/plums&quot;
+    },
+    {
+      &quot;item&quot;: &quot;bountifulfares:citrus_essence&quot;
+    },
+    {
+      &quot;item&quot;: &quot;bountifulfares:jar&quot;
+    }
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;bountifulfares:plum_compote_jar&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">无序合成</span><a class="mod-badge" href="../../mod/bountifulfares.html">Bountiful Fares</a></div><div class="recipe-body"><div class="gui-col"><div class="slot-row"><a class="slot tag" href="../../tags/c/foods_plums.html" data-tt="#c:foods/plums（2 个成员）：李子、李子" data-tt-tag="1" tabindex="0"><img src="../../textures/bountifulfares/textures/item/plum.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/c/foods_plums.html" data-tt="#c:foods/plums（2 个成员）：李子、李子" data-tt-tag="1" tabindex="0"><img src="../../textures/bountifulfares/textures/item/plum.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/bountifulfares/citrus_essence.html" data-tt="柑橘精华" data-tt-sub="bountifulfares:citrus_essence" data-tt-mod="Bountiful Fares" tabindex="0"><img src="../../textures/bountifulfares/textures/item/citrus_essence.png" alt="" loading="lazy"></a><a class="slot" href="../../item/bountifulfares/jar.html" data-tt="罐子" data-tt-sub="bountifulfares:jar" data-tt-mod="Bountiful Fares" tabindex="0"><img src="../../textures/bountifulfares/textures/item/jar.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/bountifulfares/plum_compote_jar.html" data-tt="糖渍李子罐" data-tt-sub="bountifulfares:plum_compote_jar" data-tt-mod="Bountiful Fares" tabindex="0"><img src="../../textures/bountifulfares/textures/item/plum_compote_jar.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shapeless&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;tag&quot;: &quot;c:foods/plums&quot;
+    },
+    {
+      &quot;tag&quot;: &quot;c:foods/plums&quot;
+    },
+    {
+      &quot;item&quot;: &quot;bountifulfares:citrus_essence&quot;
+    },
+    {
+      &quot;item&quot;: &quot;bountifulfares:jar&quot;
+    }
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;bountifulfares:plum_compote_jar&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">无序合成</span><a class="mod-badge" href="../../mod/bountifulfares.html">Bountiful Fares</a></div><div class="recipe-body"><div class="gui-col"><div class="slot-row"><a class="slot tag" href="../../tags/c/foods_plums.html" data-tt="#c:foods/plums（2 个成员）：李子、李子" data-tt-tag="1" tabindex="0"><img src="../../textures/bountifulfares/textures/item/plum.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot tag" href="../../tags/c/flour.html" data-tt="#c:flour（3 个成员）：面粉、面粉、面粉" data-tt-tag="1" tabindex="0"><img src="../../textures/bountifulfares/textures/item/flour.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/minecraft/egg.html" data-tt="鸡蛋" data-tt-sub="minecraft:egg" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/egg.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/sugar.html" data-tt="糖" data-tt-sub="minecraft:sugar" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/sugar.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/bountifulfares/plum_pie.html" data-tt="李子派" data-tt-sub="bountifulfares:plum_pie" data-tt-mod="Bountiful Fares" tabindex="0"><img src="../../textures/bountifulfares/textures/item/plum_pie.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shapeless&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;tag&quot;: &quot;c:foods/plums&quot;
+    },
+    {
+      &quot;tag&quot;: &quot;c:flour&quot;
+    },
+    {
+      &quot;item&quot;: &quot;minecraft:egg&quot;
+    },
+    {
+      &quot;item&quot;: &quot;minecraft:sugar&quot;
+    }
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;bountifulfares:plum_pie&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/environmental.html">Environmental</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/environmental/plum_crate.html" data-tt="箱装李子" data-tt-sub="environmental:plum_crate" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/_rendered/97e448050dc159b6.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;neoforge:mod_loaded&quot;,
+      &quot;modid&quot;: &quot;berry_good&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;key&quot;: {
+    &quot;#&quot;: {
+      &quot;item&quot;: &quot;environmental:plum&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;###&quot;,
+    &quot;###&quot;,
+    &quot;###&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;environmental:plum_crate&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/environmental.html">Environmental</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/environmental/plum_crate.html" data-tt="箱装李子" data-tt-sub="environmental:plum_crate" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/_rendered/97e448050dc159b6.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;neoforge:mod_loaded&quot;,
+      &quot;modid&quot;: &quot;berry_good&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;key&quot;: {
+    &quot;#&quot;: {
+      &quot;item&quot;: &quot;environmental:plum&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;###&quot;,
+    &quot;###&quot;,
+    &quot;###&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;environmental:plum_crate&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/environmental.html">Environmental</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/environmental/plum_crate.html" data-tt="箱装李子" data-tt-sub="environmental:plum_crate" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/_rendered/97e448050dc159b6.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;neoforge:mod_loaded&quot;,
+      &quot;modid&quot;: &quot;berry_good&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;key&quot;: {
+    &quot;#&quot;: {
+      &quot;item&quot;: &quot;environmental:plum&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;###&quot;,
+    &quot;###&quot;,
+    &quot;###&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;environmental:plum_crate&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/environmental.html">Environmental</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/environmental/plum_crate.html" data-tt="箱装李子" data-tt-sub="environmental:plum_crate" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/_rendered/97e448050dc159b6.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;neoforge:mod_loaded&quot;,
+      &quot;modid&quot;: &quot;berry_good&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;key&quot;: {
+    &quot;#&quot;: {
+      &quot;item&quot;: &quot;environmental:plum&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;###&quot;,
+    &quot;###&quot;,
+    &quot;###&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;environmental:plum_crate&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/environmental.html">Environmental</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/environmental/plum_crate.html" data-tt="箱装李子" data-tt-sub="environmental:plum_crate" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/_rendered/97e448050dc159b6.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;neoforge:mod_loaded&quot;,
+      &quot;modid&quot;: &quot;berry_good&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;key&quot;: {
+    &quot;#&quot;: {
+      &quot;item&quot;: &quot;environmental:plum&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;###&quot;,
+    &quot;###&quot;,
+    &quot;###&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;environmental:plum_crate&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/environmental.html">Environmental</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/environmental/plum_crate.html" data-tt="箱装李子" data-tt-sub="environmental:plum_crate" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/_rendered/97e448050dc159b6.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;neoforge:mod_loaded&quot;,
+      &quot;modid&quot;: &quot;berry_good&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;key&quot;: {
+    &quot;#&quot;: {
+      &quot;item&quot;: &quot;environmental:plum&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;###&quot;,
+    &quot;###&quot;,
+    &quot;###&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;environmental:plum_crate&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/environmental.html">Environmental</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/environmental/plum_crate.html" data-tt="箱装李子" data-tt-sub="environmental:plum_crate" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/_rendered/97e448050dc159b6.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;neoforge:mod_loaded&quot;,
+      &quot;modid&quot;: &quot;berry_good&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;key&quot;: {
+    &quot;#&quot;: {
+      &quot;item&quot;: &quot;environmental:plum&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;###&quot;,
+    &quot;###&quot;,
+    &quot;###&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;environmental:plum_crate&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/environmental.html">Environmental</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/environmental/plum_crate.html" data-tt="箱装李子" data-tt-sub="environmental:plum_crate" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/_rendered/97e448050dc159b6.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;neoforge:mod_loaded&quot;,
+      &quot;modid&quot;: &quot;berry_good&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;key&quot;: {
+    &quot;#&quot;: {
+      &quot;item&quot;: &quot;environmental:plum&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;###&quot;,
+    &quot;###&quot;,
+    &quot;###&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;environmental:plum_crate&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/environmental.html">Environmental</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/environmental/plum_crate.html" data-tt="箱装李子" data-tt-sub="environmental:plum_crate" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/_rendered/97e448050dc159b6.png" alt="" loading="lazy"></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;neoforge:mod_loaded&quot;,
+      &quot;modid&quot;: &quot;berry_good&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;key&quot;: {
+    &quot;#&quot;: {
+      &quot;item&quot;: &quot;environmental:plum&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;###&quot;,
+    &quot;###&quot;,
+    &quot;###&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 1,
+    &quot;id&quot;: &quot;environmental:plum_crate&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">无序合成</span><span class="mod-badge no-link">CraftTweaker</span><span class="rsrc" title="配方来源">aruori6_recipes.zs:14</span></div><div class="recipe-body"><div class="gui-col"><div class="slot-row"><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/bountifulfares/plum.html" data-tt="李子" data-tt-sub="bountifulfares:plum" data-tt-mod="Bountiful Fares" tabindex="0"><img src="../../textures/bountifulfares/textures/item/plum.png" alt="" loading="lazy"><span class="cnt">2</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;file&quot;: &quot;aruori6_recipes.zs&quot;,
+  &quot;line&quot;: 14,
+  &quot;call&quot;: &quot;craftingTable.addShapeless(\&quot;plum_change1\&quot;, &lt;item:bountifulfares:plum&gt; * 2, [&lt;item:environmental:plum&gt;, &lt;item:environmental:plum&gt;]);&quot;
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">无序合成</span><span class="mod-badge no-link">CraftTweaker</span><span class="rsrc" title="配方来源">aruori6_recipes.zs:14</span></div><div class="recipe-body"><div class="gui-col"><div class="slot-row"><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a><a class="slot" href="../../item/environmental/plum.html" data-tt="李子" data-tt-sub="environmental:plum" data-tt-mod="Environmental" tabindex="0"><img src="../../textures/environmental/textures/item/plum.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/bountifulfares/plum.html" data-tt="李子" data-tt-sub="bountifulfares:plum" data-tt-mod="Bountiful Fares" tabindex="0"><img src="../../textures/bountifulfares/textures/item/plum.png" alt="" loading="lazy"><span class="cnt">2</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;file&quot;: &quot;aruori6_recipes.zs&quot;,
+  &quot;line&quot;: 14,
+  &quot;call&quot;: &quot;craftingTable.addShapeless(\&quot;plum_change1\&quot;, &lt;item:bountifulfares:plum&gt; * 2, [&lt;item:environmental:plum&gt;, &lt;item:environmental:plum&gt;]);&quot;
+}</pre></details></div></section></main>
+<footer>aruori6 整合包图鉴 · 纯静态离线生成 · 数据来自整合包资源与 CraftTweaker 脚本</footer>
+<script src="../../assets/search.js"></script>
+</body>
+</html>

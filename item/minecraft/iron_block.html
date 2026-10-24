@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>铁块 - aruori6 整合包图鉴</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body data-root="../../">
+<header class="topbar"><div class="topbar-in">
+<a class="brand" href="../../index.html">aruori6 <span>整合包图鉴</span></a>
+<div class="searchbox">
+  <div class="search-row">
+    <input id="q" type="text" placeholder="搜索物品：中文名 / 英文名 / ID…" autocomplete="off" spellcheck="false">
+    <div class="mode-toggle" id="modeToggle">
+      <button type="button" data-m="simple">简单</button><button type="button" data-m="full">精确</button>
+    </div>
+  </div>
+  <div id="results" class="search-results" hidden></div>
+</div>
+</div></header>
+<div id="tt" hidden></div>
+<main class="wrap"><div class="vanilla-banner">⚠ 此原版内容已被修改 —— <a href="#vanilla-changes">查看修改详情</a></div><div class="infobox"><div class="bigicon"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="铁块"></div><div><h1 class="ib-title">铁块</h1><p class="ib-sub">Block of Iron</p><div class="ib-rows"><span>英文名: Block of Iron</span><span>命名空间 ID: <code>minecraft:iron_block</code></span><span>类型: <span class="kind-tag">方块</span></span><span>所属模组: <a class="mod-badge" href="../../mod/minecraft.html">Minecraft</a></span><span>资料检索: <a href="https://cn.bing.com/search?q=site%3Amcmod.cn%20%E9%93%81%E5%9D%97" target="_blank" rel="noopener noreferrer">🔎 在 MC百科 搜索「铁块」</a></span></div></div></div><section><h2>所属标签</h2><div class="tag-cloud"><a class="tag-chip" href="../../tags/minecraft/sulfur_cube_archetype_slow_flat.html">#minecraft:sulfur_cube_archetype/slow_flat</a><a class="tag-chip" href="../../tags/minecraft/sulfur_cube_swallowable.html">#minecraft:sulfur_cube_swallowable</a></div></section><section><h2>获取方式</h2><h3>战利品箱 <span class="cnt-chip">(6)</span></h3><ul class="ob-list"><li><code>eternalnether:chests/citadel</code></li><li><code>minecraft:chests/bastion_other</code></li><li><code>minecraft:chests/bastion_treasure</code></li><li><code>minecraft:chests/trial_chambers/intersection</code></li><li><code>minecraft:chests/trial_chambers/reward_ominous_rare</code></li><li><code>minecraft:chests/trial_chambers/vault/ominous</code></li></ul><h3>其他来源 <span class="cnt-chip">(1)</span></h3><ul class="ob-list"><li><code>kaisyn:village/exclusives/village_piglin_house</code></li></ul></section><div class="notice">纯原版配方（合成、烧炼等）不在本图鉴收录范围，以下仅列出模组与 CraftTweaker 相关配方。</div><section><h2>模组配方 · 产自 <span class="cnt-chip">(2)</span></h2><div class="recipe"><div class="recipe-head"><span class="rtype">高炉熔炼</span><span class="mod-badge no-link">CraftTweaker</span><span class="rsrc" title="配方来源">aruori6_recipes.zs:28</span></div><div class="recipe-body"><div class="gui-furnace"><div class="gui-col"><a class="slot tag" href="../../tags/c/storage_blocks_raw_iron.html" data-tt="#c:storage_blocks/raw_iron（数据包中无定义，成员可能由模组运行时提供；通用标签惯例：raw_iron存储块）" data-tt-tag="1" tabindex="0"><span class="tg">#</span></a><span class="flame" aria-hidden="true">🔥</span></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a></div></div><div class="recipe-meta">耗时 750 tick · 经验 3.5</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;file&quot;: &quot;aruori6_recipes.zs&quot;,
+  &quot;line&quot;: 28,
+  &quot;call&quot;: &quot;blastFurnace.addRecipe(\&quot;blockrawirontoiron_blast\&quot;, &lt;item:minecraft:iron_block&gt;, &lt;tag:item:c:storage_blocks/raw_iron&gt;, 3.5, 750);&quot;,
+  &quot;experience&quot;: 3.5,
+  &quot;cookingtime&quot;: 750
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">熔炼（熔炉）</span><span class="mod-badge no-link">CraftTweaker</span><span class="rsrc" title="配方来源">aruori6_recipes.zs:36</span></div><div class="recipe-body"><div class="gui-furnace"><div class="gui-col"><a class="slot tag" href="../../tags/c/storage_blocks_raw_iron.html" data-tt="#c:storage_blocks/raw_iron（数据包中无定义，成员可能由模组运行时提供；通用标签惯例：raw_iron存储块）" data-tt-tag="1" tabindex="0"><span class="tg">#</span></a><span class="flame" aria-hidden="true">🔥</span></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a></div></div><div class="recipe-meta">耗时 1300 tick · 经验 7.0</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;file&quot;: &quot;aruori6_recipes.zs&quot;,
+  &quot;line&quot;: 36,
+  &quot;call&quot;: &quot;furnace.addRecipe(\&quot;blockrawirontoiron\&quot;, &lt;item:minecraft:iron_block&gt;, &lt;tag:item:c:storage_blocks/raw_iron&gt;, 7.0, 1300);&quot;,
+  &quot;experience&quot;: 7.0,
+  &quot;cookingtime&quot;: 1300
+}</pre></details></div></section><section><h2>模组配方 · 用于 <span class="cnt-chip">(14)</span></h2><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/architects_palette.html">Architects Palette</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/architects_palette/sheet_metal_block.html" data-tt="Sheet Metal Block" data-tt-sub="architects_palette:sheet_metal_block" data-tt-mod="Architects Palette" tabindex="0"><img src="../../textures/_rendered/75bbeb1b5be5f69b.png" alt="" loading="lazy"><span class="cnt">36</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:iron_block&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 36,
+    &quot;id&quot;: &quot;architects_palette:sheet_metal_block&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">切石机</span><a class="mod-badge" href="../../mod/architects_palette.html">Architects Palette</a></div><div class="recipe-body"><div class="gui-col"><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/architects_palette/hazard_sign.html" data-tt="Hazard Sign" data-tt-sub="architects_palette:hazard_sign" data-tt-mod="Architects Palette" tabindex="0"><img src="../../textures/_rendered/elem_f8c07c3cd886bd50.png" alt="" loading="lazy"><span class="cnt">16</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:stonecutting&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:iron_block&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 16,
+    &quot;id&quot;: &quot;architects_palette:hazard_sign&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/architects_palette.html">Architects Palette</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/architects_palette/sheet_metal_block.html" data-tt="Sheet Metal Block" data-tt-sub="architects_palette:sheet_metal_block" data-tt-mod="Architects Palette" tabindex="0"><img src="../../textures/_rendered/75bbeb1b5be5f69b.png" alt="" loading="lazy"><span class="cnt">64</span></a></div><div class="recipe-meta">类别 building</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;building&quot;,
+  &quot;key&quot;: {
+    &quot;x&quot;: {
+      &quot;item&quot;: &quot;minecraft:iron_block&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;x&quot;,
+    &quot;x&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 64,
+    &quot;id&quot;: &quot;architects_palette:sheet_metal_block&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/architects_palette.html">Architects Palette</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/architects_palette/sheet_metal_block.html" data-tt="Sheet Metal Block" data-tt-sub="architects_palette:sheet_metal_block" data-tt-mod="Architects Palette" tabindex="0"><img src="../../textures/_rendered/75bbeb1b5be5f69b.png" alt="" loading="lazy"><span class="cnt">64</span></a></div><div class="recipe-meta">类别 building</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;building&quot;,
+  &quot;key&quot;: {
+    &quot;x&quot;: {
+      &quot;item&quot;: &quot;minecraft:iron_block&quot;
+    }
+  },
+  &quot;pattern&quot;: [
+    &quot;x&quot;,
+    &quot;x&quot;
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 64,
+    &quot;id&quot;: &quot;architects_palette:sheet_metal_block&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/mcwwindows.html">Macaw&#x27;s Windows</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/mcwwindows/window_centre_bar_base.html" data-tt="Window Four Pane Base" data-tt-sub="mcwwindows:window_centre_bar_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_centre_bar_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_centre_bar_base.html" data-tt="Window Four Pane Base" data-tt-sub="mcwwindows:window_centre_bar_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_centre_bar_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_centre_bar_base.html" data-tt="Window Four Pane Base" data-tt-sub="mcwwindows:window_centre_bar_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_centre_bar_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_centre_bar_base.html" data-tt="Window Four Pane Base" data-tt-sub="mcwwindows:window_centre_bar_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_centre_bar_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_centre_bar_base.html" data-tt="Window Four Pane Base" data-tt-sub="mcwwindows:window_centre_bar_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_centre_bar_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_centre_bar_base.html" data-tt="Window Four Pane Base" data-tt-sub="mcwwindows:window_centre_bar_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_centre_bar_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_centre_bar_base.html" data-tt="Window Four Pane Base" data-tt-sub="mcwwindows:window_centre_bar_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_centre_bar_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_centre_bar_base.html" data-tt="Window Four Pane Base" data-tt-sub="mcwwindows:window_centre_bar_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_centre_bar_base.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/mcwwindows/metal_four_window.html" data-tt="Metal Four Window" data-tt-sub="mcwwindows:metal_four_window" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/_rendered/elem_c9965eb7ba3c8227.png" alt="" loading="lazy"><span class="cnt">8</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;group&quot;: &quot;windows_four&quot;,
+  &quot;pattern&quot;: [
+    &quot;AAA&quot;,
+    &quot;ABA&quot;,
+    &quot;AAA&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;A&quot;: {
+      &quot;item&quot;: &quot;mcwwindows:window_centre_bar_base&quot;
+    },
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;minecraft:iron_block&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 8,
+    &quot;id&quot;: &quot;mcwwindows:metal_four_window&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/mcwwindows.html">Macaw&#x27;s Windows</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/mcwwindows/window_base.html" data-tt="Window Base" data-tt-sub="mcwwindows:window_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_base.html" data-tt="Window Base" data-tt-sub="mcwwindows:window_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_base.html" data-tt="Window Base" data-tt-sub="mcwwindows:window_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_base.html" data-tt="Window Base" data-tt-sub="mcwwindows:window_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_base.html" data-tt="Window Base" data-tt-sub="mcwwindows:window_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_base.html" data-tt="Window Base" data-tt-sub="mcwwindows:window_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_base.html" data-tt="Window Base" data-tt-sub="mcwwindows:window_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_base.html" data-tt="Window Base" data-tt-sub="mcwwindows:window_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_base.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/mcwwindows/metal_pane_window.html" data-tt="Metal Pane Window" data-tt-sub="mcwwindows:metal_pane_window" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/_rendered/elem_3def929d0ead8c1c.png" alt="" loading="lazy"><span class="cnt">8</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;group&quot;: &quot;windows_pane&quot;,
+  &quot;pattern&quot;: [
+    &quot;AAA&quot;,
+    &quot;ABA&quot;,
+    &quot;AAA&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;A&quot;: {
+      &quot;item&quot;: &quot;mcwwindows:window_base&quot;
+    },
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;minecraft:iron_block&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 8,
+    &quot;id&quot;: &quot;mcwwindows:metal_pane_window&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/mcwwindows.html">Macaw&#x27;s Windows</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/mcwwindows/window_base.html" data-tt="Window Base" data-tt-sub="mcwwindows:window_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_base.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/mcwwindows/window_base.html" data-tt="Window Base" data-tt-sub="mcwwindows:window_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_base.html" data-tt="Window Base" data-tt-sub="mcwwindows:window_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_base.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/mcwwindows/window_base.html" data-tt="Window Base" data-tt-sub="mcwwindows:window_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_base.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/mcwwindows/metal_window.html" data-tt="Resizeable Metal Window" data-tt-sub="mcwwindows:metal_window" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/_rendered/elem_5d38b7220d26111e.png" alt="" loading="lazy"><span class="cnt">4</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;group&quot;: &quot;windows&quot;,
+  &quot;pattern&quot;: [
+    &quot; A &quot;,
+    &quot;ABA&quot;,
+    &quot; A &quot;
+  ],
+  &quot;key&quot;: {
+    &quot;A&quot;: {
+      &quot;item&quot;: &quot;mcwwindows:window_base&quot;
+    },
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;minecraft:iron_block&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 4,
+    &quot;id&quot;: &quot;mcwwindows:metal_window&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/mcwwindows.html">Macaw&#x27;s Windows</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/mcwwindows/window_half_bar_base.html" data-tt="Window Half Pane Base" data-tt-sub="mcwwindows:window_half_bar_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_half_bar_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_half_bar_base.html" data-tt="Window Half Pane Base" data-tt-sub="mcwwindows:window_half_bar_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_half_bar_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_half_bar_base.html" data-tt="Window Half Pane Base" data-tt-sub="mcwwindows:window_half_bar_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_half_bar_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_half_bar_base.html" data-tt="Window Half Pane Base" data-tt-sub="mcwwindows:window_half_bar_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_half_bar_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_half_bar_base.html" data-tt="Window Half Pane Base" data-tt-sub="mcwwindows:window_half_bar_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_half_bar_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_half_bar_base.html" data-tt="Window Half Pane Base" data-tt-sub="mcwwindows:window_half_bar_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_half_bar_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_half_bar_base.html" data-tt="Window Half Pane Base" data-tt-sub="mcwwindows:window_half_bar_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_half_bar_base.png" alt="" loading="lazy"></a><a class="slot" href="../../item/mcwwindows/window_half_bar_base.html" data-tt="Window Half Pane Base" data-tt-sub="mcwwindows:window_half_bar_base" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/mcwwindows/textures/item/window_half_bar_base.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/mcwwindows/metal_window2.html" data-tt="Rectangle Metal Window" data-tt-sub="mcwwindows:metal_window2" data-tt-mod="Macaw&#x27;s Windows" tabindex="0"><img src="../../textures/_rendered/elem_cf3a910c5bd14413.png" alt="" loading="lazy"><span class="cnt">8</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;group&quot;: &quot;windows_two&quot;,
+  &quot;pattern&quot;: [
+    &quot;AAA&quot;,
+    &quot;ABA&quot;,
+    &quot;AAA&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;A&quot;: {
+      &quot;item&quot;: &quot;mcwwindows:window_half_bar_base&quot;
+    },
+    &quot;B&quot;: {
+      &quot;item&quot;: &quot;minecraft:iron_block&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 8,
+    &quot;id&quot;: &quot;mcwwindows:metal_window2&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/musketmod.html">Musket Mod</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/diamond.html" data-tt="钻石" data-tt-sub="minecraft:diamond" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/diamond.png" alt="" loading="lazy"></a><a class="slot" href="../../item/musketmod/musket_upgrade_smithing_template.html" data-tt="锻造模板" data-tt-sub="musketmod:musket_upgrade_smithing_template" data-tt-mod="Musket Mod" tabindex="0"><img src="../../textures/musketmod/textures/item/musket_upgrade_smithing_template.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/diamond.html" data-tt="钻石" data-tt-sub="minecraft:diamond" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/diamond.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/diamond.html" data-tt="钻石" data-tt-sub="minecraft:diamond" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/diamond.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/diamond.html" data-tt="钻石" data-tt-sub="minecraft:diamond" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/diamond.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/diamond.html" data-tt="钻石" data-tt-sub="minecraft:diamond" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/diamond.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/diamond.html" data-tt="钻石" data-tt-sub="minecraft:diamond" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/diamond.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/diamond.html" data-tt="钻石" data-tt-sub="minecraft:diamond" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/diamond.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/musketmod/musket_upgrade_smithing_template.html" data-tt="锻造模板" data-tt-sub="musketmod:musket_upgrade_smithing_template" data-tt-mod="Musket Mod" tabindex="0"><img src="../../textures/musketmod/textures/item/musket_upgrade_smithing_template.png" alt="" loading="lazy"><span class="cnt">2</span></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;pattern&quot;: [
+    &quot;DTD&quot;,
+    &quot;DID&quot;,
+    &quot;DDD&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;D&quot;: {
+      &quot;item&quot;: &quot;minecraft:diamond&quot;
+    },
+    &quot;I&quot;: {
+      &quot;item&quot;: &quot;minecraft:iron_block&quot;
+    },
+    &quot;T&quot;: {
+      &quot;item&quot;: &quot;musketmod:musket_upgrade_smithing_template&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 2,
+    &quot;id&quot;: &quot;musketmod:musket_upgrade_smithing_template&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/supplementaries/cannonball.html" data-tt="炮弹" data-tt-sub="supplementaries:cannonball" data-tt-mod="Supplementaries" tabindex="0"><img src="../../textures/_rendered/elem_4c743c2c64092e29.png" alt="" loading="lazy"><span class="cnt">8</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;cannonball&quot;
+    },
+    {
+      &quot;condition&quot;: &quot;fabric:tag_empty&quot;,
+      &quot;tag&quot;: &quot;c:storage_blocks/lead&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;cannonball&quot;
+    },
+    {
+      &quot;type&quot;: &quot;neoforge:tag_empty&quot;,
+      &quot;tag&quot;: &quot;c:storage_blocks/lead&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot; 1 &quot;,
+    &quot;111&quot;,
+    &quot; 1 &quot;
+  ],
+  &quot;key&quot;: {
+    &quot;1&quot;: {
+      &quot;item&quot;: &quot;minecraft:iron_block&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:cannonball&quot;,
+    &quot;count&quot;: 8
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/supplementaries/cannonball.html" data-tt="炮弹" data-tt-sub="supplementaries:cannonball" data-tt-mod="Supplementaries" tabindex="0"><img src="../../textures/_rendered/elem_4c743c2c64092e29.png" alt="" loading="lazy"><span class="cnt">8</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;cannonball&quot;
+    },
+    {
+      &quot;condition&quot;: &quot;fabric:tag_empty&quot;,
+      &quot;tag&quot;: &quot;c:storage_blocks/lead&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;cannonball&quot;
+    },
+    {
+      &quot;type&quot;: &quot;neoforge:tag_empty&quot;,
+      &quot;tag&quot;: &quot;c:storage_blocks/lead&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot; 1 &quot;,
+    &quot;111&quot;,
+    &quot; 1 &quot;
+  ],
+  &quot;key&quot;: {
+    &quot;1&quot;: {
+      &quot;item&quot;: &quot;minecraft:iron_block&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:cannonball&quot;,
+    &quot;count&quot;: 8
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/supplementaries/cannonball.html" data-tt="炮弹" data-tt-sub="supplementaries:cannonball" data-tt-mod="Supplementaries" tabindex="0"><img src="../../textures/_rendered/elem_4c743c2c64092e29.png" alt="" loading="lazy"><span class="cnt">8</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;cannonball&quot;
+    },
+    {
+      &quot;condition&quot;: &quot;fabric:tag_empty&quot;,
+      &quot;tag&quot;: &quot;c:storage_blocks/lead&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;cannonball&quot;
+    },
+    {
+      &quot;type&quot;: &quot;neoforge:tag_empty&quot;,
+      &quot;tag&quot;: &quot;c:storage_blocks/lead&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot; 1 &quot;,
+    &quot;111&quot;,
+    &quot; 1 &quot;
+  ],
+  &quot;key&quot;: {
+    &quot;1&quot;: {
+      &quot;item&quot;: &quot;minecraft:iron_block&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:cannonball&quot;,
+    &quot;count&quot;: 8
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/supplementaries/cannonball.html" data-tt="炮弹" data-tt-sub="supplementaries:cannonball" data-tt-mod="Supplementaries" tabindex="0"><img src="../../textures/_rendered/elem_4c743c2c64092e29.png" alt="" loading="lazy"><span class="cnt">8</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;cannonball&quot;
+    },
+    {
+      &quot;condition&quot;: &quot;fabric:tag_empty&quot;,
+      &quot;tag&quot;: &quot;c:storage_blocks/lead&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;cannonball&quot;
+    },
+    {
+      &quot;type&quot;: &quot;neoforge:tag_empty&quot;,
+      &quot;tag&quot;: &quot;c:storage_blocks/lead&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot; 1 &quot;,
+    &quot;111&quot;,
+    &quot; 1 &quot;
+  ],
+  &quot;key&quot;: {
+    &quot;1&quot;: {
+      &quot;item&quot;: &quot;minecraft:iron_block&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:cannonball&quot;,
+    &quot;count&quot;: 8
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot empty"></span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span><a class="slot" href="../../item/minecraft/iron_block.html" data-tt="铁块" data-tt-sub="minecraft:iron_block" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/ea0b333e0bbddbac.png" alt="" loading="lazy"></a><span class="slot empty"></span></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/supplementaries/cannonball.html" data-tt="炮弹" data-tt-sub="supplementaries:cannonball" data-tt-mod="Supplementaries" tabindex="0"><img src="../../textures/_rendered/elem_4c743c2c64092e29.png" alt="" loading="lazy"><span class="cnt">8</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;cannonball&quot;
+    },
+    {
+      &quot;condition&quot;: &quot;fabric:tag_empty&quot;,
+      &quot;tag&quot;: &quot;c:storage_blocks/lead&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;cannonball&quot;
+    },
+    {
+      &quot;type&quot;: &quot;neoforge:tag_empty&quot;,
+      &quot;tag&quot;: &quot;c:storage_blocks/lead&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot; 1 &quot;,
+    &quot;111&quot;,
+    &quot; 1 &quot;
+  ],
+  &quot;key&quot;: {
+    &quot;1&quot;: {
+      &quot;item&quot;: &quot;minecraft:iron_block&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:cannonball&quot;,
+    &quot;count&quot;: 8
+  }
+}</pre></details></div></section><section id="vanilla-changes"><h2>原版修改详情 <span class="cnt-chip">(3)</span></h2><div class="vc-group"><h3>CraftTweaker 修改 <span class="cnt-chip">(2)</span></h3><div class="vc-line"><span class="mod-badge no-link">CraftTweaker</span> CraftTweaker 新增 blasting 配方: #c:storage_blocks/raw_iron -&gt; minecraft:iron_block ×1 (blastFurnace, aruori6_recipes.zs:28)</div><div class="vc-line"><span class="mod-badge no-link">CraftTweaker</span> CraftTweaker 新增 smelting 配方: #c:storage_blocks/raw_iron -&gt; minecraft:iron_block ×1 (furnace, aruori6_recipes.zs:36)</div></div><div class="vc-group"><h3>标签指向 <span class="cnt-chip">(1)</span></h3><div class="vc-line"><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a> 被标签 supplementaries:flint_metals 收录</div></div></section></main>
+<footer>aruori6 整合包图鉴 · 纯静态离线生成 · 数据来自整合包资源与 CraftTweaker 脚本</footer>
+<script src="../../assets/search.js"></script>
+</body>
+</html>

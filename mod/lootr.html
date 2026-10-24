@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lootr - aruori6 整合包图鉴</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-root="../">
+<header class="topbar"><div class="topbar-in">
+<a class="brand" href="../index.html">aruori6 <span>整合包图鉴</span></a>
+<div class="searchbox">
+  <div class="search-row">
+    <input id="q" type="text" placeholder="搜索物品：中文名 / 英文名 / ID…" autocomplete="off" spellcheck="false">
+    <div class="mode-toggle" id="modeToggle">
+      <button type="button" data-m="simple">简单</button><button type="button" data-m="full">精确</button>
+    </div>
+  </div>
+  <div id="results" class="search-results" hidden></div>
+</div>
+</div></header>
+<div id="tt" hidden></div>
+<main class="wrap"><div class="infobox"><div class="ic" style="width:48px;height:48px"><span class="ph-big">◆</span></div><div><h1 class="ib-title">Lootr</h1><p class="stats">共 9 个条目 · <code>lootr</code></p><p class="stats">版本: 1.21.1-1.11.37.122 · 来源: lootr-neoforge-1.21.1-1.11.37.122.jar</p><p class="stats">Generates unique loot for each player that opens a loot container.</p><p class="stats">MC百科页面: <a href="https://www.mcmod.cn/class/2924.html" rel="noopener noreferrer">https://www.mcmod.cn/class/2924.html</a>（Lootr）</p></div></div><section><h2>官方介绍 <span class="cnt-chip">（Modrinth · 联网获取）</span></h2><div class="mod-desc"><section class="project-description"><p style="text-align:center"><span style="font-size:14px">Lootr is required on both servers and clients.</span></p>
+<p><strong>What does it do?</strong> Each container that has a loot table (supporting chests, trapped chests, barrels, shulkers and minecarts) creates a unique inventory&nbsp;<em>for each player who opens it!&nbsp;</em>These containers also have a distinct appearance, and their colour changes from gold to blue if a player has already opened the container.</p>
+<p><strong>How does this help?</strong> There's no longer a race to be the first to discover structures, and you will never open a loot chest and find someone's left-over trash.&nbsp;<em>Most importantly, it encourages players to explore existing structures, rather than generating new chunks, thus reducing world size!</em></p>
+<p><strong>What&nbsp;versions is it available for?</strong> For Fabric, it's available for all recent releases since 1.18 and is actively developed for these. For Forge, it's available for 1.12.2, 1.16.5, 1.18, 1.19 and 1.20!</p>
+<h4><strong>Frequently Asked Questions</strong></h4>
+<p>Q. How do I get support?<br>A. You can check out my Discord (linked below) or alternatively create an issue on our GitHub, which can be found by clicking on "Issues" above.</p>
+<p>&nbsp;</p>
+<p>Q. What versions does Lootr support?<br>A. Currently, Lootr for Forge supports the following versions: 1.18, 1.19/1.19.1/1.19.2, 1.19.3. Please check the "All Files" page if you cannot find a download for the version of Minecraft you are playing.</p>
+<p>&nbsp;</p>
+<p>Q. Is there a server-only version? Can I connect without installing it on the client?<br>A. No, <strong>Lootr is currently required on both the client and the server</strong>. If you have experience with plug-in development and are willing to help design a server-only version, please reach out on Discord (link found below).</p>
+<p>&nbsp;</p>
+<p>Q. How do I change what loot is generated with Lootr? How do I include loot from other mods in Lootr containers?<br>A. <strong>This is beyond the scope of the Lootr mod</strong>, which simply changes the containers. In all other respects, loot is generated in exactly the same way as Vanilla chests generate it. Modifying loot tables is generally done via data packs, although various mods exist for various versions of Minecraft which do this. I recommend asking in your favourite modded Minecraft Discord or forum!</p>
+<p>&nbsp;</p>
+<p>Q. What about dungeon mods? How do I prevent players from going in and looting everything after it has already been cleared?<br>A. There are a number of options that help with this:</p>
+<ul>
+<li>Specific loot tables can be blacklisted, which means that those chests will never be converted. You can also specify simply all loot tables of a certain mod. Likewise, specific dimensions can be blacklisted.</li>
+<li>Alternatively, you can specify for certain containers (or all containers), determined by their loot table, to "decay". This means that a configurable time after they are first opened, the next time someone attempts to open the container, the block will be destroyed. There also exists the opposite, a system whereby chests will "refresh" (or re-generate their contents) after the configured period of time has elapsed.</li>
+</ul>
+<p>&nbsp;</p>
+<p>Q. How do I prevent players from simply breaking containers?<br>A. By default, players who attempt to break a container will be given a warning message and a reminder that all containers are available per-player. Players can still break these containers by doing so while sneaking, unless this option is disabled in the configuration.</p>
+<p>&nbsp;</p>
+<p>Q. I don't like the visual appearance of the containers. How can I change this?<br>A. There is a client-side option that forces containers to use the default Vanilla skin. However, this does mean there is no visual change to indicate if a container has been opened before.</p>
+<p>&nbsp;</p>
+<p>Q. Can I add Lootr to a pre-existing world and have containers be converted?<br>A. Yes! With one disclaimer: <strong>loot containers which were already opened will not be converted</strong>. The generation of loot in Minecraft, by default, removes the associated loot table, and there is no way for Lootr to find this information.</p>
+<p>&nbsp;</p>
+<p>Q. The container from &lt;random mod&gt; isn't converting!<br>A. If the container contains items (or always contains the same items), it is possible that the mod is manually generating loot for it. In this case, there is no way for Lootr to determine a loot table and convert chests. I recommend asking the author of the mod to consider switching to a loot table instead to maintain compatibility! If the container is empty, it is possible that it is merely included for the aesthetic. Otherwise, if you believe there's an issue with conversion, please open an issue on our GitHub tracker or post on Discord. Additional methods for converting containers exist for 1.12.2.</p>
+<p><em>Please note that the "axe chest" in the Vanilla Woodland Mansion does not have an associated loot table and is never converted.</em></p>
+<p>&nbsp;</p>
+<p>Q. I no longer want Lootr. What happens if I remove it?<br>A. <strong>Unfortunately, removing the mod will also remove all Lootr containers</strong>. There is currently no way to undo the conversion process.&nbsp;This means that every Lootr converted container will be removed from your world.<br><br></p>
+<p>Q. I want to create a "starter" chest with some items in it for everyone in my world, how do I go about this? How do I create my own Lootr container?<br>A. Lootr also contains "custom" inventories which use the same visual appearance as a chest. Simply create a Vanilla chest, fill it with the items you want available and then, while standing on it, execute the&nbsp;/lootr custom&nbsp;command (this requires operator privileges).&nbsp;<br><br></p>
+<p>Q. What else does the&nbsp;/lootr command do?<br>A. For a full explanation of the command, please check out the <a href="https://github.com/noobanidus/Lootr/wiki/Lootr-command" rel="nofollow">Lootr Command page on our GitHub Wiki</a>.<br><br></p>
+<p>Q. How do I use Lootr in a mod pack, or how do I natively use Lootr in my Mod?<br>A. For a full explanation of Lootr's features for mod packs, as well as the Lootr API, please check out the <a href="https://github.com/noobanidus/Lootr/wiki/Lootr-for-Developers" rel="nofollow">Lootr for Developers page on our GitHub Wiki</a>.<br><br></p>
+<p>Q. What do all the configuration options mean?<br>A. For a full explanation of Lootr's configuration, please check out the <a href="https://github.com/noobanidus/Lootr/wiki/Lootr-Configuration" rel="nofollow">Lootr Configuration page on our GitHub Wiki</a>.<br><br></p>
+<p>Q. Is there a video I can watch?<br>A. There sure is! <a href="https://www.youtube.com/channel/UCU3gwpclVZSYofj616OQKLQ" rel="nofollow">Vallen from Mischief of Mice</a> has graciously created this bit-by-bit video that covers the rough basics of Lootr, although this is from an earlier version of the mod and does not cover all recent additions:<br><span></span></p>
+<h4><strong>Patreon &amp; Discord</strong></h4>
+<p>You can <a href="https://www.patreon.com/noobanidus" rel="nofollow">support me on Patreon!</a><br> All support for this mod is available on&nbsp;<a href="https://discord.gg/9YVkaee" rel="nofollow">my Discord.</a> You can also keep up with what I'm doing and get notifications streams! For all other support, please click on "Issues" at the top of this page.</p></section></div><p class="stats">资料来源：<a href="https://modrinth.com/mod/lootr" rel="noopener noreferrer">Lootr</a>（自动匹配，仅供参考）</p></section><section><h2>物品与方块</h2><div class="grid-cards"><a class="card" href="../item/lootr/decorated_pot.html"><span class="ic"><img src="../textures/minecraft/textures/block/terracotta.png" alt="" loading="lazy"></span><span><span class="nm">Decorated Loot Pot</span><br><span class="id">lootr:decorated_pot · 方块</span></span></a><a class="card" href="../item/lootr/lootr_barrel.html"><span class="ic"><img src="../textures/lootr/textures/block/barrel_side.png" alt="" loading="lazy"></span><span><span class="nm">战利品木桶</span><br><span class="id">lootr:lootr_barrel · 方块</span></span></a><a class="card" href="../item/lootr/lootr_chest.html"><span class="ic"><img src="../textures/minecraft/textures/block/oak_planks.png" alt="" loading="lazy"></span><span><span class="nm">战利品箱子</span><br><span class="id">lootr:lootr_chest · 方块</span></span></a><a class="card" href="../item/lootr/lootr_inventory.html"><span class="ic"><img src="../textures/minecraft/textures/block/oak_planks.png" alt="" loading="lazy"></span><span><span class="nm">战利品箱子</span><br><span class="id">lootr:lootr_inventory · 方块</span></span></a><a class="card" href="../item/lootr/lootr_shulker.html"><span class="ic"><img src="../textures/minecraft/textures/block/oak_planks.png" alt="" loading="lazy"></span><span><span class="nm">战利品潜影盒</span><br><span class="id">lootr:lootr_shulker · 方块</span></span></a><a class="card" href="../item/lootr/lootr_trapped_chest.html"><span class="ic"><img src="../textures/minecraft/textures/block/oak_planks.png" alt="" loading="lazy"></span><span><span class="nm">战利品箱子</span><br><span class="id">lootr:lootr_trapped_chest · 方块</span></span></a><a class="card" href="../item/lootr/suspicious_gravel.html"><span class="ic"><img src="../textures/minecraft/textures/block/suspicious_gravel_0.png" alt="" loading="lazy"></span><span><span class="nm">Gravel</span><br><span class="id">lootr:suspicious_gravel · 方块</span></span></a><a class="card" href="../item/lootr/suspicious_sand.html"><span class="ic"><img src="../textures/minecraft/textures/block/suspicious_sand_0.png" alt="" loading="lazy"></span><span><span class="nm">Sand</span><br><span class="id">lootr:suspicious_sand · 方块</span></span></a><a class="card" href="../item/lootr/trophy.html"><span class="ic"><img src="../textures/_rendered/elem_5df53d1c331812f0.png" alt="" loading="lazy"></span><span><span class="nm">百次奖杯</span><br><span class="id">lootr:trophy · 方块</span></span></a></div></section></main>
+<footer>aruori6 整合包图鉴 · 纯静态离线生成 · 数据来自整合包资源与 CraftTweaker 脚本</footer>
+<script src="../assets/search.js"></script>
+</body>
+</html>

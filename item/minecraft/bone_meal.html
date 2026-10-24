@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>骨粉 - aruori6 整合包图鉴</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body data-root="../../">
+<header class="topbar"><div class="topbar-in">
+<a class="brand" href="../../index.html">aruori6 <span>整合包图鉴</span></a>
+<div class="searchbox">
+  <div class="search-row">
+    <input id="q" type="text" placeholder="搜索物品：中文名 / 英文名 / ID…" autocomplete="off" spellcheck="false">
+    <div class="mode-toggle" id="modeToggle">
+      <button type="button" data-m="simple">简单</button><button type="button" data-m="full">精确</button>
+    </div>
+  </div>
+  <div id="results" class="search-results" hidden></div>
+</div>
+</div></header>
+<div id="tt" hidden></div>
+<main class="wrap"><div class="vanilla-banner">⚠ 此原版内容已被修改 —— <a href="#vanilla-changes">查看修改详情</a></div><div class="infobox"><div class="bigicon"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="骨粉"></div><div><h1 class="ib-title">骨粉</h1><p class="ib-sub">Bone Meal</p><div class="ib-rows"><span>英文名: Bone Meal</span><span>命名空间 ID: <code>minecraft:bone_meal</code></span><span>类型: <span class="kind-tag">物品</span></span><span>所属模组: <a class="mod-badge" href="../../mod/minecraft.html">Minecraft</a></span><span>资料检索: <a href="https://cn.bing.com/search?q=site%3Amcmod.cn%20%E9%AA%A8%E7%B2%89" target="_blank" rel="noopener noreferrer">🔎 在 MC百科 搜索「骨粉」</a></span></div></div></div><section><h2>所属标签</h2><div class="tag-cloud"><a class="tag-chip" href="../../tags/c/raw_materials_dyes_white.html">#c:raw_materials/dyes/white</a><a class="tag-chip" href="../../tags/eternal_starlight/ent_fertilizers.html">#eternal_starlight:ent_fertilizers</a></div></section><section><h2>获取方式</h2><h3>生物掉落 <span class="cnt-chip">(12)</span></h3><ul class="ob-list"><li><code>atmospheric:tetra</code></li><li><a href="../../item/environmental/koi.html" title="environmental:koi">锦鲤</a></li><li><a href="../../item/eternal_starlight/luminaris.html" title="eternal_starlight:luminaris">光角食人鱼</a></li><li><a href="../../item/eternal_starlight/luminofish.html" title="eternal_starlight:luminofish">光鲀</a></li><li><code>eternal_starlight:twilight_gaze</code></li><li><a href="../../item/minecraft/cod.html" title="minecraft:cod">生鳕鱼</a></li><li><a href="../../item/minecraft/pufferfish.html" title="minecraft:pufferfish">河豚</a></li><li><a href="../../item/minecraft/salmon.html" title="minecraft:salmon">生鲑鱼</a></li><li><a href="../../item/minecraft/tropical_fish.html" title="minecraft:tropical_fish">热带鱼</a></li><li><a href="../../item/upgrade_aquatic/lionfish.html" title="upgrade_aquatic:lionfish">生蓑鲉</a></li><li><a href="../../item/upgrade_aquatic/perch.html" title="upgrade_aquatic:perch">生鲈鱼</a></li><li><a href="../../item/upgrade_aquatic/pike.html" title="upgrade_aquatic:pike">生狗鱼</a></li></ul><h3>战利品箱 <span class="cnt-chip">(3)</span></h3><ul class="ob-list"><li><code>bountifulfares:chests/woodland_mansion_apple_sapling_room</code></li><li><code>darkerdepths:chests/catacombs/standard</code></li><li><code>minecraft:chests/trial_chambers/supply</code></li></ul><h3>方块掉落 <span class="cnt-chip">(3)</span></h3><ul class="ob-list"><li><a href="../../item/kaleidoscope_cookery/oil_splashed_fish.html" title="kaleidoscope_cookery:oil_splashed_fish">油泼鱼</a></li><li><a href="../../item/kaleidoscope_cookery/pan_seared_knight_steak.html" title="kaleidoscope_cookery:pan_seared_knight_steak">香煎骑士牛排</a></li><li><a href="../../item/minecraft/composter.html" title="minecraft:composter">堆肥桶</a></li></ul><h3>其他来源 <span class="cnt-chip">(2)</span></h3><ul class="ob-list"><li><code>atmospheric:archaeology/arid_garden_common</code></li><li><code>darkerdepths:archaeology/catacombs/standard</code></li></ul></section><div class="notice">纯原版配方（合成、烧炼等）不在本图鉴收录范围，以下仅列出模组与 CraftTweaker 相关配方。</div><section><h2>模组配方 · 产自 <span class="cnt-chip">(21)</span></h2><div class="recipe"><div class="recipe-head"><span class="rtype">无序合成</span><a class="mod-badge" href="../../mod/architects_palette.html">Architects Palette</a></div><div class="recipe-body"><div class="gui-col"><div class="slot-row"><a class="slot" href="../../item/architects_palette/withered_bone.html" data-tt="凋零骨头" data-tt-sub="architects_palette:withered_bone" data-tt-mod="Architects Palette" tabindex="0"><img src="../../textures/architects_palette/textures/item/withered_bone.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"><span class="cnt">4</span></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shapeless&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;item&quot;: &quot;architects_palette:withered_bone&quot;
+    }
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 4,
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">bountifulfares:milling</span><a class="mod-badge" href="../../mod/bountifulfares.html">Bountiful Fares</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/minecraft/bone.html" data-tt="骨头" data-tt-sub="minecraft:bone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;bountifulfares:milling&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:bone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;
+  },
+  &quot;result_count&quot;: 4
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">无序合成</span><a class="mod-badge" href="../../mod/irons_spellbooks.html">Iron&#x27;s Spells &#x27;n Spellbooks</a></div><div class="recipe-body"><div class="gui-col"><div class="slot-row"><a class="slot" href="../../item/irons_spellbooks/frozen_bone.html" data-tt="冰封骨头" data-tt-sub="irons_spellbooks:frozen_bone" data-tt-mod="Iron&#x27;s Spells &#x27;n Spellbooks" tabindex="0"><img src="../../textures/irons_spellbooks/textures/item/frozen_bone.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"><span class="cnt">3</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shapeless&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;item&quot;: &quot;irons_spellbooks:frozen_bone&quot;
+    }
+  ],
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;,
+    &quot;count&quot;: 3
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">kaleidoscope_cookery:millstone</span><a class="mod-badge" href="../../mod/kaleidoscope_cookery.html">Kaleidoscope Cookery</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/minecraft/bone.html" data-tt="骨头" data-tt-sub="minecraft:bone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot has-cnt" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"><span class="cnt">5</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;kaleidoscope_cookery:millstone&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:bone&quot;
+  },
+  &quot;result&quot;: {
+    &quot;count&quot;: 5,
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">farm_and_charm:drying</span><a class="mod-badge" href="../../mod/farm_and_charm.html">[Let&#x27;s Do] Farm &amp; Charm</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/farm_and_charm/wild_barley.html" data-tt="野生大麦" data-tt-sub="farm_and_charm:wild_barley" data-tt-mod="[Let&#x27;s Do] Farm &amp; Charm" tabindex="0"><img src="../../textures/farm_and_charm/textures/block/wild_barley_1.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;farm_and_charm:drying&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;farm_and_charm:wild_barley&quot;
+  },
+  &quot;recipe_type&quot;: &quot;MEAT&quot;,
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">farm_and_charm:drying</span><a class="mod-badge" href="../../mod/farm_and_charm.html">[Let&#x27;s Do] Farm &amp; Charm</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/farm_and_charm/wild_beetroots.html" data-tt="野生甜菜" data-tt-sub="farm_and_charm:wild_beetroots" data-tt-mod="[Let&#x27;s Do] Farm &amp; Charm" tabindex="0"><img src="../../textures/farm_and_charm/textures/block/wild_beetroots_3.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;farm_and_charm:drying&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;farm_and_charm:wild_beetroots&quot;
+  },
+  &quot;recipe_type&quot;: &quot;MEAT&quot;,
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">farm_and_charm:drying</span><a class="mod-badge" href="../../mod/farm_and_charm.html">[Let&#x27;s Do] Farm &amp; Charm</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/farm_and_charm/wild_carrots.html" data-tt="野生胡萝卜" data-tt-sub="farm_and_charm:wild_carrots" data-tt-mod="[Let&#x27;s Do] Farm &amp; Charm" tabindex="0"><img src="../../textures/farm_and_charm/textures/block/wild_carrots_1.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;farm_and_charm:drying&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;farm_and_charm:wild_carrots&quot;
+  },
+  &quot;recipe_type&quot;: &quot;MEAT&quot;,
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">farm_and_charm:drying</span><a class="mod-badge" href="../../mod/farm_and_charm.html">[Let&#x27;s Do] Farm &amp; Charm</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/farm_and_charm/wild_corn.html" data-tt="野生玉米" data-tt-sub="farm_and_charm:wild_corn" data-tt-mod="[Let&#x27;s Do] Farm &amp; Charm" tabindex="0"><img src="../../textures/farm_and_charm/textures/block/wild_corn_top.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;farm_and_charm:drying&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;farm_and_charm:wild_corn&quot;
+  },
+  &quot;recipe_type&quot;: &quot;MEAT&quot;,
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">farm_and_charm:drying</span><a class="mod-badge" href="../../mod/farm_and_charm.html">[Let&#x27;s Do] Farm &amp; Charm</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/farm_and_charm/wild_emmer.html" data-tt="野生小麦" data-tt-sub="farm_and_charm:wild_emmer" data-tt-mod="[Let&#x27;s Do] Farm &amp; Charm" tabindex="0"><img src="../../textures/farm_and_charm/textures/block/wild_emmer_1.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;farm_and_charm:drying&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;farm_and_charm:wild_emmer&quot;
+  },
+  &quot;recipe_type&quot;: &quot;MEAT&quot;,
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">farm_and_charm:drying</span><a class="mod-badge" href="../../mod/farm_and_charm.html">[Let&#x27;s Do] Farm &amp; Charm</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/farm_and_charm/wild_lettuce.html" data-tt="野生生菜" data-tt-sub="farm_and_charm:wild_lettuce" data-tt-mod="[Let&#x27;s Do] Farm &amp; Charm" tabindex="0"><img src="../../textures/farm_and_charm/textures/block/wild_lettuce_1.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;farm_and_charm:drying&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;farm_and_charm:wild_lettuce&quot;
+  },
+  &quot;recipe_type&quot;: &quot;MEAT&quot;,
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">farm_and_charm:drying</span><a class="mod-badge" href="../../mod/farm_and_charm.html">[Let&#x27;s Do] Farm &amp; Charm</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/farm_and_charm/wild_oat.html" data-tt="野生燕麦" data-tt-sub="farm_and_charm:wild_oat" data-tt-mod="[Let&#x27;s Do] Farm &amp; Charm" tabindex="0"><img src="../../textures/farm_and_charm/textures/block/wild_oat_1.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;farm_and_charm:drying&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;farm_and_charm:wild_oat&quot;
+  },
+  &quot;recipe_type&quot;: &quot;MEAT&quot;,
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">farm_and_charm:drying</span><a class="mod-badge" href="../../mod/farm_and_charm.html">[Let&#x27;s Do] Farm &amp; Charm</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/farm_and_charm/wild_onions.html" data-tt="野生洋葱" data-tt-sub="farm_and_charm:wild_onions" data-tt-mod="[Let&#x27;s Do] Farm &amp; Charm" tabindex="0"><img src="../../textures/farm_and_charm/textures/block/wild_onions_3.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;farm_and_charm:drying&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;farm_and_charm:wild_onions&quot;
+  },
+  &quot;recipe_type&quot;: &quot;MEAT&quot;,
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">farm_and_charm:drying</span><a class="mod-badge" href="../../mod/farm_and_charm.html">[Let&#x27;s Do] Farm &amp; Charm</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/farm_and_charm/wild_potatoes.html" data-tt="野生土豆" data-tt-sub="farm_and_charm:wild_potatoes" data-tt-mod="[Let&#x27;s Do] Farm &amp; Charm" tabindex="0"><img src="../../textures/farm_and_charm/textures/block/wild_potatoes.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;farm_and_charm:drying&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;farm_and_charm:wild_potatoes&quot;
+  },
+  &quot;recipe_type&quot;: &quot;MEAT&quot;,
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">farm_and_charm:drying</span><a class="mod-badge" href="../../mod/farm_and_charm.html">[Let&#x27;s Do] Farm &amp; Charm</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/farm_and_charm/wild_ribwort.html" data-tt="野生车前草" data-tt-sub="farm_and_charm:wild_ribwort" data-tt-mod="[Let&#x27;s Do] Farm &amp; Charm" tabindex="0"><img src="../../textures/farm_and_charm/textures/block/wild_ribwort.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;farm_and_charm:drying&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;farm_and_charm:wild_ribwort&quot;
+  },
+  &quot;recipe_type&quot;: &quot;MEAT&quot;,
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">farm_and_charm:drying</span><a class="mod-badge" href="../../mod/farm_and_charm.html">[Let&#x27;s Do] Farm &amp; Charm</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/farm_and_charm/wild_strawberries.html" data-tt="野生草莓" data-tt-sub="farm_and_charm:wild_strawberries" data-tt-mod="[Let&#x27;s Do] Farm &amp; Charm" tabindex="0"><img src="../../textures/farm_and_charm/textures/block/wild_strawberries1.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;farm_and_charm:drying&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;farm_and_charm:wild_strawberries&quot;
+  },
+  &quot;recipe_type&quot;: &quot;MEAT&quot;,
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">farm_and_charm:drying</span><a class="mod-badge" href="../../mod/farm_and_charm.html">[Let&#x27;s Do] Farm &amp; Charm</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/farm_and_charm/wild_tomatoes.html" data-tt="野生番茄" data-tt-sub="farm_and_charm:wild_tomatoes" data-tt-mod="[Let&#x27;s Do] Farm &amp; Charm" tabindex="0"><img src="../../textures/farm_and_charm/textures/block/wild_tomatoes_3.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;farm_and_charm:drying&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;farm_and_charm:wild_tomatoes&quot;
+  },
+  &quot;recipe_type&quot;: &quot;MEAT&quot;,
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">farm_and_charm:mincer</span><a class="mod-badge" href="../../mod/farm_and_charm.html">[Let&#x27;s Do] Farm &amp; Charm</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/minecraft/bone.html" data-tt="骨头" data-tt-sub="minecraft:bone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot has-cnt" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"><span class="cnt">5</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;farm_and_charm:mincer&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:bone&quot;
+  },
+  &quot;recipe_type&quot;: &quot;MEAT&quot;,
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;,
+    &quot;count&quot;: 5
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">oritech:grinder</span><a class="mod-badge" href="../../mod/oritech.html">Oritech</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/minecraft/bone.html" data-tt="骨头" data-tt-sub="minecraft:bone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot has-cnt" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"><span class="cnt">8</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;oritech:grinder&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;item&quot;: &quot;minecraft:bone&quot;
+    }
+  ],
+  &quot;results&quot;: [
+    {
+      &quot;count&quot;: 8,
+      &quot;id&quot;: &quot;minecraft:bone_meal&quot;
+    }
+  ],
+  &quot;time&quot;: 40
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">oritech:pulverizer</span><a class="mod-badge" href="../../mod/oritech.html">Oritech</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/minecraft/bone.html" data-tt="骨头" data-tt-sub="minecraft:bone" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot has-cnt" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"><span class="cnt">6</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;oritech:pulverizer&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;item&quot;: &quot;minecraft:bone&quot;
+    }
+  ],
+  &quot;results&quot;: [
+    {
+      &quot;count&quot;: 6,
+      &quot;id&quot;: &quot;minecraft:bone_meal&quot;
+    }
+  ],
+  &quot;time&quot;: 100
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">无序合成</span><a class="mod-badge" href="../../mod/tide.html">Tide</a></div><div class="recipe-body"><div class="gui-col"><div class="slot-row"><a class="slot" href="../../item/tide/fish_bone.html" data-tt="鱼骨" data-tt-sub="tide:fish_bone" data-tt-mod="Tide" tabindex="0"><img src="../../textures/tide/textures/item/fish_bone.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"><span class="cnt">2</span></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shapeless&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;item&quot;: &quot;tide:fish_bone&quot;
+    }
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 2,
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">无序合成</span><a class="mod-badge" href="../../mod/upgrade_aquatic.html">Upgrade Aquatic</a></div><div class="recipe-body"><div class="gui-col"><div class="slot-row"><a class="slot" href="../../item/upgrade_aquatic/thrasher_tooth.html" data-tt="长尾鲨齿" data-tt-sub="upgrade_aquatic:thrasher_tooth" data-tt-mod="Upgrade Aquatic" tabindex="0"><img src="../../textures/upgrade_aquatic/textures/item/thrasher_tooth.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"><span class="cnt">6</span></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shapeless&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;group&quot;: &quot;bone_meal&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;item&quot;: &quot;upgrade_aquatic:thrasher_tooth&quot;
+    }
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 6,
+    &quot;id&quot;: &quot;minecraft:bone_meal&quot;
+  }
+}</pre></details></div></section><section><h2>模组配方 · 用于 <span class="cnt-chip">(9)</span></h2><div class="recipe"><div class="recipe-head"><span class="rtype">caupona:food</span><a class="mod-badge" href="../../mod/caupona.html">Caupona</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><span class="slot unknown" data-tt="未知产物（见原始 JSON）" tabindex="0"><span class="ph">?</span></span></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;caupona:food&quot;,
+  &quot;heal&quot;: 0,
+  &quot;item&quot;: {
+    &quot;item&quot;: &quot;minecraft:bone_meal&quot;
+  },
+  &quot;items&quot;: [
+    {
+      &quot;item&quot;: &quot;minecraft:bone_meal&quot;,
+      &quot;time&quot;: 0
+    }
+  ],
+  &quot;sat&quot;: 0.0
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">farm_and_charm:drying</span><a class="mod-badge" href="../../mod/farm_and_charm.html">[Let&#x27;s Do] Farm &amp; Charm</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/farm_and_charm/fertilizer.html" data-tt="肥料" data-tt-sub="farm_and_charm:fertilizer" data-tt-mod="[Let&#x27;s Do] Farm &amp; Charm" tabindex="0"><img src="../../textures/farm_and_charm/textures/item/fertilizer.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;farm_and_charm:drying&quot;,
+  &quot;ingredient&quot;: {
+    &quot;item&quot;: &quot;minecraft:bone_meal&quot;
+  },
+  &quot;recipe_type&quot;: &quot;MEAT&quot;,
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;farm_and_charm:fertilizer&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">无序合成</span><a class="mod-badge" href="../../mod/farm_and_charm.html">[Let&#x27;s Do] Farm &amp; Charm</a></div><div class="recipe-body"><div class="gui-col"><div class="slot-row"><a class="slot" href="../../item/minecraft/wheat_seeds.html" data-tt="小麦种子" data-tt-sub="minecraft:wheat_seeds" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/wheat_seeds.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/wheat_seeds.html" data-tt="小麦种子" data-tt-sub="minecraft:wheat_seeds" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/wheat_seeds.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/farm_and_charm/oat_seeds.html" data-tt="燕麦种子" data-tt-sub="farm_and_charm:oat_seeds" data-tt-mod="[Let&#x27;s Do] Farm &amp; Charm" tabindex="0"><img src="../../textures/farm_and_charm/textures/item/oat_seeds.png" alt="" loading="lazy"><span class="cnt">2</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shapeless&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;item&quot;: &quot;minecraft:wheat_seeds&quot;
+    },
+    {
+      &quot;item&quot;: &quot;minecraft:bone_meal&quot;
+    },
+    {
+      &quot;item&quot;: &quot;minecraft:wheat_seeds&quot;
+    },
+    {
+      &quot;item&quot;: &quot;minecraft:bone_meal&quot;
+    }
+  ],
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;farm_and_charm:oat_seeds&quot;,
+    &quot;count&quot;: 2
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">无序合成</span><a class="mod-badge" href="../../mod/farm_and_charm.html">[Let&#x27;s Do] Farm &amp; Charm</a></div><div class="recipe-body"><div class="gui-col"><div class="slot-row"><a class="slot" href="../../item/minecraft/wheat_seeds.html" data-tt="小麦种子" data-tt-sub="minecraft:wheat_seeds" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/wheat_seeds.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/wheat_seeds.html" data-tt="小麦种子" data-tt-sub="minecraft:wheat_seeds" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/wheat_seeds.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/farm_and_charm/oat_seeds.html" data-tt="燕麦种子" data-tt-sub="farm_and_charm:oat_seeds" data-tt-mod="[Let&#x27;s Do] Farm &amp; Charm" tabindex="0"><img src="../../textures/farm_and_charm/textures/item/oat_seeds.png" alt="" loading="lazy"><span class="cnt">2</span></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shapeless&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;item&quot;: &quot;minecraft:wheat_seeds&quot;
+    },
+    {
+      &quot;item&quot;: &quot;minecraft:bone_meal&quot;
+    },
+    {
+      &quot;item&quot;: &quot;minecraft:wheat_seeds&quot;
+    },
+    {
+      &quot;item&quot;: &quot;minecraft:bone_meal&quot;
+    }
+  ],
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;farm_and_charm:oat_seeds&quot;,
+    &quot;count&quot;: 2
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">oritech:grinder</span><a class="mod-badge" href="../../mod/oritech.html">Oritech</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot tag" href="../../tags/c/raw_materials_dyes_white.html" data-tt="#c:raw_materials/dyes/white（1 个成员）：骨粉" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/white_dye.html" data-tt="白色染料" data-tt-sub="minecraft:white_dye" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/white_dye.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;oritech:grinder&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;tag&quot;: &quot;c:raw_materials/dyes/white&quot;
+    }
+  ],
+  &quot;results&quot;: [
+    {
+      &quot;count&quot;: 1,
+      &quot;id&quot;: &quot;minecraft:white_dye&quot;
+    }
+  ],
+  &quot;time&quot;: 120
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">oritech:pulverizer</span><a class="mod-badge" href="../../mod/oritech.html">Oritech</a></div><div class="recipe-body gui-custom"><span class="c-lab">材料:</span><div class="slot-row"><a class="slot tag" href="../../tags/c/raw_materials_dyes_white.html" data-tt="#c:raw_materials/dyes/white（1 个成员）：骨粉" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a></div><span class="arrow" aria-hidden="true">➜</span><span class="c-lab">产物:</span><a class="slot" href="../../item/minecraft/white_dye.html" data-tt="白色染料" data-tt-sub="minecraft:white_dye" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/white_dye.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;oritech:pulverizer&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;tag&quot;: &quot;c:raw_materials/dyes/white&quot;
+    }
+  ],
+  &quot;results&quot;: [
+    {
+      &quot;count&quot;: 1,
+      &quot;id&quot;: &quot;minecraft:white_dye&quot;
+    }
+  ],
+  &quot;time&quot;: 100
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/brick.html" data-tt="红砖" data-tt-sub="minecraft:brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/brick.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/brick.html" data-tt="红砖" data-tt-sub="minecraft:brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/brick.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/brick.html" data-tt="红砖" data-tt-sub="minecraft:brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/brick.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/dirt.html" data-tt="泥土" data-tt-sub="minecraft:dirt" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/_rendered/2407bae143ee808a.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/brick.html" data-tt="红砖" data-tt-sub="minecraft:brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/brick.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/brick.html" data-tt="红砖" data-tt-sub="minecraft:brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/brick.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/brick.html" data-tt="红砖" data-tt-sub="minecraft:brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/brick.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/brick.html" data-tt="红砖" data-tt-sub="minecraft:brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/brick.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/supplementaries/planter.html" data-tt="种植盆" data-tt-sub="supplementaries:planter" data-tt-mod="Supplementaries" tabindex="0"><img src="../../textures/_rendered/elem_0c09eeb4e1c15f5a.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;planter&quot;
+    },
+    {
+      &quot;condition&quot;: &quot;fabric:or&quot;,
+      &quot;values&quot;: [
+        {
+          &quot;condition&quot;: &quot;fabric:not&quot;,
+          &quot;value&quot;: {
+            &quot;modid&quot;: &quot;farmersdelight&quot;,
+            &quot;condition&quot;: &quot;fabric:mod_loaded&quot;
+          }
+        },
+        {
+          &quot;condition&quot;: &quot;fabric:not&quot;,
+          &quot;value&quot;: {
+            &quot;flag&quot;: &quot;rich_soil_planter&quot;,
+            &quot;condition&quot;: &quot;supplementaries:flag&quot;
+          }
+        }
+      ]
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;planter&quot;
+    },
+    {
+      &quot;type&quot;: &quot;neoforge:or&quot;,
+      &quot;values&quot;: [
+        {
+          &quot;type&quot;: &quot;neoforge:not&quot;,
+          &quot;value&quot;: {
+            &quot;type&quot;: &quot;neoforge:mod_loaded&quot;,
+            &quot;modid&quot;: &quot;farmersdelight&quot;
+          }
+        },
+        {
+          &quot;type&quot;: &quot;neoforge:not&quot;,
+          &quot;value&quot;: {
+            &quot;type&quot;: &quot;supplementaries:flag&quot;,
+            &quot;flag&quot;: &quot;rich_soil_planter&quot;
+          }
+        }
+      ]
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;010&quot;,
+    &quot;020&quot;,
+    &quot;000&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;0&quot;: {
+      &quot;item&quot;: &quot;minecraft:brick&quot;
+    },
+    &quot;1&quot;: {
+      &quot;item&quot;: &quot;minecraft:bone_meal&quot;
+    },
+    &quot;2&quot;: {
+      &quot;item&quot;: &quot;minecraft:dirt&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:planter&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">有序合成</span><a class="mod-badge" href="../../mod/supplementaries.html">Supplementaries</a></div><div class="recipe-body"><div class="gui-col"><div class="craft-grid" style="grid-template-columns:repeat(3,var(--slot))"><a class="slot" href="../../item/minecraft/brick.html" data-tt="红砖" data-tt-sub="minecraft:brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/brick.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/brick.html" data-tt="红砖" data-tt-sub="minecraft:brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/brick.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/brick.html" data-tt="红砖" data-tt-sub="minecraft:brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/brick.png" alt="" loading="lazy"></a><a class="slot" href="../../item/farmersdelight/rich_soil.html" data-tt="farmersdelight:rich_soil" data-tt-sub="farmersdelight:rich_soil" data-tt-mod="farmersdelight" tabindex="0"><span class="ph">?</span></a><a class="slot" href="../../item/minecraft/brick.html" data-tt="红砖" data-tt-sub="minecraft:brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/brick.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/brick.html" data-tt="红砖" data-tt-sub="minecraft:brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/brick.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/brick.html" data-tt="红砖" data-tt-sub="minecraft:brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/brick.png" alt="" loading="lazy"></a><a class="slot" href="../../item/minecraft/brick.html" data-tt="红砖" data-tt-sub="minecraft:brick" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/brick.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot" href="../../item/supplementaries/planter.html" data-tt="种植盆" data-tt-sub="supplementaries:planter" data-tt-mod="Supplementaries" tabindex="0"><img src="../../textures/_rendered/elem_0c09eeb4e1c15f5a.png" alt="" loading="lazy"></a></div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;fabric:load_conditions&quot;: [
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;planter&quot;
+    },
+    {
+      &quot;condition&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;rich_soil_planter&quot;
+    },
+    {
+      &quot;modid&quot;: &quot;farmersdelight&quot;,
+      &quot;condition&quot;: &quot;fabric:mod_loaded&quot;
+    }
+  ],
+  &quot;neoforge:conditions&quot;: [
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;planter&quot;
+    },
+    {
+      &quot;type&quot;: &quot;supplementaries:flag&quot;,
+      &quot;flag&quot;: &quot;rich_soil_planter&quot;
+    },
+    {
+      &quot;type&quot;: &quot;neoforge:mod_loaded&quot;,
+      &quot;modid&quot;: &quot;farmersdelight&quot;
+    }
+  ],
+  &quot;type&quot;: &quot;minecraft:crafting_shaped&quot;,
+  &quot;pattern&quot;: [
+    &quot;101&quot;,
+    &quot;121&quot;,
+    &quot;111&quot;
+  ],
+  &quot;key&quot;: {
+    &quot;1&quot;: {
+      &quot;item&quot;: &quot;minecraft:brick&quot;
+    },
+    &quot;0&quot;: {
+      &quot;item&quot;: &quot;minecraft:bone_meal&quot;
+    },
+    &quot;2&quot;: {
+      &quot;item&quot;: &quot;farmersdelight:rich_soil&quot;
+    }
+  },
+  &quot;result&quot;: {
+    &quot;id&quot;: &quot;supplementaries:planter&quot;,
+    &quot;count&quot;: 1
+  }
+}</pre></details></div><div class="recipe"><div class="recipe-head"><span class="rtype">无序合成</span><a class="mod-badge" href="../../mod/tide.html">Tide</a></div><div class="recipe-body"><div class="gui-col"><div class="slot-row"><a class="slot tag" href="../../tags/tide/bait_plants.html" data-tt="#tide:bait_plants（141 个成员）：百香果、接骨木莓、青金石莓、韭葱、玉米、海绵瓜种子 等" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/beetroot.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/minecraft/rotten_flesh.html" data-tt="腐肉" data-tt-sub="minecraft:rotten_flesh" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/rotten_flesh.png" alt="" loading="lazy"></a><a class="slot tag" href="../../tags/c/seeds.html" data-tt="#c:seeds（39 个成员）：芦荟仁、污秽浆果种子、海绵瓜种子、朽老种子、玉米种子、韭葱种子 等" data-tt-tag="1" tabindex="0"><img src="../../textures/minecraft/textures/item/beetroot_seeds.png" alt="" loading="lazy"><span class="tg tag-badge">#</span></a><a class="slot" href="../../item/minecraft/bone_meal.html" data-tt="骨粉" data-tt-sub="minecraft:bone_meal" data-tt-mod="Minecraft" tabindex="0"><img src="../../textures/minecraft/textures/item/bone_meal.png" alt="" loading="lazy"></a></div></div><span class="arrow" aria-hidden="true">➜</span><a class="slot has-cnt" href="../../item/tide/bait.html" data-tt="鱼饵" data-tt-sub="tide:bait" data-tt-mod="Tide" tabindex="0"><img src="../../textures/tide/textures/item/bait.png" alt="" loading="lazy"><span class="cnt">4</span></a></div><div class="recipe-meta">类别 misc</div><details class="raw-json"><summary>原始 JSON</summary><pre>{
+  &quot;type&quot;: &quot;minecraft:crafting_shapeless&quot;,
+  &quot;category&quot;: &quot;misc&quot;,
+  &quot;ingredients&quot;: [
+    {
+      &quot;tag&quot;: &quot;tide:bait_plants&quot;
+    },
+    {
+      &quot;item&quot;: &quot;minecraft:rotten_flesh&quot;
+    },
+    {
+      &quot;tag&quot;: &quot;c:seeds&quot;
+    },
+    {
+      &quot;item&quot;: &quot;minecraft:bone_meal&quot;
+    }
+  ],
+  &quot;result&quot;: {
+    &quot;count&quot;: 4,
+    &quot;id&quot;: &quot;tide:bait&quot;
+  }
+}</pre></details></div></section><section id="vanilla-changes"><h2>原版修改详情 <span class="cnt-chip">(2)</span></h2><div class="vc-group"><h3>标签指向 <span class="cnt-chip">(2)</span></h3><div class="vc-line"><a class="mod-badge" href="../../mod/eternal_starlight.html">Eternal Starlight</a> 被标签 eternal_starlight:ent_fertilizers 收录</div><div class="vc-line"><a class="mod-badge" href="../../mod/oritech.html">Oritech</a> 被标签 c:raw_materials/dyes/white 收录</div></div></section></main>
+<footer>aruori6 整合包图鉴 · 纯静态离线生成 · 数据来自整合包资源与 CraftTweaker 脚本</footer>
+<script src="../../assets/search.js"></script>
+</body>
+</html>

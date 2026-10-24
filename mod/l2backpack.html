@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>莱特兰-背包 L2Backpack - aruori6 整合包图鉴</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-root="../">
+<header class="topbar"><div class="topbar-in">
+<a class="brand" href="../index.html">aruori6 <span>整合包图鉴</span></a>
+<div class="searchbox">
+  <div class="search-row">
+    <input id="q" type="text" placeholder="搜索物品：中文名 / 英文名 / ID…" autocomplete="off" spellcheck="false">
+    <div class="mode-toggle" id="modeToggle">
+      <button type="button" data-m="simple">简单</button><button type="button" data-m="full">精确</button>
+    </div>
+  </div>
+  <div id="results" class="search-results" hidden></div>
+</div>
+</div></header>
+<div id="tt" hidden></div>
+<main class="wrap"><div class="infobox"><div class="ic" style="width:48px;height:48px"><span class="ph-big">◆</span></div><div><h1 class="ib-title">莱特兰-背包 L2Backpack</h1><p class="stats">共 49 个条目 · <code>l2backpack</code></p><p class="stats">版本: 3.1.5 · 来源: l2backpack-3.1.5.jar</p><p class="stats">Backpacks</p><p class="stats">MC百科中文名: <b>莱特兰-背包</b></p><p class="stats">MC百科页面: <a href="https://www.mcmod.cn/class/7082.html" rel="noopener noreferrer">https://www.mcmod.cn/class/7082.html</a>（莱特兰-背包 (L2 Backpack)）</p></div></div><section><h2>官方介绍 <span class="cnt-chip">（Modrinth · 联网获取）</span></h2><div class="mod-desc"><h1>L2Backpack</h1>
+<p>Discord: https://discord.gg/BCHNhsDMXz</p>
+<p>Dependency: L2Library</p>
+<p>(Optional Compatilibity) It supports Modular Golems in the way that humanoid golems can use quivers from this mod, but you need to make sure Modular Golem version is at least 1.7.3</p>
+<h1>Contents</h1>
+<h2>Backpack</h2>
+<details>
+<summary>Expand</summary>
+A simple backpack similar to backpacks in every backpack mod. You can color them to tell them apart from each other without hovering them. It has quick access support that differentiates itself from most other backpack mods. It has 9 slots at the beginning, and can be upgraded in smithing table using ender pocket, up to 54 slots (large chest).
+### Features
+- **wearable**: They can be worn in chest slot or back slot of Curios, and opened with a key bind (default: B)
+- **quick-access**(limited): They can be opened in right hand, or in some inventories directly by right clicking this item in GUI. Supported inventories: player inventory, ender chest, dimensional storage.
+- **quick-dump**: You can dump all items in this backpack into block containers, such as chests, by shift-right clicking the container block.
+- **quick-load**: You can extract as much items as possible from a block container, by shift-LEFT clicking the container block.
+- **container-item**: This is a container item in vanilla definition. This means that it cannot exist in another container item, such as shulker box. This feature prevents NBT-overflow that can crash server and corrupt chunks.
+
+</details>
+
+<h2>Ender Backpack</h2>
+<details>
+<summary>Expand</summary>
+A portable ender chest. Nothing special.
+### Features
+- **wearable**: They can be worn in chest slot or back slot of Curios, and opened with a key bind (default: B)
+- **quick-access**(full): They can be opened in right hand, or in any inventory directly by right clicking this item in GUI.
+- **off-loaded**: This is not a container item, so you can put backpacks in it and put it in backpacks. The data is stored on player. 
+</details>
+
+<h2>Dimensional Storage</h2>
+<details>
+<summary>Expand</summary>
+A backpack that stores item in the end dimension. Dimensional Storage must be bind to a player to use, and the ones that bind to the same player and have the same color will bind to the same storage space. Once it's bound to a player, the owner can give it to others to allow other players to access this storage space. But note: one player only have 16 storage spaces, each corresponds to a color.
+
+This item can also be placed on ground. Then it acts as a cross-dimensional item teleport chest, similar to Ender Storage. This chest can help you to teleport items from one factory to another, but it does not load the chunk.
+
+### Features
+- **wearable**: They can be worn in chest slot or back slot of Curios, and opened with a key bind (default: B)
+- **quick-access**(full): They can be opened in right hand, or in any inventory directly by right clicking this item in GUI.
+- **off-loaded**: This is not a container item, so you can put backpacks in it and put it in backpacks. The data is stored in the world.
+- **placeable**: This item can be placed down as a block. To place it, do shift+right click.
+ </details>
+
+<h2>Armor Bag / Book Bag</h2>
+<details>
+<summary>Expand</summary>
+A bag that stores up to 64 unstackable items. Armor bag stores items with durability, and book bag stores enchanted books. This is a temporary storage space: It does not have a GUI. Instead, player right click with it to collect all matching items into this bag, and shift-right click with it to pour every out.
+
+These bags are useful only in RPG modpacks where you can get a lot of loots of equipments or enchanted books. They fills the inventory very quickly. These bags can help you to store them somewhere before you go back to home and sort them. To make sure it does not take your armor / weapon away, it only collect items in your inventory, not the hotbar or armor slots.
+
+### Features
+- **quick-dump**: You can dump all items in this bag into block containers, such as chests, by shift-right clicking the container block.
+- **quick-load**: You can extract as much items as possible from a block container, by shift-LEFT clicking the container block.
+- **quick-collect**: Right click to collect all matching items from your inventory except the hotbar
+- **quick-extract**: Shift-right click to pour out all items from the bag
+</details>
+
+<h2>Quiver</h2>
+<details>
+<summary>Expand</summary>
+A unique backpack that allows you to preview, select, and shoot arrows from 9 candidates all while holding a bow. This feature allows players to quickly select arrows to shoot without switching items or open inventory. Quiver has 9 slot only and cannot be upgraded. To use it, put it in offhand, chest slot, or back slot of Curios. When holding a bow, player will see all arrows in the Quiver, the currently selected one, and whether this arrow is acceptable by the bow. Press shift+number key to select arrow, or up/down keys (configurable) to switch arrows.
+
+### Features
+- **wearable**: They can be worn in chest slot or back slot of Curios, and opened with a key bind (default: B)
+- **quick-access**(limited): They can be opened in right hand, or in some inventories directly by right clicking this item in GUI. Supported inventories: player inventory, ender chest, dimensional storage.
+- **quick-dump**: You can dump all items in this backpack into block containers, such as chests, by shift-right clicking the container block.
+- **quick-load**: You can extract as much items as possible from a block container, by shift-LEFT clicking the container block.
+- **container-item**: This is a container item in vanilla definition. This means that it cannot exist in another container item, such as shulker box. This feature prevents NBT-overflow that can crash server and corrupt chunks.
+ </details>
+
+<h2>Tool Swap / Armor Swap / Combined Swap</h2>
+<details>
+<summary>Expand</summary>
+Similar to quiver, these swaps allow you to preview, select, swap tools/armors from 9 candidates without opening any GUI. This feature allows players to quickly switch between mining/travel/battle gears without open inventory. When holding a tool, player will see all tools in the tool swap. Press shift+number key to select tool, or up/down keys (configurable) to select. Then press return to swap the select tool with the tool in hand. For armors, having an empty main hand opens the list for armor. 
+
+Combined Swap is the combined version of quiver, tool swap, and armor swap. Holding corresponding items to trigger each of them. You can also press alt (configurable) to show the tool list when holding nothing.
+
+Ender Swap combines combined swap and ender backpack, saving one backpack slot. Though the items is swap are still stored on the item, not the ender chest inventory.
+
+### Features
+- **wearable**: They can be worn in chest slot or back slot of Curios, and opened with a key bind (default: B)
+- **quick-access**(limited): They can be opened in right hand, or in some inventories directly by right clicking this item in GUI. Supported inventories: player inventory, ender chest, dimensional storage.
+- **quick-dump**: You can dump all items in this backpack into block containers, such as chests, by shift-right clicking the container block.
+- **quick-load**: You can extract as much items as possible from a block container, by shift-LEFT clicking the container block.
+- **container-item**: This is a container item in vanilla definition. This means that it cannot exist in another container item, such as shulker box. This feature prevents NBT-overflow that can crash server and corrupt chunks.
+</details>
+
+<h2>Portable Drawers</h2>
+<details>
+<summary>Expand</summary>
+Similar to the drawers in drawer mod. The only difference is that it is portable! It can only store one kind of item and the item must not have any NBT, but can store up to 64 stacks. It cannot be placed down, and player can access it through inventory.
+
+To put items in, in any GUI, left click the drawer with the item you want to store in. To take items out, in any GUI, right click it to take out a stack. This also support quick-dump and quick-load, so you can fast transport items from one drawer block to another, if you have drawer mod installed. This also support quick-collect and quick-extract, so you can clear cobblestones in your inventory or take out a stack quickly when you need.
+
+### Features
+- **quick-dump**: You can dump all items in this backpack into block containers, such as chests, by shift-right clicking the container block.
+- **quick-load**: You can extract as much items as possible from a block container, by shift-LEFT clicking the container block.
+- **quick-collect**: Right click to collect all matching items from your inventory including the hotbar. When it has no item, it will collect the kind of item that has the largest count in your inventory.
+- **quick-extract**: Shift-right click to pour out one stack of items from the drawer 
+</details>
+
+<h2>Ender Drawers</h2>
+<details>
+<summary>Expand</summary>
+A portable drawer, but store items in the end dimension. You can access it as if it is a simple portable drawer, but it does not have the quick dump and quick load feature. Instead, it can be placed down as a block, and act as a cross-dimensional item teleport station. To use it, first left click it with an item to set its binding. It will bind to the item even it contains none.
+
+Similar to dimensional storage, it has to be bind to a player to be functional. ender drawers that binds to the same player and set with the same item will be bind to the same storage space. But better than dimensional storage, player can have as many ender drawer space as they want, one for each kind of item. This is very powerful in automated production lines
+
+For ender drawer block, right click to store items or take items out. To bulk store / take, use portable drawer to quick-dump or quick-load
+
+### Features
+- **quick-collect**: Right click to collect all matching items from your inventory including the hotbar. When it has no item, it will collect the kind of item that has the largest count in your inventory.
+- **quick-extract**: Shift-right click to pour out one stack of items from the drawer
+- **placeable**: This item can be placed down as a block. To place it, do shift+right click
+</details>
+
+<p>
+
+</p></div><p class="stats">资料来源：<a href="https://modrinth.com/mod/l2backpack" rel="noopener noreferrer">L2 Backpack</a>（自动匹配，仅供参考）</p></section><section><h2>物品与方块</h2><div class="grid-cards"><a class="card" href="../item/l2backpack/armor_bag.html"><span class="ic"><img src="../textures/l2backpack/textures/item/armor_bag.png" alt="" loading="lazy"></span><span><span class="nm">装备袋</span><br><span class="id">l2backpack:armor_bag · 物品</span></span></a><a class="card" href="../item/l2backpack/armor_swap.html"><span class="ic"><img src="../textures/l2backpack/textures/item/armor_swap.png" alt="" loading="lazy"></span><span><span class="nm">护甲切换袋</span><br><span class="id">l2backpack:armor_swap · 物品</span></span></a><a class="card" href="../item/l2backpack/arrow_bag.html"><span class="ic"><img src="../textures/l2backpack/textures/item/arrow_bag_0.png" alt="" loading="lazy"></span><span><span class="nm">箭袋</span><br><span class="id">l2backpack:arrow_bag · 物品</span></span></a><a class="card" href="../item/l2backpack/backpack_black.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">黑色背包</span><br><span class="id">l2backpack:backpack_black · 物品</span></span></a><a class="card" href="../item/l2backpack/backpack_blue.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">蓝色背包</span><br><span class="id">l2backpack:backpack_blue · 物品</span></span></a><a class="card" href="../item/l2backpack/backpack_brown.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">棕色背包</span><br><span class="id">l2backpack:backpack_brown · 物品</span></span></a><a class="card" href="../item/l2backpack/backpack_cyan.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">青色背包</span><br><span class="id">l2backpack:backpack_cyan · 物品</span></span></a><a class="card" href="../item/l2backpack/backpack_gray.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">灰色背包</span><br><span class="id">l2backpack:backpack_gray · 物品</span></span></a><a class="card" href="../item/l2backpack/backpack_green.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">绿色背包</span><br><span class="id">l2backpack:backpack_green · 物品</span></span></a><a class="card" href="../item/l2backpack/backpack_light_blue.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">淡蓝色背包</span><br><span class="id">l2backpack:backpack_light_blue · 物品</span></span></a><a class="card" href="../item/l2backpack/backpack_light_gray.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">淡灰色背包</span><br><span class="id">l2backpack:backpack_light_gray · 物品</span></span></a><a class="card" href="../item/l2backpack/backpack_lime.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">黄绿色背包</span><br><span class="id">l2backpack:backpack_lime · 物品</span></span></a><a class="card" href="../item/l2backpack/backpack_magenta.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">品红色背包</span><br><span class="id">l2backpack:backpack_magenta · 物品</span></span></a><a class="card" href="../item/l2backpack/backpack_orange.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">橙色背包</span><br><span class="id">l2backpack:backpack_orange · 物品</span></span></a><a class="card" href="../item/l2backpack/backpack_pink.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">粉红色背包</span><br><span class="id">l2backpack:backpack_pink · 物品</span></span></a><a class="card" href="../item/l2backpack/backpack_purple.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">紫色背包</span><br><span class="id">l2backpack:backpack_purple · 物品</span></span></a><a class="card" href="../item/l2backpack/backpack_red.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">红色背包</span><br><span class="id">l2backpack:backpack_red · 物品</span></span></a><a class="card" href="../item/l2backpack/backpack_white.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">白色背包</span><br><span class="id">l2backpack:backpack_white · 物品</span></span></a><a class="card" href="../item/l2backpack/backpack_yellow.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">黄色背包</span><br><span class="id">l2backpack:backpack_yellow · 物品</span></span></a><a class="card" href="../item/l2backpack/book_bag.html"><span class="ic"><img src="../textures/l2backpack/textures/item/book_bag.png" alt="" loading="lazy"></span><span><span class="nm">附魔书袋</span><br><span class="id">l2backpack:book_bag · 物品</span></span></a><a class="card" href="../item/l2backpack/destroy_tweaker_tool.html"><span class="ic"><img src="../textures/l2backpack/textures/item/destroy_tweaker_tool.png" alt="" loading="lazy"></span><span><span class="nm">销毁模式配置器</span><br><span class="id">l2backpack:destroy_tweaker_tool · 物品</span></span></a><a class="card" href="../item/l2backpack/dimensional_storage.html"><span class="ic"><img src="../textures/_rendered/elem_0e5ed6ba29dcdeab.png" alt="" loading="lazy"></span><span><span class="nm">空间箱子</span><br><span class="id">l2backpack:dimensional_storage · 方块</span></span></a><a class="card" href="../item/l2backpack/dimensional_storage_black.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">黑色空间背包</span><br><span class="id">l2backpack:dimensional_storage_black · 物品</span></span></a><a class="card" href="../item/l2backpack/dimensional_storage_blue.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">蓝色空间背包</span><br><span class="id">l2backpack:dimensional_storage_blue · 物品</span></span></a><a class="card" href="../item/l2backpack/dimensional_storage_brown.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">棕色空间背包</span><br><span class="id">l2backpack:dimensional_storage_brown · 物品</span></span></a><a class="card" href="../item/l2backpack/dimensional_storage_cyan.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">青色空间背包</span><br><span class="id">l2backpack:dimensional_storage_cyan · 物品</span></span></a><a class="card" href="../item/l2backpack/dimensional_storage_gray.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">灰色空间背包</span><br><span class="id">l2backpack:dimensional_storage_gray · 物品</span></span></a><a class="card" href="../item/l2backpack/dimensional_storage_green.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">绿色空间背包</span><br><span class="id">l2backpack:dimensional_storage_green · 物品</span></span></a><a class="card" href="../item/l2backpack/dimensional_storage_light_blue.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">淡蓝色空间背包</span><br><span class="id">l2backpack:dimensional_storage_light_blue · 物品</span></span></a><a class="card" href="../item/l2backpack/dimensional_storage_light_gray.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">淡灰色空间背包</span><br><span class="id">l2backpack:dimensional_storage_light_gray · 物品</span></span></a><a class="card" href="../item/l2backpack/dimensional_storage_lime.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">黄绿色空间背包</span><br><span class="id">l2backpack:dimensional_storage_lime · 物品</span></span></a><a class="card" href="../item/l2backpack/dimensional_storage_magenta.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">品红色空间背包</span><br><span class="id">l2backpack:dimensional_storage_magenta · 物品</span></span></a><a class="card" href="../item/l2backpack/dimensional_storage_orange.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">橙色空间背包</span><br><span class="id">l2backpack:dimensional_storage_orange · 物品</span></span></a><a class="card" href="../item/l2backpack/dimensional_storage_pink.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">粉红色空间背包</span><br><span class="id">l2backpack:dimensional_storage_pink · 物品</span></span></a><a class="card" href="../item/l2backpack/dimensional_storage_purple.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">紫色空间背包</span><br><span class="id">l2backpack:dimensional_storage_purple · 物品</span></span></a><a class="card" href="../item/l2backpack/dimensional_storage_red.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">红色空间背包</span><br><span class="id">l2backpack:dimensional_storage_red · 物品</span></span></a><a class="card" href="../item/l2backpack/dimensional_storage_white.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">白色空间背包</span><br><span class="id">l2backpack:dimensional_storage_white · 物品</span></span></a><a class="card" href="../item/l2backpack/dimensional_storage_yellow.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">黄色空间背包</span><br><span class="id">l2backpack:dimensional_storage_yellow · 物品</span></span></a><a class="card" href="../item/l2backpack/drawer.html"><span class="ic"><img src="../textures/_rendered/elem_339889c4638ed002.png" alt="" loading="lazy"></span><span><span class="nm">水晶匣子</span><br><span class="id">l2backpack:drawer · 方块</span></span></a><a class="card" href="../item/l2backpack/ender_backpack.html"><span class="ic"><span class="ph-big">?</span></span><span><span class="nm">末影背包</span><br><span class="id">l2backpack:ender_backpack · 物品</span></span></a><a class="card" href="../item/l2backpack/ender_drawer.html"><span class="ic"><img src="../textures/_rendered/elem_76b0f89038644291.png" alt="" loading="lazy"></span><span><span class="nm">末影匣子</span><br><span class="id">l2backpack:ender_drawer · 方块</span></span></a><a class="card" href="../item/l2backpack/ender_pocket.html"><span class="ic"><img src="../textures/l2backpack/textures/item/ender_pocket.png" alt="" loading="lazy"></span><span><span class="nm">空间升级组件</span><br><span class="id">l2backpack:ender_pocket · 物品</span></span></a><a class="card" href="../item/l2backpack/gem_bag.html"><span class="ic"><img src="../textures/l2backpack/textures/item/gem_bag.png" alt="" loading="lazy"></span><span><span class="nm">宝石袋</span><br><span class="id">l2backpack:gem_bag · 物品</span></span></a><a class="card" href="../item/l2backpack/hand_swap.html"><span class="ic"><img src="../textures/l2backpack/textures/item/hand_swap.png" alt="" loading="lazy"></span><span><span class="nm">副手切换带</span><br><span class="id">l2backpack:hand_swap · 物品</span></span></a><a class="card" href="../item/l2backpack/pickup_tweaker_tool.html"><span class="ic"><img src="../textures/l2backpack/textures/item/pickup_tweaker_tool.png" alt="" loading="lazy"></span><span><span class="nm">归类模式配置器</span><br><span class="id">l2backpack:pickup_tweaker_tool · 物品</span></span></a><a class="card" href="../item/l2backpack/potion_bag.html"><span class="ic"><img src="../textures/l2backpack/textures/item/potion_bag.png" alt="" loading="lazy"></span><span><span class="nm">药水袋</span><br><span class="id">l2backpack:potion_bag · 物品</span></span></a><a class="card" href="../item/l2backpack/scroll_bag.html"><span class="ic"><img src="../textures/l2backpack/textures/item/scroll_bag.png" alt="" loading="lazy"></span><span><span class="nm">卷轴袋</span><br><span class="id">l2backpack:scroll_bag · 物品</span></span></a><a class="card" href="../item/l2backpack/suit_swap.html"><span class="ic"><img src="../textures/l2backpack/textures/item/suit_swap.png" alt="" loading="lazy"></span><span><span class="nm">套装切换袋</span><br><span class="id">l2backpack:suit_swap · 物品</span></span></a><a class="card" href="../item/l2backpack/tool_swap.html"><span class="ic"><img src="../textures/l2backpack/textures/item/tool_swap.png" alt="" loading="lazy"></span><span><span class="nm">工具切换袋</span><br><span class="id">l2backpack:tool_swap · 物品</span></span></a></div></section></main>
+<footer>aruori6 整合包图鉴 · 纯静态离线生成 · 数据来自整合包资源与 CraftTweaker 脚本</footer>
+<script src="../assets/search.js"></script>
+</body>
+</html>
